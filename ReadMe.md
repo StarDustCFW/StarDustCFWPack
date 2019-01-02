@@ -8,14 +8,10 @@ Atmosphere, ReiNX, SX OS
 Con una interfaz comoda
 
 Agrega también las app mas básicas para empezar
-
-![alt text](Stardust.jpg)
 ![alt text](ArgonNX.jpg)
-![alt text](Home.jpg)
 
 Instalación
 =============
-
 1.- Descarga ( https://github.com/Kronos2308/StarDustCFWPack/releases ).
 
 2.- Extraer y sobrescribir todo en la micro SD
@@ -23,6 +19,11 @@ Instalación
 3.- Injectar payload.bin en la consola 
 
 4.- Escoje una de las opciones de boot 
+
+![alt text](Stardust.jpg)
+
+![alt text](Home.jpg)
+
 
 
 
