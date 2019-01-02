@@ -9,7 +9,9 @@ Con una interfaz comoda
 
 Agrega también las app mas básicas para empezar
 
+![alt text](StarDust.jpg)
 ![alt text](ArgonNX.jpg)
+![alt text](Home.jpg)
 
 Instalación
 =============
