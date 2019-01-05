@@ -8,7 +8,8 @@ Atmosphere, ReiNX, SX OS
 Con una interfaz comoda
 
 Agrega también las app mas básicas para empezar
-![alt text](ArgonNX.jpg)
+
+![alt text](screenshot.png)
 
 Instalación
 =============
