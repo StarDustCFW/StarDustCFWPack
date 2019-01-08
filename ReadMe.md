@@ -9,7 +9,7 @@ Con una interfaz comoda
 
 Agrega también las app mas básicas para empezar
 
-![alt text](StarDustboot)
+![alt text](StarDustboot.png)
 
 Instalación
 =============
