@@ -28,6 +28,6 @@ Instalación
 
 
 
-https://discordapp.com/invite/kscctYj
+# https://discordapp.com/invite/kscctYj
 
-# https://www.google.com
+
