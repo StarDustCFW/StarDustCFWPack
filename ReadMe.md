@@ -9,7 +9,7 @@ Con una interfaz comoda
 
 Agrega también las app mas básicas para empezar
 
-![alt text](screenshot.png)
+![alt text](home1.jpg)
 
 Instalación
 =============
@@ -21,7 +21,7 @@ Instalación
 
 4.- Escoje una de las opciones de boot 
 
-![alt text](home1.jpg)
+![alt text](screenshot.png)
 
 ![alt text](home2.jpg)
 
