@@ -21,7 +21,7 @@ Instalación
 
 4.- Escoje una de las opciones de boot 
 
-![alt text](Stardust.jpg)
+![alt text](home1.jpg)
 
 ![alt text](Home.jpg)
 
