@@ -23,7 +23,7 @@ Instalación
 
 ![alt text](home1.jpg)
 
-![alt text](Home.jpg)
+![alt text](home2.jpg)
 
 
 
