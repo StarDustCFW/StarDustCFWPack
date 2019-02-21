@@ -9,7 +9,7 @@ Con una interfaz comoda
 
 Agrega también las app mas básicas para empezar
 
-![alt text](home1.jpg)
+![alt text](home2.jpg)
 
 Instalación
 =============
@@ -23,7 +23,7 @@ Instalación
 
 ![alt text](screenshot.png)
 
-![alt text](home2.jpg)
+![alt text](home1.jpg)
 
 
 
