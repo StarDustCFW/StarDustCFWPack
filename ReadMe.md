@@ -33,6 +33,7 @@ Instalación
 
 
 
+Mas informacion Aqui esta mi Discord
 
 # https://discordapp.com/invite/kscctYj
 
