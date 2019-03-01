@@ -19,10 +19,10 @@ Instalación
 
 3.- Injectar payload.bin en la consola 
 
-3a.-Si usas el PC recomiendo usar siempre este 
+3a.-Si usas el PC recomiendo usar siempre este http://bit.ly/payloadFW
 
 3b.-Si usas R4s como yo, usa este .uf2 en el dongle https://bit.ly/2zsClBu
-instrucciones aqui http://www.r4i-sdhc.com/upfile/Update%20R4S%20dongle%20firmware%20to%20change%20payload.pdf
+instrucciones aqui http://bit.ly/2tLBTua
 
 
 4.- Escoje una de las opciones de boot 
