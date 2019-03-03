@@ -32,6 +32,7 @@ Instalación
 ![alt text](home1.jpg)
 
 **Credits**
+
 https://github.com/Atmosphere-NX/Atmosphere
 
 https://github.com/Reisyukaku/ReiNX
