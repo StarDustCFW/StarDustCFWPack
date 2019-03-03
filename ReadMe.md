@@ -31,7 +31,14 @@ Instalación
 
 ![alt text](home1.jpg)
 
+**Credits**
 
+
+Retrogamer 74
+
+PricelessTwo2
+
+And special thanks to Rumba the retrogamer_74 dog
 
 Mas informacion Aqui esta mi Discord
 
