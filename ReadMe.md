@@ -45,8 +45,21 @@ PricelessTwo2
 
 And special thanks to Rumba the retrogamer_74 dog
 
+# Forks
+
+https://github.com/Kronos2308/argon-nx
+
+https://github.com/Kronos2308/Atmosphere
+
+https://github.com/Kronos2308/hekate
+
+
+
+
 Mas informacion Aqui esta mi Discord
 
 # https://discordapp.com/invite/kscctYj
+
+
 
 
