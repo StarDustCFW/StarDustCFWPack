@@ -9,6 +9,15 @@ Con una interfaz comoda
 
 Agrega también las app mas básicas para empezar
 
+StarDust is a pack with the current cfw
+
+configured to live well together
+
+Atmosphere, ReiNX, SX OS
+
+With a comfortable interface
+
+Also add the most basic app to start
 ![alt text](home2.jpg)
 
 Instalación
@@ -27,6 +36,19 @@ Instalación
 
 4.- Escoje una de las opciones de boot 
 
+1.- Download the last release in [Here](https://github.com/Kronos2308/StarDustCFWPack/releases)
+
+2.- Extract and overwrite everything in the micro SD
+
+3.- Injectar payload.bin in the console
+
+  3a.- If you use the PC I recommend always using this [payload-forwader](https://github.com/Kronos2308/StarDustCFWPack/blob/master/payload-forwader.bin?raw=true)
+
+  3b.-If you use R4s like me, use this .uf2 on the dongle https://bit.ly/2zsClBu
+  instructions here http://bit.ly/2tLBTua
+
+
+4.- Choose one of the boot options
 ![alt text](screenshot.png)
 
 ![alt text](home1.jpg)
