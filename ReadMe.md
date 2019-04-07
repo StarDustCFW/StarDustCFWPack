@@ -3,11 +3,11 @@ StarDust es un pack con los cfw actuales--------------------StarDust is a pack w
 
 configurado para convivir bien entre si---------------------configured to live well together        
 
-Atmosphere, ReiNX, SX OS------------------------------------Atmosphere, ReiNX, SX OS
+Atmosphere, ReiNX, SX OS-----------------------------------Atmosphere, ReiNX, SX OS
 
-Con una interfaz comoda-------------------------------------With a comfortable interface
+Con una interfaz comoda------------------------------------With a comfortable interface
 
-Agrega también las app mas básicas para empezar-------------Also add the most basic app to start
+Agrega también las app mas básicas para empezar----------Also add the most basic app to start
 
 ![alt text](home2.jpg)
 
