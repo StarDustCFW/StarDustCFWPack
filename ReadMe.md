@@ -9,6 +9,8 @@ Con una interfaz comoda
 
 Agrega también las app mas básicas para empezar
 
+=======================================
+
 StarDust is a pack with the current cfw
 
 configured to live well together
@@ -36,6 +38,10 @@ Instalación
 
 4.- Escoje una de las opciones de boot 
 
+5.- [Stardust-Toolkit](https://github.com/Kronos2308/StarDust-Toolkit/releases)
+
+====================================================
+
 1.- Download the last release in [Here](https://github.com/Kronos2308/StarDustCFWPack/releases)
 
 2.- Extract and overwrite everything in the micro SD
@@ -49,6 +55,11 @@ Instalación
 
 
 4.- Choose one of the boot options
+
+5.- [Stardust-Toolkit](https://github.com/Kronos2308/StarDust-Toolkit/releases)
+
+
+
 ![alt text](screenshot.png)
 
 ![alt text](home1.jpg)
