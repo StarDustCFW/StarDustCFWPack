@@ -1,9 +1,9 @@
 # StarDustCFWPack
-StarDust es un pack con los cfw actuales
-StarDust is a pack with the current cfw
+StarDust es un pack con los cfw actuales     
+StarDust is a pack with the current cfw      
 
-configurado para convivir bien entre si
-configured to live well together
+configurado para convivir bien entre si     
+configured to live well together        
 
 Atmosphere, ReiNX, SX OS
 Atmosphere, ReiNX, SX OS
