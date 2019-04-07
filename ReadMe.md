@@ -1,25 +1,19 @@
 # StarDustCFWPack
 StarDust es un pack con los cfw actuales
-
-configurado para convivir bien entre si
-
-Atmosphere, ReiNX, SX OS
-
-Con una interfaz comoda
-
-Agrega también las app mas básicas para empezar
-
-=======================================
-
 StarDust is a pack with the current cfw
 
+configurado para convivir bien entre si
 configured to live well together
 
 Atmosphere, ReiNX, SX OS
+Atmosphere, ReiNX, SX OS
 
+Con una interfaz comoda
 With a comfortable interface
 
+Agrega también las app mas básicas para empezar
 Also add the most basic app to start
+
 ![alt text](home2.jpg)
 
 Instalación
