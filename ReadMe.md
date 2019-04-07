@@ -7,7 +7,7 @@ Atmosphere, ReiNX, SX OS-----------------------------------Atmosphere, ReiNX, SX
 
 Con una interfaz comoda------------------------------------With a comfortable interface
 
-Agrega también las app mas básicas para empezar----------Also add the most basic app to start
+Agrega también las app mas básicas para empezar--------Also add the most basic app to start
 
 ![alt text](home2.jpg)
 
