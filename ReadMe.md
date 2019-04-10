@@ -80,7 +80,7 @@ https://github.com/Kronos2308/incognito
 
 Mas informacion Aqui esta mi Discord
 
-# https://discordapp.com/invite/kscctYj
+# https://discord.io/myrincon
 
 
 
