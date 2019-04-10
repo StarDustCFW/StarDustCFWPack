@@ -27,7 +27,7 @@ Instalación
 
 4.- Escoje una de las opciones de boot 
 
-5.- [Stardust-Toolkit](https://github.com/Kronos2308/StarDust-Toolkit/releases)
+5.- copiar [Stardust-Toolkit](https://github.com/Kronos2308/StarDust-Toolkit/releases) en sd:/switch/
 
 ====================================================
 
@@ -45,7 +45,7 @@ Instalación
 
 4.- Choose one of the boot options
 
-5.- [Stardust-Toolkit](https://github.com/Kronos2308/StarDust-Toolkit/releases)
+5.- copy [Stardust-Toolkit](https://github.com/Kronos2308/StarDust-Toolkit/releases) to sd:/switch/ 
 
 
 
