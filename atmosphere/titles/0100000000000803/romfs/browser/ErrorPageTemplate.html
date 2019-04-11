@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<style>
+body,
+figure,
+svg,
+h1,
+p,
+button {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+body {
+  background-image: url(https://arte-tian-cuba.000webhostapp.com/img/16.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 130px 60px 0;
+}
+
+figure {
+  display: block;
+  margin: 0 auto;
+  width: 128px;
+  height: 208px;
+  transform: translate3d(0, 0, 0);
+  transform-origin: center bottom;
+}
+
+.shake {
+  animation: shake-anim 0.05s linear 0s infinite normal;
+}
+
+@keyframes shake-anim {
+  0%% {
+    transform: scale(1, 1);
+  }
+  25%% {
+    transform: scale(0.975, 1.05);
+  }
+  75%% {
+    transform: scale(1.025, 0.95);
+  }
+  100%% {
+    transform: scale(1, 1);
+  }
+}
+
+svg {
+  transform: translate3d(0, 0, 0);
+}
+
+#c {
+  stroke: rgb(200, 200, 200);
+}
+
+#i {
+  fill: rgb(200, 200, 200);
+}
+
+.v {
+  opacity: 1;
+  animation: opacity-anim 1.0s ease-in-out -0.01s infinite alternate;
+}
+
+.v #c {
+  stroke: rgb(60, 200, 255);
+}
+
+.v #i {
+  fill: rgb(60, 200, 255);
+}
+
+@keyframes opacity-anim {
+  0%% {
+    opacity: 1;
+  }
+  100%% {
+    opacity: 0.5;
+  }
+}
+
+h1 {
+  margin: 30px;
+  font-size: 24px;
+  line-height: 24px;
+  color: rgb(200, 200, 200);
+}
+
+button {
+  font-size: 22px;
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+}
+</style>
+<figure>
+  <svg width="128" height="208" viewBox="0 0 128 208">
+    <g transform="translate(64,144)">
+      <g id="w" transform="translate(0,0)">
+        <path id="c" stroke="" stroke-width="7" fill="none" d="M-40,0C-40,-22 -22,-40 0,-40C22,-40 40,-22 40,0C40,22 22,40 0,40C-22,40 -40,22 -40,0Z">
+        </path>
+        <g id="i" fill="rgb(200, 200, 200)" opacity="1">
+          <circle cx="0" cy="-18" r="6" />
+          <rect x="-4" y="-6" width="8" height="30" rx="0.8" ry="0.8" />
+        </g>
+      </g>
+    </g>
+    <animateTransform xlink:href="#w" additive="sum" attributeName="transform" type="translate" begin="10s" dur="50s" calcMode="spline" values="0,0;0,0;0,-80;0,0;0,0" keyTimes="0;0.1;0.45;0.8;1" keySplines="0 0 0.58 1;0 0 0.58 1;0.7 0 0.9 1;0 0 0.58 1" />
+    <animateTransform id="t" xlink:href="#i" additive="sum" attributeName="transform" type="translate" begin="10s" dur="5s" calcMode="spline" from="0,0" to="0,19" keyTimes="0;1" keySplines="0 0 0.58 1" />
+    <animateTransform id="s" xlink:href="#i" additive="sum" attributeName="transform" type="scale" begin="10s" dur="5s" calcMode="spline" from="1,1" to="1.1,0.5" keyTimes="0;1" keySplines="0 0 0.58 1" />
+    <animateTransform xlink:href="#i" additive="sum" attributeName="transform" type="translate" begin="15s" dur="45s" calcMode="spline" values="0,19;0,1;0,-1;0,0;0,14;0,0" keyTimes="0;0.11;0.38;0.78;0.89;1" keySplines="0 0 0.58 1;0 0 0.58 1;0 0 1 1;0 0 0.58 1;0 0 0.58 1" />
+    <animateTransform xlink:href="#i" additive="sum" attributeName="transform" type="scale" begin="15s" dur="45s" calcMode="spline" values="1.1,0.5;1,1.2;1,1.1;1,0.9;1,0.6;1,1" keyTimes="0;0.11;0.38;0.78;0.89;1" keySplines="0 0 0.58 1;0 0 0.58 1;0 0 1 1;0 0 0.58 1;0 0 0.58 1" />
+    <animateTransform xlink:href="#w" class="h" additive="sum" attributeName="transform" type="translate" begin="10s" dur="50s" calcMode="spline" values="0,0;0,0;0,-20;0,0;0,0" keyTimes="0;0.1;0.45;0.8;1" keySplines="0 0 0.58 1;0 0 0.58 1;0.7 0 0.9 1;0 0 0.58 1" />
+    <animateTransform xlink:href="#w" class="h" additive="sum" attributeName="transform" type="scale" begin="10s" dur="50s" calcMode="linear" values="1,1;1,1;1,-1;1,1;1,1" keyTimes="0;0.375;0.55;0.725;1" />
+    <animate id="n" xlink:href="#c" attributeName="d" calcMode="spline" begin="10s" dur="5s" fill="freeze" keyTimes="0;1" keySplines="0 0 0.58 1" from="M-40,0C-40,-22 -22,-40 0,-40C22,-40 40,-22 40,0C40,22 22,40 0,40C-22,40 -40,22 -40,0Z" to="M-44,22 C -44,9 -25,-1 0,-2 25,-2 44,9 44,22 44,35 24,40 2,40 -20,40 -44,35 -44,22 Z" />
+    <animate xlink:href="#c" attributeName="d" calcMode="spline" begin="15s" dur="5s" fill="freeze" keyTimes="0;1" keySplines="0 0 0.58 1" to="M-30,0C-30,-25 -20,-50 0,-50C20,-50 30,-25 30,0C30,25 15,50 0,50C-15,50 -30,25 -30,0Z" />
+    <animate xlink:href="#c" attributeName="d" calcMode="spline" begin="20s" dur="12.5s" fill="freeze" keyTimes="0;1" keySplines="0 0 0.58 1" to="M-40,0C-40,-22 -22,-40 0,-40C22,-40 40,-22 40,0C40,22 22,40 0,40C-22,40 -40,22 -40,0Z" />
+    <animate xlink:href="#c" attributeName="d" calcMode="spline" begin="50s" dur="5s" fill="freeze" keyTimes="0;1" keySplines="0 0 0.58 1" to="M-40,22C-40,9 -22,-12 0,-12C22,-12 40,9 40,22C40,35 22,40 0,40C-22,40 -40,35 -40,22Z" />
+    <animate id="o" xlink:href="#c" attributeName="d" calcMode="spline" begin="55s" dur="5s" fill="freeze" keyTimes="0;1" keySplines="0 0 0.58 1" to="M-40,0C-40,-22 -22,-40 0,-40C22,-40 40,-22 40,0C40,22 22,40 0,40C-22,40 -40,22 -40,0Z" />
+  </svg>
+</figure>
+ <h1>NXBrowserMod</h1>
+<p>
+  Menu de NXBrowserMod
+
+<p>-
+
+<p>-
+<p>
+<button onclick="window.location.href='https://arte-tian-cuba.000webhostapp.com'">NXBrowserMod</button>
+
+<script>
+var $b, $c, $d, $g, $h, $i, $n, $o, $s, $t;
+var d, f, g, h, p, q, v, n, x, y;
+var _b, _c, _d, _e, _i, _l, _n, _p, _r, _u;
+(function () {
+  $d = document;
+  $g = $d.querySelector('svg');
+  $g.pauseAnimations();
+  $b = $d.querySelector('button');
+  $b.addEventListener('click', function() { this.disabled = true; window.nxGoBack(); }, true);
+  $c = $g.querySelector('#c');
+  $h = $g.querySelectorAll('.h');
+  $i = $g.querySelector('#i');
+  $n = $g.querySelector('#n');
+  $o = $g.querySelector('#o');
+  $s = $g.querySelector('#s');
+  $t = $g.querySelector('#t');
+}());
+(function () {
+  f = -1;
+  g = h = p = q = v = y = 0;
+  n = 'null';
+  x = 'xlink:href';
+}());
+(function () {
+  _b = function () {
+    $g.classList.remove('v');
+    p = 0;
+  };
+  _c = function (e) {
+    e.preventDefault();
+    if ($d.activeElement === $b) {
+      $b.blur();
+    } else if ($g.classList.contains('v')) {
+      _b();
+    }
+  };
+  _d = function (e) {
+    switch (e.keyCode) {
+      case 13:
+        if ($g.classList.contains('v')) {
+          p = 1;
+        }
+        if ($g.classList.contains('v') && f === -1) {
+          _r();
+          h = 1;
+          _l();
+        }
+        break;
+      case 37:
+      case 39:
+        e.preventDefault();
+        if (!$g.classList.contains('v')) {
+          $b.focus();
+        }
+        break;
+      case 38:
+        e.preventDefault();
+        if ($d.activeElement === $b) {
+          $b.blur();
+          $g.classList.add('v');
+        } else if (!$g.classList.contains('v')) {
+          $b.focus();
+        }
+        break;
+      case 40:
+        e.preventDefault();
+        _b();
+        $b.focus();
+        break;
+      default:
+        break;
+    }
+  };
+  _e = Array.prototype.forEach;
+  _i = function() {
+    var a, s, t;
+    a = $i.transform.animVal;
+    if (a.numberOfItems === 2) {
+      t = a.getItem(0).matrix.e + ',' + a.getItem(0).matrix.f;
+      s = a.getItem(1).matrix.a + ',' + a.getItem(1).matrix.d;
+    } else {
+      t = '0,0';
+      s = '1,1';
+    }
+    $t.setAttribute('from', t);
+    $s.setAttribute('from', s);
+  };
+  _l = function () {
+    if (f === -1) {
+      f = 0;
+    }
+    if ((f === 0 && h) ||
+        (0 < f && f < 5) ||
+        (f === 5 && !h) ||
+        (5 < f && f < 50)) {
+      $g.setCurrentTime(++f + 10);
+    }
+    $g.pauseAnimations();
+    if (h && f === 5) {
+      if (g <= 60) {
+        ++g;
+      }
+      if (g === 60) {
+        _e.call($h, function (e) {
+          e.setAttribute(x, '#w');
+        });
+        $g.parentNode.classList.add('shake');
+      }
+      if (navigator.getGamepads() && navigator.getGamepads()[0] && !navigator.getGamepads()[0].buttons[1].pressed) {
+        p = 0;
+      }
+    } else {
+      g = 0;
+      $g.parentNode.classList.remove('shake');
+    }
+    if (v && !p && 0 <= f && f < 5) {
+      _e.call($h, function (e) {
+        e.setAttribute(x, '#w');
+      });
+    }
+    if (!p) {
+      v = 0;
+    }
+    if (f === 25) {
+      q = y = 0;
+    }
+    if (!p || !$g.classList.contains('v')) {
+      h = 0;
+    }
+    if ((f === 40 && p) ||
+        (40 <= f && f <= 50 && !q && p)) {
+      $n.setAttribute('from', _p());
+      _i();
+      if (!_n($h)) {
+        v = 1;
+      }
+      _r();
+      h = y = 1;
+      f = 0;
+    }
+    if (39 <= f) {
+      q = p;
+    }
+    if (f === 50) {
+      $n.setAttribute('from', $o.getAttribute('to'));
+      _i();
+      f = -1;
+      return;
+    }
+    requestAnimationFrame(_l);
+  };
+  _n = function (e) {
+    return e[0].getAttribute(x) === n;
+  };
+  _p = function () {
+    var i, j, l, s;
+    l = $c.animatedPathSegList;
+    i = l.getItem(0);
+    s = 'M' + i.x + ',' + i.y + 'C';
+    for (j = 1; j < 5; ++j) {
+      i = l.getItem(j);
+      s += i.x1 + ',' + i.y1 + ' ' + i.x2 + ',' + i.y2 + ' ' + i.x + ',' + i.y + ' ';
+    }
+    s += 'Z';
+    return s;
+  };
+  _r = function () {
+    _e.call($h, function (e) {
+      e.setAttribute(x, n);
+    });
+  };
+  _u = function (e) {
+    if (e.keyCode === 13) {
+      p = 0;
+    }
+  };
+}());
+(function () {
+  $d.addEventListener('click', _c, false);
+  $d.addEventListener('keydown', _d, false);
+  $d.addEventListener('keyup', _u, false);
+}());
+</script>

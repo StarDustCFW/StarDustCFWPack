@@ -1,0 +1,5 @@
+Lo sabia
+bueno
+pon el boot.dat de tx juno al ejecutabe y se descomprimira
+fuente
+https://gist.github.com/hexkyz/cef102e45cea2cfba1350c7c42199983

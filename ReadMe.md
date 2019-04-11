@@ -9,7 +9,7 @@ Con una interfaz comoda------------------------------------With a comfortable in
 
 Agrega también las app mas básicas para empezar--------Also add the most basic app to start
 
-![alt text](home2.jpg)
+![alt text](borrame/home2.jpg)
 
 Instalación
 =============
@@ -19,7 +19,7 @@ Instalación
 
 3.- Injectar payload.bin en la consola 
 
-  3a.-Si usas el PC recomiendo usar siempre este [payload-forwader](https://github.com/Kronos2308/StarDustCFWPack/blob/master/payload-forwader.bin?raw=true)
+  3a.-Si usas el PC recomiendo usar siempre este [payload-forwader](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/payload-forwader.bin?raw=true)
 
   3b.-Si usas R4s como yo, usa este .uf2 en el dongle https://bit.ly/2zsClBu
   instrucciones aqui http://bit.ly/2tLBTua
@@ -37,7 +37,7 @@ Instalación
 
 3.- Injectar payload.bin in the console
 
-  3a.- If you use the PC I recommend always using this [payload-forwader](https://github.com/Kronos2308/StarDustCFWPack/blob/master/payload-forwader.bin?raw=true)
+  3a.- If you use the PC I recommend always using this [payload-forwader](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/payload-forwader.bin?raw=true)
 
   3b.-If you use R4s like me, use this .uf2 on the dongle https://bit.ly/2zsClBu
   instructions here http://bit.ly/2tLBTua
@@ -49,9 +49,9 @@ Instalación
 
 
 
-![alt text](screenshot.png)
+![alt text](borrame/screenshot.png)
 
-![alt text](home1.jpg)
+![alt text](borrame/home1.jpg)
 
 **Credits**
 
