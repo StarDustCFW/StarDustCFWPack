@@ -1,0 +1,4 @@
+[Megaman Infinite Lives]
+011f0000 0d52c798 00000009
+[Megaman Infinite Energy]
+021f0000 8b0e9f78 000081f3
