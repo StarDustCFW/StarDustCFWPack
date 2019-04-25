@@ -1,4 +1,6 @@
+<a href="https://discord.io/myrincon"><img src="https://discordapp.com/api/guilds/516631805621960704/embed.png" alt="Discord Server" /></a>
 # StarDustCFWPack
+
 StarDust es un pack con los cfw actuales--------------------StarDust is a pack with the current cfw      
 
 configurado para convivir bien entre si---------------------configured to live well together        
