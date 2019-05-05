@@ -21,7 +21,7 @@ Instalación
 
 3.- Injectar payload.bin en la consola 
 
-  3a.-Si usas el PC recomiendo usar siempre este [payload-forwarder](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/payload-forwarder.bin?raw=true)
+  3a.-Si usas el PC recomiendo usar siempre este [payload-forwarder](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true)
 
   3b.-Si usas R4s como yo, usa este .uf2 en el dongle https://bit.ly/2zsClBu
   instrucciones aqui http://bit.ly/2tLBTua
@@ -39,7 +39,7 @@ Instalación
 
 3.- Injectar payload.bin in the console
 
-  3a.- If you use the PC I recommend always using this [payload-forwarder](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/payload-forwarder.bin?raw=true)
+  3a.- If you use the PC I recommend always using this [payload-forwarder](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true)
 
   3b.-If you use R4s like me, use this .uf2 on the dongle https://bit.ly/2zsClBu
   instructions here http://bit.ly/2tLBTua
