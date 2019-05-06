@@ -23,7 +23,8 @@ Instalación
 
   3a.-Si usas el PC recomiendo usar siempre este [payload-forwarder](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true)
 
-  3b.-Si usas R4s como yo, usa este .uf2 en el dongle https://bit.ly/2zsClBu
+  3b.-Si usas R4s como yo, usa este .uf2 en el dongle [CURRENT.UF2](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/CURRENT.UF2)
+  
   instrucciones aqui http://bit.ly/2tLBTua
 
 
@@ -41,7 +42,7 @@ Instalación
 
   3a.- If you use the PC I recommend always using this [payload-forwarder](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true)
 
-  3b.-If you use R4s like me, use this .uf2 on the dongle https://bit.ly/2zsClBu
+  3b.-If you use R4s like me, use this .uf2 on the dongle [CURRENT.UF2](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/CURRENT.UF2)
   instructions here http://bit.ly/2tLBTua
 
 
