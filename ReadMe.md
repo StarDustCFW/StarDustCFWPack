@@ -15,7 +15,7 @@ Agrega también las app mas básicas para empezar--------Also add the most basic
 
 Instalación
 =============
-1.- Descarga el ultimo lanzamiento en [Aqui](https://github.com/Kronos2308/StarDustCFWPack/releases).
+1.- Descarga el ultimo lanzamiento en [Aqui](https://github.com/Kronos2308/StarDustCFWPack/releases/latest).
 
 2.- Extraer y sobrescribir todo en la micro SD
 
@@ -34,7 +34,7 @@ Instalación
 
 ====================================================
 
-1.- Download the last release in [Here](https://github.com/Kronos2308/StarDustCFWPack/releases)
+1.- Download the last release in [Here](https://github.com/Kronos2308/StarDustCFWPack/releases/latest)
 
 2.- Extract and overwrite everything in the micro SD
 
