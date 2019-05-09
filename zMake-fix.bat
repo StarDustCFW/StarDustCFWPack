@@ -4,15 +4,6 @@ title %cd%
 
 :fix
 
-
-xcopy.exe /y payload.bin atmosphere\reboot_payload.bin
-xcopy.exe  /y payload.bin bootloader\payloads\payload.bin
-
-xcopy.exe /y StarDust\payloads\Atmosphere.bin bootloader\payloads\Atmosphere.bin
-
-xcopy.exe /y StarDust\payloads\ReiNX.bin bootloader\payloads\ReiNX.bin
-
-xcopy.exe /y StarDust\payloads\SXOS.bin bootloader\payloads\SXOS.bin
 attrib -a -s -h * /S /D
 pause
 exit
