@@ -1,0 +1,13 @@
+[config]
+autoboot=1
+autoboot_list=0
+bootwait=0
+verification=1
+backlight=0
+autohosoff=0
+autonogc=1
+
+[Stock]
+fss0=atmosphere/fusee-secondary.bin
+stock=1
+{}
