@@ -1,4 +1,6 @@
 @echo off
+pacman -Syu
+goto:2
 cd %userprofile%\Documents\GitHub\switchbru-libnx
 title libnx - git pull
 git pull
@@ -11,7 +13,7 @@ title libnx - xcopy
 del C:\devkitPro\libnx /s/q
 pacman -Syu
 xcopy /y /h /e .\* C:\devkitPro\libnx\
-
+:2
 cd %userprofile%\Documents\GitHub\atmosphere
 title Atmosphere - git pull
 git pull
@@ -38,7 +40,7 @@ xcopy /y /h /e %cd%\* "%~dp0StarDustCFWpack\"
 title argon - make
 cd %userprofile%\Documents\GitHub\StarDust-Bootmenu
 make
-title argon - xcopy to StarDust
+title StarDust-Bootmenu - xcopy to StarDust
 xcopy /y /h /e %cd%\output\payload.bin "%~dp0StarDustCFWpack\"
 
 
