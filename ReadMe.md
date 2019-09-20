@@ -19,11 +19,9 @@ Instalación
 
 2.- Extraer y sobrescribir todo en la micro SD
 
-3.- Injectar [payload-forwarder](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true) en la consola 
+3.- Injectar [Payload-Forwarder.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true) en la consola 
 
-  3a.-Si usas R4s como yo, usa este .uf2 en el dongle [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true)
-  
-  instrucciones aqui http://bit.ly/2tLBTua
+  3a.-Si usas R4s como yo, usa este [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true) en el dongle. instrucciones [Aqui](http://bit.ly/2tLBTua)
 
 
 4.- Escoje una de las opciones de boot 
@@ -35,10 +33,9 @@ Instalación
 
 2.- Extract and overwrite everything in the micro SD
 
-3.- Inject [payload-forwarder](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true) in the console
+3.- Inject [Payload-Forwarder.bin](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true) in the console
 
- 3a.-If you use R4s like me, use this .uf2 on the dongle [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true)
-  instructions here http://bit.ly/2tLBTua
+ 3a.-If you use R4s like me, use this [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true) on the dongle. instructions [Here](http://bit.ly/2tLBTua)
 
 
 4.- Choose one of the boot options
