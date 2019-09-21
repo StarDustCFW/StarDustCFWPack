@@ -32,6 +32,7 @@ set /p comit= < %temp%\tmpFile
 git symbolic-ref --short HEAD > %temp%\tmpFile
 set /p branch= < %temp%\tmpFile 
 del %temp%\tmpFile
+if not exist atmosphere-*-%branch%-%comit%-Kronos2308 goto:exit
 cd atmosphere-*-%branch%-%comit%-Kronos2308
 echo %cd%
 title Atmosphere - xcopy to StarDust
@@ -55,6 +56,8 @@ rar a %~dp0StarDust_%SDV%.rar * -r -m5
 title StarDust_%SDV% - ready
 %systemroot%\system32\timeout.exe 200
 exit
+:exit
+echo Ocurrio un error
 %systemroot%\system32\timeout.exe 200
-%~dp0StarDustCFWpack
-zip -r -9 StarDust_%SDV%.zip *
+
+
