@@ -76,8 +76,8 @@ https://github.com/StarDustCFW/Lockpick_RCM
 
 Mas informacion Aqui esta mi Discord
 
-# https://discord.io/myrincon
+# [My Discord](https://discord.io/myrincon)
 
-
+### [My Youtube](https://www.youtube.com/channel/UC0bSZcylREueGQmCM5mksNg)
 
 
