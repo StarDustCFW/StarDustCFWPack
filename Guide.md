@@ -7,11 +7,11 @@ StarDustCFWPack
 
 ![alt text](borrame/12.png)
 
-* 2.- Open the tablet
+* 2.- Open compressed file
 
 ![alt text](borrame/22.png)
 
-Copy and overwrite the contents of **SD_card_root** in the sd
+Copy and overwrite the contents of **SD_card_root** in the SD
 
 ![alttext](borrame/32.png)
 
@@ -35,6 +35,6 @@ Copy and overwrite the contents of **SD_card_root** in the sd
 
 [Boot without Dongle](https://youtu.be/nD-GbkGiVrs)
 
-[Android on Nistendo Switch](https://youtu.be/_eRYFteUd0U)
+[Android on Nintendo Switch](https://youtu.be/_eRYFteUd0U)
 
 ### [My channel](https://www.youtube.com/channel/UC0bSZcylREueGQmCM5mksNg)
