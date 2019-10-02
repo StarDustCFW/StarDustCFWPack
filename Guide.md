@@ -16,7 +16,7 @@ Copy and overwrite the contents of **SD_card_root** in the SD
 ![alttext](borrame/32.png)
 
 * 3.- Always use [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true) to drag with [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases/latest) or other injector like RCMloader, Rekado ...
-* * This payload never changes will be the same today and tomorrow, your objective start StarDust Correctly
+* * This payload never changes will be the same today and tomorrow, Its objective, Start StarDustCFWpack Correctly
 
 ![alt text](borrame/42.png)
 
