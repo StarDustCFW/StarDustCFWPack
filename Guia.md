@@ -35,7 +35,7 @@ Copiar Y sobrescribir el contenido de **SD_card_root** en la sd
 
 [Arrancar sin Dongle](https://youtu.be/nD-GbkGiVrs)
 
-[Android en Nistendo Switch](https://youtu.be/_eRYFteUd0U)
+[Android en Nintendo Switch](https://youtu.be/_eRYFteUd0U)
 
 ### [My canal](https://www.youtube.com/channel/UC0bSZcylREueGQmCM5mksNg) 
 
