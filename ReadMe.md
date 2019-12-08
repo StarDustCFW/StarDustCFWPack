@@ -5,7 +5,7 @@ StarDust es un pack con los cfw actuales--------------------StarDust is a pack w
 
 configurado para convivir bien entre si---------------------configured to live well together        
 
-Atmosphere, ReiNX, SX OS-----------------------------------Atmosphere, ReiNX, SX OS
+Atmosphere, SXOS-----------------------------------Atmosphere, SXOS
 
 Con una interfaz comoda------------------------------------With a comfortable interface
 
