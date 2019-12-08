@@ -3,9 +3,9 @@ autoboot=1
 autoboot_list=0
 bootwait=0
 verification=1
-backlight=0
+backlight=100
 autohosoff=0
-autonogc=1
+autonogc=0
 
 [Stock]
 fss0=atmosphere/fusee-secondary.bin
