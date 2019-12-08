@@ -1,0 +1,7 @@
+;GRID: Autosport
+;1.4.0RC9 crashes, 1.4.1_45339 stucks in infinite loop
+0100DC800A602000
+
+;Darksiders II Deathnitive Edition
+;1.0.0 makes game double speed
+010071800BA98000
