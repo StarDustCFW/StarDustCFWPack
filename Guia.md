@@ -16,12 +16,14 @@ Copiar Y sobrescribir el contenido de **SD_card_root** en la sd
 ![alt text](borrame/32.png)
 
 * 3.- Siempre usa [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true) para arracar con [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases/latest) u otro injector como RCMloader,Rekado...
-* * Este payload nunca cambia sera el mismo hoy y mañana, su objetiva arrancar StarDust Correctamente
+* * Este payload nunca cambia sera el mismo hoy y mañana, su objetivo: arrancar StarDust Correctamente
 
 ![alt text](borrame/42.png)
 
  3a.-Si usas R4s como yo, usa este [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true) en el dongle. instrucciones [Aqui](http://bit.ly/2tLBTua).
 
+3b.-Para RCM loader, copia [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true) en /ATMOPHERE_HEKATE/PAYLOAD.BIN dentro del dongle sobrescribiendo, luego selecsiona el color AZUL 
+![alt text](borrame/LED.png)
 
 4.- Escoje una de las opciones de boot.
 
