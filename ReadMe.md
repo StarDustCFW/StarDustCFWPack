@@ -19,6 +19,8 @@ Instalación
 
 ## [Detailed Guide](Guide.md)
 
+## [Video, Explicación](https://youtu.be/YcJRgSNIrpo)
+
 ![alt text](borrame/screenshot.png)
 
 ![alt text](borrame/home1.jpg)
