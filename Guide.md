@@ -22,6 +22,8 @@ Copy and overwrite the contents of **SD_card_root** in the SD
 
  3a.-If you use R4s like me, use this [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true) in the dongle. instructions [Here](http://bit.ly/2tLBTua).
 
+3b.-For RCM loader, copy [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true) over /ATMOPHERE_HEKATE/PAYLOAD.BIN in the Dongle, Then select the Blue color
+![alt text](borrame/LED.png)
 
 4.- Choose one of the boot options.
 
