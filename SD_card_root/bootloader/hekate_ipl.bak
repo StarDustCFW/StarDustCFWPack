@@ -4,7 +4,7 @@ autoboot_list=0
 bootwait=0
 customlogo=1
 verification=1
-backlight=100
+backlight=50
 autohosoff=0
 
 [AMS]
@@ -21,8 +21,7 @@ icon=bootloader/res/SXOS.bmp
 payload=payload.bin
 { }
 
-
-[Stock]
+[OficialFirmware]
 fss0=atmosphere/fusee-secondary.bin
 stock=1
 emummc_force_disable=1

@@ -3,7 +3,7 @@ autoboot=1
 autoboot_list=0
 bootwait=0
 verification=1
-backlight=100
+backlight=0
 autohosoff=0
 autonogc=0
 
