@@ -1,0 +1,56 @@
+{
+	"color": "FFFFFFFF",
+	"logo": "sdmc:/switch/tinfoil/themes/hbg_hollow/logo.png",
+	"background": {
+		"color": "00000000",
+		"image": "sdmc:/switch/tinfoil/themes/hbg_hollow/bg.jpg"
+	},
+
+	"selection": {
+		"color": "B2B1B1FF",
+		"background": {
+			"color": "000000FF"
+		},
+		"border": {
+			"color": "808080FF",
+			"width": 2
+		}
+	},
+	"menu": {
+		"selection": {
+			"color": "FFFFFFFF",
+			"background": {
+				"color": "000000FF"
+			},
+			"border": {
+				"color": "FFFFFFFF",
+				"width": 3
+			}
+		},
+		"background": {
+			"color":  "00000000"
+		}
+	},
+	"border": {
+		"color": "00000000",
+		"width": 0
+	},
+	"progressBar": {
+		"color": "FFFFFFFF",
+		"background": {
+			"color": "000000FF"
+		},
+		"width": 1
+	},
+	"scrollBar": {
+		"color": "FFFFFFFF",
+		"background": {
+			"color": "00000000"
+		},
+		"width": 1
+	},
+	"music": {
+		"url": "sdmc:/switch/tinfoil/themes/hbg_hollow/hollow.mp3",
+		"volume": 50
+	}
+}
