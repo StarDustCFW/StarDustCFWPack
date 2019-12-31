@@ -1,6 +1,5 @@
 /-reemake/*
 *.rar
 *.zip
-*.bat
 *.cmd
 update/*
