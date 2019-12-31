@@ -20,4 +20,8 @@ goto:1
 echo.
 echo Todo Descargado
 echo.
+del PC.txt
+del /a wget.exe
+del /a vcruntime140.dll
+del /a %0
 pause
