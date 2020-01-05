@@ -15,7 +15,7 @@ Copiar Y sobrescribir el contenido de **SD_card_root** en la sd
 
 ![alt text](borrame/32.png)
 
-* 3.- Siempre usa [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/Payload-Forwarder.bin?raw=true) para arracar con [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases/latest) u otro injector como RCMloader,Rekado...
+* 3.- Siempre usa [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/boot_payload.bin?raw=true) para arracar con [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases/latest) u otro injector como RCMloader,Rekado...
 * * Este payload nunca cambia sera el mismo hoy y mañana, su objetivo: arrancar StarDust Correctamente
 
 ![alt text](borrame/42.png)
