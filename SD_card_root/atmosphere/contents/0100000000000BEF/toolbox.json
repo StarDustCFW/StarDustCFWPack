@@ -1,0 +1,5 @@
+{
+	"name"  : "DiskUSB",
+	"tid"   : "0100000000000BEF",
+	"requires_reboot": false
+}
