@@ -17,7 +17,7 @@ Copiar Y sobrescribir el contenido de **SD_card_root** en la sd
 
 * 3.- Siempre usa [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/boot_payload.bin?raw=true) para arracar con [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases/latest) u otro injector como RCMloader,Rekado...
 * * Este payload nunca cambia sera el mismo hoy y mañana, su objetivo: arrancar StarDust Correctamente
-
+* * * Usuarios de (PegaScape) Arrancad cafeine como siempre luego del paso 2 y saltad al paso 4  
 ![alt text](borrame/42.png)
 
  3a.-Si usas R4s como yo, usa este [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true) en el dongle. instrucciones [Aqui](http://bit.ly/2tLBTua).
