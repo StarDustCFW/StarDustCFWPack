@@ -26,7 +26,10 @@ Copiar Y sobrescribir el contenido de **SD_card_root** en la sd
 <a href="https://es.aliexpress.com/item/4000406540765.html?spm=a2g0o.productlist.0.0.11af28b8SIiAsF&algo_pvid=acdccb2e-5226-4aa3-8998-908524c71a79&algo_expid=acdccb2e-5226-4aa3-8998-908524c71a79-0&btsid=bd7c91ef-0833-4837-a0df-243f0b05ce1c&ws_ab_test=searchweb0_0,searchweb201602_9,searchweb201603_53"> <img src = "borrame/LED.png" alt = "Rcm loader"/> </a >
 
 
-4.- Escoje una de las opciones de boot.
+* 4.- Instalar Incognito para usar internet de forma segura
+Puedes Seguir este Video: [Incognito_RCM](https://www.youtube.com/watch?v=eHPqRX4tv5E&list=PLNawpCFHdbXY-ZgF43vEJBk2IoweJfAlm)
+<a href="https://www.youtube.com/watch?v=eHPqRX4tv5E&list=PLNawpCFHdbXY-ZgF43vEJBk2IoweJfAlm"> <img src = "borrame/incognito.jpg" alt = "Incognito_RCM"/> </a >
+5.- Escoje una de las opciones de boot.
 
 ![alt text](borrame/screenshot.png)
 
