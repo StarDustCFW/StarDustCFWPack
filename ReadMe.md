@@ -42,24 +42,16 @@ PricelessTwo2
 
 # Forks
 
-https://github.com/StarDustCFW/StarDust-Bootmenu
-
-https://github.com/StarDustCFW/Atmosphere
-
-https://github.com/StarDustCFW/hekate
-
-https://github.com/StarDustCFW/incognito
-
-https://github.com/StarDustCFW/Lockpick_RCM
-
-https://github.com/StarDustCFW/Goldleaf
-
-https://github.com/StarDustCFW/sys-ftpd
+[StarDust-Bootmenu](https://github.com/StarDustCFW/StarDust-Bootmenu) - 
+[Atmosphere](https://github.com/StarDustCFW/Atmosphere) - 
+[Goldleaf](https://github.com/StarDustCFW/Goldleaf) - 
+[sys-ftpd](https://github.com/StarDustCFW/sys-ftpd) - 
+[Amiigo](https://github.com/StarDustCFW/Amiigo)
 
 Mas informacion Aqui esta mi Discord
 
 # [My Discord](https://discord.io/myrincon)
 
-### [My Youtube](https://www.youtube.com/channel/UC0bSZcylREueGQmCM5mksNg)
+### [My Youtube](https://www.youtube.com/channel/UC0bSZcylREueGQmCM5mksNg?sub_confirmation=1)
 
 
