@@ -1,7 +1,7 @@
 @echo off
 set ver=1.7
 rem by Kronos2308
-rename %0 kill-achive-flag-%ver%.bat
+rename %0 SD-Fixer-%ver%.bat
 title yo busco la sd solita ponme donde quieras ver %ver%
 color 0a
 set azucar=false
