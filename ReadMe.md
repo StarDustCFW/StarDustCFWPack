@@ -1,6 +1,5 @@
 <a href="https://discord.io/myrincon"><img src="https://discordapp.com/api/guilds/516631805621960704/embed.png" alt="Discord Server" /></a>
 # StarDustCFWPack <a href="https://github.com/StarDustCFW/StarDustCFWPack/releases/latest"><img src="https://img.shields.io/github/downloads/StarDustCFW/StarDustCFWPack/total?style=for-the-badge" alt="Downloads" /></a><br>
-
 StarDust es un pack con los cfw actuales--------------------StarDust is a pack with the current cfw     <br> 
 configurado para convivir bien entre si---------------------configured to live well together        <br>
 Atmosphere, SXOS-------------------------------------------Atmosphere, SXOS<br>
@@ -25,8 +24,7 @@ Retrogamer 74<br>
 D3fau4<br>
 PricelessTwo2<br>
 
-# Forks<br>
-[Here](https://github.com/StarDustCFW)
+# [Forks](https://github.com/StarDustCFW) <br>
 
 Mas informacion Aqui esta mi Discord<br>
 # [My Discord](https://discord.io/myrincon)<br>
