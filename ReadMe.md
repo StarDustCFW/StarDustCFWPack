@@ -42,11 +42,7 @@ PricelessTwo2
 
 # Forks
 
-[StarDust-Bootmenu](https://github.com/StarDustCFW/StarDust-Bootmenu) - 
-[Atmosphere](https://github.com/StarDustCFW/Atmosphere) - 
-[Goldleaf](https://github.com/StarDustCFW/Goldleaf) - 
-[sys-ftpd](https://github.com/StarDustCFW/sys-ftpd) - 
-[Amiigo](https://github.com/StarDustCFW/Amiigo)
+[Here](https://github.com/StarDustCFW)
 
 Mas informacion Aqui esta mi Discord
 
