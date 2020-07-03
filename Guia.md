@@ -31,8 +31,8 @@ Puedes Seguir este Video: [Incognito_RCM](https://www.youtube.com/watch?v=eHPqRX
 <a href="https://www.youtube.com/watch?v=eHPqRX4tv5E&list=PLNawpCFHdbXY-ZgF43vEJBk2IoweJfAlm"> <img src = "borrame/incognito.jpg" alt = "Incognito_RCM"/> </a >
 5.- Escoje una de las opciones de boot.
 
-![alt text](borrame/screenshot.png)
-
+![alt text](borrame/screenshot-1.png)
+![alt text](borrame/screenshot-2.png)
 ### Videos Recomendados
 
 [Tutorial de emunand](https://youtu.be/xyzpPqgWRaw)
