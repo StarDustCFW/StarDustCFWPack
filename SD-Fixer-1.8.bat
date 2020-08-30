@@ -22,7 +22,7 @@ rem if exist %%i:\Nintendo goto:Work
 		echo Arreglando flag de archivo en %%i:
 		echo Arreglando flag de archivo en %%i:>>%temp%\loger
 		attrib -s -h -a %%i:\* /S /D>>%temp%\loger
-		if exist %%i:\emutendo attrib +a %%i:\emutendo\Contents\registered\* /S /D
+		if exist %%i:\emutendo attrib +a %%i:\emutendo\Contents\registered\* /S /D>nul
 		attrib +a %%i:\Nintendo\Contents\registered\* /S /D>>%temp%\loger
 		set azucar=true
 	)
