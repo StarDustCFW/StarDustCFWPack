@@ -1,5 +1,5 @@
-printf("TegraExplorer Script Haku33")
-printf("")
+printf("TegraExplorer Script Haku33, by suchmememanyskill,")
+printf("Kronos2308 -.-")
 printf("Press A to wipe from SYSMMC")
 if (@EMUMMC){
     printf("Press Y to wipe from EMUMMC")
@@ -115,7 +115,7 @@ fs_mkdir("emmc:/temp")
 setColor("GREEN")
 printf("")
 printf("")
-printf("Done! press any key to Power Off")
+printf("Done! press any key to exit")
 
 pause()
 exit()
