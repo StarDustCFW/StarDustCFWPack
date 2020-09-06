@@ -1,5 +1,6 @@
 printf("TegraExplorer Script Haku33, by suchmememanyskill,")
 printf("Kronos2308 -.-")
+printf("")
 printf("Press A to wipe from SYSMMC")
 if (@EMUMMC){
     printf("Press Y to wipe from EMUMMC")
