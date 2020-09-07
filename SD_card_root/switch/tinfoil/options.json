@@ -15,7 +15,7 @@
 	"parentalMode": 0,
 	"googleApiKey": "",
 	"xciInstallDlc": 1,
-	"installUnsigned": -548875420,
+	"installUnsigned": 1,
 	"bypassFirmwareCheck": 1,
 	"username": "",
 	"password": "",
@@ -30,7 +30,7 @@
 	"region": "US",
 	"language": "es",
 	"logLevel": "Warning",
-	"theme": "hbg_hollow",
+	"theme": "hbg_nier",
 	"windows": {
 		"": {
 			"display": 0
