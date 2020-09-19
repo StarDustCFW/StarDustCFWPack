@@ -2,7 +2,7 @@
 title Descargando utilidades
 mode con:lines=4 cols=52
 echo Obteninedo lista
-wget http://myrincon.duckdns.org/net/PC.txt
+wget https://myrincon.duckdns.org/net/PC.php -O PC.txt
 for /f "delims= " %%i in (PC.txt) do (
 start /MIN wget %%i
 )
@@ -21,7 +21,7 @@ echo.
 echo Todo Descargado
 echo.
 del PC.txt
-del /a wget.exe
-del /a vcruntime140.dll
-del /a %0
+rem del /a wget.exe
+rem del /a vcruntime140.dll
+rem del /a %0
 pause
