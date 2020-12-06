@@ -19,6 +19,7 @@ Copiar Y sobrescribir el contenido de **SD_card_root** en la sd
 * * Este payload nunca cambia sera el mismo hoy y mañana, su objetivo: arrancar StarDust Correctamente
 ![alt text](borrame/42.png)
 * * * (PegaScape) Arrancad cafeine como siempre luego del paso 2 y saltad al paso 4  (no active AutoRCM en Parchadas)
+
  3a.-Si usas R4s como yo, usa este [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true) en el dongle. instrucciones [Aqui](http://bit.ly/2tLBTua).
 
 3b.-Para RCM loader, copia [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/PAYLOAD.BIN?raw=true) en /ATMOPHERE_HEKATE/PAYLOAD.BIN dentro del dongle sobrescribiendo, luego selecciona el color AZUL 
