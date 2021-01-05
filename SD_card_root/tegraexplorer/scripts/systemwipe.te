@@ -1,135 +1,122 @@
-printf("TegraScript system wiper")
-printf("")
-printf("Press A to wipe from SYSMMC")
-if (@EMUMMC){
-    printf("Press Y to wipe from EMUMMC")
-}
-printf("Press power to exit")
-printf("")
-
-pause() 
-@checkInput = setInt(0);
-
-if (@BTN_A){
-    printf("Mounting SYSMMC...") 
-    mmc_connect("SYSMMC")
-    @checkInput = setInt(1);
-}
-if (@BTN_Y){
-    if (@EMUMMC, == , 0){
-        exit() 
-    }
-    printf("Mounting EMUMMC...") 
-    mmc_connect("EMUMMC")
-    @checkInput = setInt(1); 
+checkIfImportantSave = {
+	importantSaves = ["8000000000000120", "80000000000000d1", "8000000000000047"]
+	j = 0
+	important = 0
+	while (j < len(importantSaves)){
+		if (importantSaves[j] == save){
+			important = 1
+		}
+		
+		j = j + 1
+	}
 }
 
-if (@checkInput, == , 0){
-    exit()
+ver = version()
+
+println("Tegrascript system wiper")
+println("Running on TE ", ver)
+println()
+
+BTN_X = 0x2
+
+if (_EMU) {
+	menuOptions = ["Exit", "Sysmmc", "Emummc"]
+} 
+else() {
+	menuOptions = ["Exit", "Sysmmc"]
 }
 
-mmc_mount("SYSTEM")
+print("Wipe from: ")
+res = menu(menuOptions, 0)
 
-if (@RESULT){
-    printf("System failed to mount!")
-    pause()
-    exit()
+clearscreen()
+
+if (res == 0){
+	exit()
 }
 
-setString("emmc:/save/", $basePath)
-
-setColor("RED")
-printf("Are you sure you want to wipe everything?")
-printf("This includes:")
-printf("- Saves")
-printf("- Game Data")
-printf("- All other data on the system")
-printf("")
-printf("Use this only as a last resort!")
-printf("")
-
-setColor("YELLOW")
-wait(10)
-
-printf("Press X to continue")
-printf("Press any other button to exit")
-
-pause()
-
-if (@BTN_X, == , 0){
-    exit()
+if (res == 1){
+	println("Mounting Sysmmc")
+	mount = mmcConnect("SYSMMC")
 }
 
-@count = setInt(1)
-printf("Deleting SYSTEM saves")
+if (res == 2){
+	println("Mounting Emummc")
+	mount = mmcConnect("EMUMMC")
+}
 
-fs_openDir("emmc:/save")
-setColor("RED")
-@LOOP = getPosition()
-fs_readDir()
-if (@ISDIRVALID){
-    combineStrings($basePath, $FILENAME, $path)
+if (mount){
+	println("Error connecting mmc!")
+	pause()
+	exit()
+}
 
-    setPrintPos(0, 20)
+if (mmcMount("SYSTEM")) {
+	println("Failed to mount SYSTEM")
+	pause()
+	exit()
+}
+
+color("RED")
+println("Are you sure you want to wipe everything?\nThis includes:\n- Saves\n- Game Data\n- All other data on the system\n\nUse this only as a last resort!")
+color("YELLOW")
+wait(10000)
+
+println("Press X to continue\nPress any other button to exit")
+
+start = pause() & BTN_X
+if (!start){
+	color("WHITE")
+	exit()
+}
+
+color("WHITE")
+println("Deleting SYSTEM saves")
+files = dirRead("bis:/save")
+
+i = 0
+color("RED")
+while (i < len(files)) {
+	if (!fileProperties[i]){ # checks if it's not a file
+		save = files[i]
+		checkIfImportantSave()
+		if (!important){
+			print("\rDeleting ", save)
+			res = fileDel(pathCombine("bis:/save", save))
+			if (res) {
+				println("\nFile deletion failed!")
+				pause()
+				exit()
+			}
+		}
+	}
 	
-    @check = compareStrings($FILENAME, "8000000000000120")
-
-    if (@check){
-        goto(@LOOP)
-    }
-
-    @check = compareStrings($FILENAME, "80000000000000d1")
-
-    if (@check){
-        goto(@LOOP)
-    }
-
-    @check = compareStrings($FILENAME, "8000000000000047")
-
-    if (@check){
-        goto(@LOOP)
-    }
-
-	@count = math(@count, "+", 1)
-    printf(@count, ": ", $FILENAME)
-    fs_del($path)
-
-    goto(@LOOP)
+	i = i + 1
 }
 
-printf("")
-printf("")
-printf("Deleting USER")
+color("WHITE")
+println("\n\nDeleting USER\n")
+color("RED")
 
-mmc_mount("USER")
-
-if (@RESULT){
-    printf("User failed to mount!")
-    pause()
-    exit()
+if (mmcMount("USER")){
+	println("Failed to mount USER")
+	pause()
+	exit()
 }
 
-fs_delRecursive("emmc:/Album")
-fs_mkdir("emmc:/Album")
+toDel = ["Album", "Contents", "save", "saveMeta", "temp"]
 
-fs_delRecursive("emmc:/Contents")
-fs_mkdir("emmc:/Contents")
-fs_mkdir("emmc:/Contents/placehld")
-fs_mkdir("emmc:/Contents/registered")
+i = 0
+while (i < len(toDel)){
+	dirDel(pathCombine("bis:/", toDel[i]))
+	mkdir(pathCombine("bis:/", toDel[i]))
+	
+	i = i + 1
+}
 
-fs_delRecursive("emmc:/save")
-fs_mkdir("emmc:/save")
+mkdir("bis:/Contents/placehld")
+mkdir("bis:/Contents/registered")
 
-fs_delRecursive("emmc:/saveMeta")
-fs_mkdir("emmc:/saveMeta")
-
-fs_delRecursive("emmc:/temp")
-fs_mkdir("emmc:/temp")
-
-setColor("GREEN")
-printf("")
-printf("")
-printf("Done! press any key to exit")
-
+color("GREEN")
+println("\n\nDone!")
 pause()
-exit()
