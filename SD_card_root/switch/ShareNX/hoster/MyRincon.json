@@ -1,0 +1,12 @@
+{
+    "Url": "http://myrincon.duckdns.org/ShareNX/index.php",
+    "Regex": "",
+    "ImageName": "fileToUpload",
+    "VideoName": "fileToUpload",
+    "Mimepart": [
+        {
+            "Name": "curl",
+            "Data": "1"
+        }
+    ]
+}

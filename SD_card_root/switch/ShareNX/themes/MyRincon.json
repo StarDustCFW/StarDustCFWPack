@@ -1,0 +1,14 @@
+{
+    "Background": "#6c0000FF",
+    "Focus": "#480001FF",
+    "Text": "#FFFFFF00",
+    "Topbar": "#170909FF",
+    "Background Image": "romfs:/bg.jpg",
+    "Image": {
+        "Path": "sdmc:/switch/ShareNX/Shiro.png",
+        "X": 930,
+        "Y": 240,
+        "W": 350,
+        "H": 421
+    }
+}
