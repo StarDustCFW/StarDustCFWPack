@@ -25,7 +25,11 @@ Copy and overwrite the contents of **SD_card_root** in the SD
 3b.-For RCM loader like me, copy [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/PAYLOAD.BIN?raw=true) over /ATMOPHERE_HEKATE/PAYLOAD.BIN in the Dongle, Then select the Blue color
 <a href="https://es.aliexpress.com/item/4000406540765.html?spm=a2g0o.productlist.0.0.11af28b8SIiAsF&algo_pvid=acdccb2e-5226-4aa3-8998-908524c71a79&algo_expid=acdccb2e-5226-4aa3-8998-908524c71a79-0&btsid=bd7c91ef-0833-4837-a0df-243f0b05ce1c&ws_ab_test=searchweb0_0,searchweb201602_9,searchweb201603_53"> <img src = "borrame/LED.png" alt = "Rcm loader"/> </a >
 
-4.- Choose one of the boot options.
+* 4.- Install Incognito to use the internet safely
+You can follow this video: [Incognito_RCM](https://www.youtube.com/watch?v=eHPqRX4tv5E&list=PLNawpCFHdbXY-ZgF43vEJBk2IoweJfAlm)
+<a href="https://www.youtube.com/watch?v=eHPqRX4tv5E&list=PLNawpCFHdbXY-ZgF43vEJBk2IoweJfAlm"> <img src = "borrame/incognito.jpg" alt = "Incognito_RCM"/> </a >
+
+5.- Choose one of the boot options.
 
 ![alt text](borrame/screenshot.png)
 
