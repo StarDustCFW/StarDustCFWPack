@@ -26,6 +26,16 @@
 127.0.0.1 x*.nintendo.*
 127.0.0.1 y*.nintendo.*
 127.0.0.1 z*.nintendo.*
+127.0.0.1 1*.nintendo.*
+127.0.0.1 2*.nintendo.*
+127.0.0.1 3*.nintendo.*
+127.0.0.1 4*.nintendo.*
+127.0.0.1 5*.nintendo.*
+127.0.0.1 6*.nintendo.*
+127.0.0.1 7*.nintendo.*
+127.0.0.1 8*.nintendo.*
+127.0.0.1 9*.nintendo.*
+127.0.0.1 0*.nintendo.*
 
 
 
