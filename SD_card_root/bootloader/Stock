@@ -8,7 +8,7 @@ autohosoff=0
 autonogc=0
 
 [Stock]
-fss0=atmosphere/fusee-secondary.bin
+fss0=atmosphere/fusee-secondary_stock.bin
 stock=1
 emummc_force_disable=1
 {}
