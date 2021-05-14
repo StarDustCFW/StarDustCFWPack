@@ -1,4 +1,4 @@
-<a href="https://discord.io/myrincon"><img src="https://discordapp.com/api/guilds/516631805621960704/embed.png" alt="Discord Server" /></a> >>[Leer en español](ReadMe.md)<<
+<a href="https://discord.io/myrincon"><img src="https://discordapp.com/api/guilds/516631805621960704/embed.png" alt="Discord Server" /></a> >>[Leer en español](ReadMe.md)<< >> **[Beta Pack](https://github.com/StarDustCFW/StarDustCFWPack/archive/refs/heads/master.zip)**<<
 # StarDustCFWPack <a href="https://github.com/StarDustCFW/StarDustCFWPack/releases/latest"><img src="https://img.shields.io/github/downloads/StarDustCFW/StarDustCFWPack/total?style=for-the-badge" alt="Downloads" /></a><br>
 ## Support 12.0.0 and Below
 StarDust is a pack with the current cfw     <br> 
