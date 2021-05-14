@@ -6,7 +6,7 @@ configurado para convivir bien entre si<br>
 Atmosphere, SXOS, Android<br>
 Con una interfaz comoda y facil de usar<br>
 Agrega también las app mas básicas para empezar<br>
-<a href="https://discord.io/myrincon"><img src="borrame/home2.jpg" alt="screenshot" /></a>
+<a href="https://discord.io/myrincon"><img src="borrame/prev1.jpg" alt="screenshot" /></a>
 
 Instalación
 =============
@@ -14,7 +14,7 @@ Instalación
 ## [Video, Explicación](https://youtu.be/YcJRgSNIrpo) <br>
 
 <a href="https://discord.io/myrincon"><img src="borrame/screenshot.png" alt="screenshot" /></a>
-<a href="https://discord.io/myrincon"><img src="borrame/home1.jpg" alt="screenshot" /></a>
+<a href="https://discord.io/myrincon"><img src="borrame/prev2.jpg" alt="screenshot" /></a>
 
 **Credits**<br>
 https://github.com/Atmosphere-NX/Atmosphere<br>
