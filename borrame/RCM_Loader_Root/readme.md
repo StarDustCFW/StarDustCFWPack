@@ -1,10 +1,10 @@
 ## Instrucciones:
 * Conecta el rcm_Loader por USB 
 * Borra o formatea todo
-* Copia
+* Copia al Dispositivo
 * * /STARDUSTCFW
 * * /LAUNCH.TXT
-- Al Dispositivo
+* Ya esta listo para el uso
 
 ![img](../LED.png)
 
