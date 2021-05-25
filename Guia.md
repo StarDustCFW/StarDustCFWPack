@@ -3,7 +3,7 @@
 StarDustCFWPack
 ## Guia Para novatos
 
-* 1.- Descargar el ultimo lanzamiento estable [Aqui](https://github.com/StarDustCFW/StarDustCFWPack/releases/latest)
+* 1.- Descargar el ultimo lanzamiento estable [Aqui](https://github.com/StarDustCFW/StarDustCFWPack/releases)
 
 ![alt text](borrame/12.png)
 
