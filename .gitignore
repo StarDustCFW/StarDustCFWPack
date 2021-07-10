@@ -1,7 +1,4 @@
 /-reemake/*
 *.rar
-*.zip
 *.cmd
-update/*
 For PC/emutool-*/*
-zvers.txt
