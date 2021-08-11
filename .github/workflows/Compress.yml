@@ -1,0 +1,18 @@
+name: Compress
+
+on: [push]
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Compress to File.
+      run: |
+        sudo apt install rar -y
+        rar a -m5 -r -s Source_code.rar ./SD_card_root/
+        
+    - uses: actions/upload-artifact@master
+      with:
+        name: Release
+        path: Source_code.rar
