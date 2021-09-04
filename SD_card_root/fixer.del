@@ -2,7 +2,9 @@
 
 # Files or folders to be deleted
 # # Comment
-# > Header Text to print
+# > Text to print
+# - Header Text to print
+# + Fix Archive bit
 # * Type of file for delete in the next folder
 # / if the line end in /  is a folder
 #   all in the folder is goin to be
@@ -128,9 +130,6 @@ for_tegraRCM_PC.bin
 /atmosphere/contents/0100000000001010/
 /atmosphere/contents/0100000000000803/
 /atmosphere/contents/050000BADDAD0000/
->Clean romfs_metadata
-*romfs_metadata.bin
-/atmosphere/contents/
 
 /StarDust/Icons/screenshot.bmp
 /StarDust/payloads/zBackup.bin
@@ -154,3 +153,18 @@ for_tegraRCM_PC.bin
 /sxos/titles/0100000000001013/fsmitm.flag
 /sxos/titles/0100000000001013/romfs/
 /StarDust/boot.temp
+
+# Clean romfs_metadata
+-Clean metadata
+>Clean romfs_metadata
+*romfs_metadata.bin
+/atmosphere/contents/
+**
+
+# Fix Archive bit to SD
+-Fix Archive bit
+>Fix Archive bit: 
++atmosphere
++atmosphere/contents
++switch
++switch/XXX
