@@ -1,5 +1,13 @@
 #UpdateFile
 
+# Files or folders to be deleted
+# # Comment
+# > Header Text to print
+# * Type of file for delete in the next folder
+# / if the line end in /  is a folder
+#   all in the folder is goin to be
+#   deleted exept if you use * before
+
 #Delete Reinx d'not use any more
 /ReiNX/
 /sept/reinx.bin
@@ -103,6 +111,12 @@ for_tegraRCM_PC.bin
 
 /switch/screen-nx/
 #changes for new menu
+/StarDust/back-exp.bmp
+/StarDust/background.bmp
+/StarDust/back-inc.bmp
+/StarDust/back-Mem.bmp
+/StarDust/back-set.bmp
+/StarDust/Icons/
 /StarDust/payloads/zBackup.bin
 /StarDust/payback/
 /StarDust/logos/
@@ -114,6 +128,9 @@ for_tegraRCM_PC.bin
 /atmosphere/contents/0100000000001010/
 /atmosphere/contents/0100000000000803/
 /atmosphere/contents/050000BADDAD0000/
+>Clean romfs_metadata
+*romfs_metadata.bin
+/atmosphere/contents/
 
 /StarDust/Icons/screenshot.bmp
 /StarDust/payloads/zBackup.bin
