@@ -2,9 +2,12 @@
 
 # Files or folders to be deleted
 # # Comment
-# > Text to print
-# - Header Text to print
-# + Fix Archive bit
+# | Text to print
+# } Header Text to print
+# : Fix Archive bit
+# < Copy file
+# > Paste location
+# + make dir
 # * Type of file for delete in the next folder
 # / if the line end in /  is a folder
 #   all in the folder is goin to be
@@ -109,7 +112,8 @@ for_tegraRCM_PC.bin
 /atmosphere/contents/010000000000100B/romfs.bin
 /reboot.nro
 
->Correct some Trash files for not crash
+}Correct some Trash files for not crash
+|Correct some Trash files for not crash
 
 /switch/screen-nx/
 #changes for new menu
@@ -155,16 +159,18 @@ for_tegraRCM_PC.bin
 /StarDust/boot.temp
 
 # Clean romfs_metadata
--Clean metadata
->Clean romfs_metadata
+|Clean metadata
+}Clean romfs_metadata
 *romfs_metadata.bin
 /atmosphere/contents/
 **
 
 # Fix Archive bit to SD
--Fix Archive bit
->Fix Archive bit: 
-+atmosphere
-+atmosphere/contents
-+switch
-+switch/XXX
+|Fix Archive bit
+}Fix Archive bit: 
+:atmosphere
+:atmosphere/contents
+:switch
+:switch/XXX
+
++config/MissionControl/controllers
