@@ -1,17 +1,4 @@
-#UpdateFile
-
-# Files or folders to be deleted
-# # Comment
-# | Text to print
-# } Header Text to print
-# : Fix Archive bit
-# < Copy file
-# > Paste location
-# + make dir
-# * Type of file for delete in the next folder
-# / if the line end in /  is a folder
-#   all in the folder is goin to be
-#   deleted exept if you use * before
+#Main Script
 
 #Delete Reinx d'not use any more
 /ReiNX/
