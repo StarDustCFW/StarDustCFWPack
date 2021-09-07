@@ -1,21 +1,19 @@
 #Main Script
+# El objetivo de este script es Mantener la sd Limpia
+# y libre de Archivos que pudiesen ser problemáticos
 
 #Delete Reinx d'not use any more
 /ReiNX/
-/sept/reinx.bin
 /ReiNX.bin
 /StarDust/payloads/ReiNX.bin
 
-#Ams Blawar mod
+#borrar archivos innecesarios que se acumulan
+[General Clean
 /atmosphere/fusee-secondary_ori.bin
 /atmosphere/fusee-secondary.bin.sig
 /atmosphere/hbl.json
 /atmosphere/hbl.nsp.sig
 /atmosphere/hbl_ori.nsp
-/switch/mercury/
-
-#borrar archivos inesesarios que se acumulan
-/sept/
 /atmosphere/contents/010000000000000D/
 /atmosphere/contents/010000000000002B/
 /atmosphere/contents/010000000000003C/
@@ -25,36 +23,64 @@
 /atmosphere/contents/0100000000000036/
 /atmosphere/contents/0100000000000037/
 /atmosphere/contents/0100000000000042/
-/switch/sys-clk-Editor/
-/System Volume Information/
-/atmosphere/flags/
-/sxos/flags/
-/sxos/titles/4200000000000010/
-/sxos/titles/420000000000000E/
-/bootloader/payloads/boot_menu.bin
-/bootloader/update.bin
-/nsp/
-/BCAT/
-/StarDust/payloads/Stock.bin
+/atmosphere/contents/0100000000000BEF/
+/atmosphere/contents/010000000000100B/
+/atmosphere/contents/0100000000001010/
+/atmosphere/contents/0100000000000803/
+/atmosphere/contents/050000BADDAD0000/
+/atmosphere/contents/010000000000100C/fsmitm.flag
+/atmosphere/contents/010000000000100C/exefs.nsp
+/atmosphere/contents/0100000000534C56/
+/atmosphere/contents/010000000007E51A/
 /atmosphere/BCT.ini
 /atmosphere/loader.ini
 /atmosphere/system_settings.ini
-/switch/Z-stuff/
+/atmosphere/flags/
+/atmosphere/kips/
+/atmosphere/prodinfo.ini
+/atmosphere/template.txt
+/atmosphere/exefs_patches/NxThemesInstaller/
+/atmosphere/bootlogo.bmp
+/atmosphere/config/BCT.ini
+/atmosphere/config_templates/BCT.ini
+/atmosphere/fusee-mtc.bin
+/atmosphere/fusee-secondary.bin
+/atmosphere/hosts/
+/atmosphere/update/
+/atmosphere/erpt_reports/
+/atmosphere/fatal_errors/
+/atmosphere/fatal_reports
+/sept/
+
+/bootloader/hekate_ipl.bak
+/bootloader/payloads/boot_menu.bin
+/bootloader/update.bin
+
+/config/hid_mitm/
+/config/reinx-spoofer/
+
+/config/sys-ftpd/connect.mp3
+/config/sys-ftpd/disconnect.mp3
+
+/sxos/kip_patches/
+/sxos/titles/0100000000534C56/
+/sxos/flags/
+/sxos/titles/4200000000000010/
+/sxos/titles/420000000000000E/
 /sxos/titles/0100000000000034-OFF/
 /sxos/titles/0100000000000034/
-/Haku33.nro
-/Lock-Logs.nro
-/ftpd/
-/StarDust/ftpd/
-/themes/StarDust-2.0/
-for_tegraRCM_PC.bin
+/sxos/exefs_patches/NxThemesInstaller/
+/sxos/template.txt
+/sxos/titles/010000000000100C/exefs.nsp
+
+/switch/mercury/
+/switch/Z-stuff/
+/switch/sys-clk-Editor/
 /switch/KosmosToolbox/
 /switch/KosmosUpdater/
-/atmosphere/kips/
-/Toolkit/
-/uboot/
-/modules/
-/RR/
+/switch/screen-nx/
+/switch/incognito/
+/switch/Amiigo.nro
 /switch/toolbox.nro
 /switch/ChoiDujourNX.nro
 /switch/ftpd.nro
@@ -71,39 +97,33 @@ for_tegraRCM_PC.bin
 /switch/RetroReloadedUpdater.nro
 /switch/Lithium_README.md
 /switch/README.md
+
+/themes/StarDust-2.0/
+/nsp/
+/BCAT/
+/System Volume Information/
+/ftpd/
+/Haku33.nro
+/Lock-Logs.nro
+/for_tegraRCM_PC.bin
+/exosphere.ini
+/reboot.nro
+
+#nada en contra de RR es solo que si usas este pack esos ficheros son innesesarios
+/Toolkit/
+/uboot/
+/modules/
+/RR/
 /RR_version.txt
 /ums_boot0.ini
 /ums_boot1.ini
 /ums_emmc.ini
 /ums_sd.ini
-#nada en contra de RR es solo que si usas este pack esos ficheros son innesesarios
-/atmosphere/prodinfo.ini
-/atmosphere/template.txt
-/sxos/template.txt
-/switch/Amiigo.nro
-/bootloader/hekate_ipl.bak
-#/switch/incognito
-/atmosphere/exefs_patches/NxThemesInstaller/
-/sxos/exefs_patches/NxThemesInstaller/
-/atmosphere/contents/010000000007E51A/
-#tinfoil clean
-#/atmosphere/kip_patches/loader_patches
-/bootloader/patches.ini
 
-#RR ovl
-/atmosphere/contents/010000000000100C/exefs.nsp
-/sxos/titles/010000000000100C/exefs.nsp
-
-#shop FS
-/atmosphere/contents/010000000000100B/exefs.nsp
-/atmosphere/contents/010000000000100B/romfs.bin
-/reboot.nro
-
-}Correct some Trash files for not crash
-|Correct some Trash files for not crash
-
-/switch/screen-nx/
-#changes for new menu
+#Corregir Archivos basura
+[StarDust Clean...
+/StarDust/payloads/Stock.bin
+/StarDust/ftpd/
 /StarDust/back-exp.bmp
 /StarDust/background.bmp
 /StarDust/back-inc.bmp
@@ -115,10 +135,8 @@ for_tegraRCM_PC.bin
 /StarDust/logos/
 /StarDust/Atheme/
 /StarDust/uboot/
-
 /StarDust/payloads/Atmosphere.bin
 /StarDust/payloads/memloader.bin
-
 /StarDust/scripts/
 /StarDust/skins/BOTW/Icons/Memloader.bmp
 /StarDust/skins/BOTW/Icons/rcm.bmp
@@ -154,38 +172,14 @@ for_tegraRCM_PC.bin
 /StarDust/skins/xbox/Icons/sd-back.bmp
 /StarDust/skins/xbox/back-Mem.bmp
 /StarDust/skins/xbox/back-exp.bmp
-
-/StarDust/ulaunch/
-
-/atmosphere/bootlogo.bmp
-/atmosphere/config/BCT.ini
-/atmosphere/config_templates/BCT.ini
-/atmosphere/fusee-mtc.bin
-/atmosphere/fusee-secondary.bin
-/atmosphere/hosts/default.txt
-/config/hid_mitm/
-/config/reinx-spoofer/
-
-/config/sys-ftpd/connect.mp3
-/config/sys-ftpd/disconnect.mp3
-/sxos/kip_patches/
-/exosphere.ini
-
-/atmosphere/contents/0100000000000BEF/
-/atmosphere/contents/010000000000100B/
-/atmosphere/contents/0100000000001010/
-/atmosphere/contents/0100000000000803/
-/atmosphere/contents/050000BADDAD0000/
-
 /StarDust/Icons/screenshot.bmp
 /StarDust/payloads/zBackup.bin
-/atmosphere/contents/010000000000100C/fsmitm.flag
 /StarDust/Touch
-#old reverse
-/atmosphere/contents/0100000000534C56/
-/sxos/titles/0100000000534C56/
+/StarDust/boot.temp
+/StarDust/ulaunch/
 
 #remove themes
+[remove themes
 /atmosphere/contents/0100000000001000/romfs/lyt/Entrance.szs
 /atmosphere/contents/0100000000001000/sfmor/lyt/Entrance.szs
 /atmosphere/contents/0100000000001000/romfs/lyt/Set.szs
@@ -198,18 +192,17 @@ for_tegraRCM_PC.bin
 /sxos/titles/0100000000001000/romfs/lyt/common.szs
 /sxos/titles/0100000000001013/fsmitm.flag
 /sxos/titles/0100000000001013/romfs/
-/StarDust/boot.temp
 
 # Clean romfs_metadata
-|Clean metadata
-}Clean romfs_metadata
+.Clean metadata...
+[Clean romfs_metadata
 *romfs_metadata.bin
 /atmosphere/contents/
 **
 
 # Fix Archive bit to SD
-|Fix Archive bit
-}Fix Archive bit: 
+[Fix Archive bit
+.Fix Archive bit: 
 :atmosphere
 :atmosphere/contents
 :switch
