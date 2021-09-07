@@ -169,7 +169,7 @@ for_tegraRCM_PC.bin
 /config/sys-ftpd/connect.mp3
 /config/sys-ftpd/disconnect.mp3
 /sxos/kip_patches/
-
+/exosphere.ini
 
 /atmosphere/contents/0100000000000BEF/
 /atmosphere/contents/010000000000100B/
