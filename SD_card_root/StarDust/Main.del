@@ -28,8 +28,6 @@
 /atmosphere/contents/0100000000001010/
 /atmosphere/contents/0100000000000803/
 /atmosphere/contents/050000BADDAD0000/
-/atmosphere/contents/010000000000100C/fsmitm.flag
-/atmosphere/contents/010000000000100C/exefs.nsp
 /atmosphere/contents/0100000000534C56/
 /atmosphere/contents/010000000007E51A/
 /atmosphere/BCT.ini
@@ -110,16 +108,20 @@
 /reboot.nro
 
 #nada en contra de RR es solo que si usas este pack esos ficheros son innesesarios
+/ulaunch/
 /Toolkit/
 /uboot/
 /modules/
 /RR/
+/atmosphere/contents/010000000000100C/fsmitm.flag
+/atmosphere/contents/010000000000100C/exefs.nsp
+/sxos/titles/010000000000100C/fsmitm.flag
+/sxos/titles/010000000000100C/exefs.nsp
 /RR_version.txt
 /ums_boot0.ini
 /ums_boot1.ini
 /ums_emmc.ini
 /ums_sd.ini
-
 #Corregir Archivos basura
 [StarDust Clean...
 /StarDust/payloads/Stock.bin
