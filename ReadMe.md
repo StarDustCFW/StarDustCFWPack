@@ -12,7 +12,7 @@ Instalación
 ## [Guía Detallada](Guia.md) <br>
 ## [Video, Explicación](https://youtu.be/YcJRgSNIrpo) <br>
 
-<a href="https://discord.io/myrincon"><img src="borrame/screenshot.png" alt="screenshot" /></a>
+<a href="https://discord.io/myrincon"><img src="borrame/screenshot.jpg" alt="screenshot" /></a>
 <a href="https://discord.io/myrincon"><img src="borrame/prev1.jpg" alt="screenshot" /></a>
 
 **Credits**<br>
