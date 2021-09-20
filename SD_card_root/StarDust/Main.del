@@ -233,10 +233,12 @@
 # Add folders
 +config/MissionControl/controllers/
 
+#tests
++/ulaunch/
 <Makunga
-+/tupe1
++/ulaunch/tupe1
 <2938432984723947832794
-+/tupe2
++/ulaunch/tupe2
 <
-+/tupe3
++/ulaunch/tupe3
 #End of Script
