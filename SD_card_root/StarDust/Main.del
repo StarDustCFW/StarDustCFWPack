@@ -54,14 +54,17 @@
 -/atmosphere/fusee-secondary.bin
 
 -/atmosphere/hosts/
++/atmosphere/hosts/
 -/atmosphere/update/
--/atmosphere/erpt_reports/
--/atmosphere/fatal_errors/
--/atmosphere/fatal_reports/
 +/atmosphere/update/
+-/atmosphere/erpt_reports/
 +/atmosphere/erpt_reports/
+-/atmosphere/fatal_errors/
 +/atmosphere/fatal_errors/
+-/atmosphere/fatal_reports/
 +/atmosphere/fatal_reports/
+#-/atmosphere/crash_reports/
+#+/atmosphere/crash_reports/
 
 -/sept/
 -/bootloader/hekate_ipl.bak
