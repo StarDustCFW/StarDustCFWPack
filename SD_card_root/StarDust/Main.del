@@ -18,6 +18,7 @@
 -/atmosphere/hbl.json
 -/atmosphere/hbl.nsp.sig
 -/atmosphere/hbl_ori.nsp
+-/atmosphere/contents/0100000000000081/
 -/atmosphere/contents/010000000000000D/
 -/atmosphere/contents/010000000000002B/
 -/atmosphere/contents/010000000000003C/
@@ -215,6 +216,7 @@
 </switch/aio-switch-updater
 ~/switch/XXX/aio-switch-updater
 -/switch/aio-switch-updater/
+
 # Add folders
 +config/MissionControl/controllers
 
