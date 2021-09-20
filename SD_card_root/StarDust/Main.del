@@ -55,7 +55,7 @@
 -/atmosphere/hosts/
 -/atmosphere/erpt_reports/
 -/atmosphere/fatal_errors/
--/atmosphere/fatal_reports
+-/atmosphere/fatal_reports/
 -/sept/
 -/bootloader/hekate_ipl.bak
 -/bootloader/payloads/boot_menu.bin
