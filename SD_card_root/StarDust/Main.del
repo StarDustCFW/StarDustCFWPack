@@ -2,17 +2,6 @@
 # El objetivo de este script es Mantener la sd Limpia
 # Y libre de Archivos que pudiesen ser problemáticos
 
-#tests
-.Test: 
-[Test
-+/ulaunch/
-<Makunga
-+/ulaunch/tupe1
-<2938432984723947832794
-+/ulaunch/tupe2
-<
-+/ulaunch/tupe3
-
 # Title Head
 .CleanUP...
 [Clean old files
