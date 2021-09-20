@@ -52,10 +52,17 @@
 -/atmosphere/config_templates/BCT.ini
 -/atmosphere/fusee-mtc.bin
 -/atmosphere/fusee-secondary.bin
+
 -/atmosphere/hosts/
+-/atmosphere/update/
 -/atmosphere/erpt_reports/
 -/atmosphere/fatal_errors/
 -/atmosphere/fatal_reports/
++/atmosphere/update/
++/atmosphere/erpt_reports/
++/atmosphere/fatal_errors/
++/atmosphere/fatal_reports/
+
 -/sept/
 -/bootloader/hekate_ipl.bak
 -/bootloader/payloads/boot_menu.bin
@@ -221,6 +228,6 @@
 -/switch/aio-switch-updater/
 
 # Add folders
-+config/MissionControl/controllers
++config/MissionControl/controllers/
 
 #End of Script
