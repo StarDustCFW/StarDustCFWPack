@@ -42,14 +42,17 @@
 -/atmosphere/kips/
 -/atmosphere/prodinfo.ini
 -/atmosphere/template.txt
+
 -/atmosphere/exefs_patches/NxThemesInstaller/
+-/atmosphere/exefs_patches/Signature Patches by br4z0rf/
+-/atmosphere/exefs_patches/Signature Patches by Rajkosto/
+
 -/atmosphere/bootlogo.bmp
 -/atmosphere/config/BCT.ini
 -/atmosphere/config_templates/BCT.ini
 -/atmosphere/fusee-mtc.bin
 -/atmosphere/fusee-secondary.bin
 -/atmosphere/hosts/
--/atmosphere/update/
 -/atmosphere/erpt_reports/
 -/atmosphere/fatal_errors/
 -/atmosphere/fatal_reports
