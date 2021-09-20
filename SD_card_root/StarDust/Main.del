@@ -212,7 +212,9 @@
 # Pequeña correccion
 </Backup/prodinfo.bin
 ~/prodinfo_sysnand.bin
-
+</switch/aio-switch-updater
+~/switch/XXX/aio-switch-updater
+-/switch/aio-switch-updater/
 # Add folders
 +config/MissionControl/controllers
 
