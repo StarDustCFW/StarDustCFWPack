@@ -209,19 +209,12 @@
 -/sxos/titles/0100000000001013/romfs/
 
 # Clean romfs_metadata
-.Clean metadata...
 [Clean romfs_metadata
-*romfs_metadata.bin
--/atmosphere/contents/
-**
-
-# Fix Archive bit to SD
-[Fix Archive bit
-.Fix Archive bit: 
-:atmosphere
-:atmosphere/contents
-:switch
-:switch/XXX
+-/atmosphere/contents/010000000000100C/romfs_metadata.bin
+-/atmosphere/contents/0100000000001000/romfs_metadata.bin
+#*romfs_metadata.bin
+#-/atmosphere/contents/
+#**
 
 # Pequeña correccion
 </Backup/prodinfo.bin
@@ -233,5 +226,17 @@
 # Add folders
 +config/MissionControl/controllers/
 
+# Service handle
+[Service Manager
+#mission control
+-/atmosphere/contents/010000000000bd00/flags/boot2.flag
+
+# Fix Archive bit to SD
+[Fix Archive bit
+.Fix Archive bit: 
+:atmosphere
+:atmosphere/contents
+:switch
+:switch/XXX
 
 #End of Script
