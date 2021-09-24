@@ -57,12 +57,11 @@
 +/atmosphere/hosts/
 -/atmosphere/update/
 +/atmosphere/update/
--/atmosphere/erpt_reports/
-+/atmosphere/erpt_reports/
 -/atmosphere/fatal_errors/
 +/atmosphere/fatal_errors/
 -/atmosphere/fatal_reports/
 +/atmosphere/fatal_reports/
+#-/atmosphere/erpt_reports/+/atmosphere/erpt_reports/
 #-/atmosphere/crash_reports/
 #+/atmosphere/crash_reports/
 
@@ -229,7 +228,7 @@
 # Service handle
 [Service Manager
 #mission control
--/atmosphere/contents/010000000000bd00/flags/boot2.flag
+#-/atmosphere/contents/010000000000bd00/flags/boot2.flag
 
 # Fix Archive bit to SD
 [Fix Archive bit
