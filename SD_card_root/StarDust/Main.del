@@ -223,7 +223,7 @@
 -/switch/aio-switch-updater/
 
 # Add folders
-+config/MissionControl/controllers/
+#+config/MissionControl/controllers/
 
 # Service handle
 [Service Manager
