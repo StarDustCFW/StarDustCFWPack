@@ -53,8 +53,6 @@
 -/atmosphere/fusee-mtc.bin
 -/atmosphere/fusee-secondary.bin
 
--/atmosphere/hosts/
-+/atmosphere/hosts/
 -/atmosphere/update/
 +/atmosphere/update/
 -/atmosphere/fatal_errors/
