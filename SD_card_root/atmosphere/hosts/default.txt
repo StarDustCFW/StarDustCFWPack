@@ -3,17 +3,18 @@
 #block nintendo
 127.0.0.1 *nintendo*
 
-# bypass connect and browser 
+# Bypass connect and browser 
 207.246.121.77 bvc*.nintendo.*
 95.216.149.205 bvc*.nintendo.*
 95.216.149.205 c*.nintendo*
 95.216.149.205 *90dns.test
 
-#ads
+# Ads
 127.0.0.1 ads.doubleclick.net
 127.0.0.1 s.ytimg.com
 127.0.0.1 ad.youtube.com
 127.0.0.1 ads.youtube.com
 127.0.0.1 clients1.google.com
-
-
+127.0.0.1 asccdn.com
+127.0.0.1 youradexchange.com
+127.0.0.1 *addthis.com
