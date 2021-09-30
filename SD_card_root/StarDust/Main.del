@@ -210,6 +210,8 @@
 [Clean romfs_metadata
 -/atmosphere/contents/010000000000100C/romfs_metadata.bin
 -/atmosphere/contents/0100000000001000/romfs_metadata.bin
+-/atmosphere/contents/01007EF00011E000/romfs_metadata.bin
+-/atmosphere/contents/010080b00ad66000/romfs_metadata.bin
 #*romfs_metadata.bin
 #-/atmosphere/contents/
 #**
