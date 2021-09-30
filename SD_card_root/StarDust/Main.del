@@ -222,7 +222,22 @@
 -/switch/aio-switch-updater/
 
 # Add folders
-#+config/MissionControl/controllers/
+[Add folders
++config/MissionControl/controllers/
++/atmosphere/contents/0000000000534C56/flags/
++/atmosphere/contents/00FF0000636C6BFF/flags/
++/atmosphere/contents/0100000000000081/flags/
++/atmosphere/contents/0100000000000352/flags/
++/atmosphere/contents/0100000000001000/flags/
++/atmosphere/contents/010000000000100C/flags/
++/atmosphere/contents/0100000000001013/flags/
++/atmosphere/contents/010000000000bd00/flags/
++/atmosphere/contents/054e4f4558454000/flags/
++/atmosphere/contents/4200000000000000/flags/
++/atmosphere/contents/420000000000000E/flags/
++/atmosphere/contents/4200000000000010/flags/
++/atmosphere/contents/420000000007E51A/flags/
++/atmosphere/contents/690000000000000D/flags/
 
 # Service handle
 [Service Manager
