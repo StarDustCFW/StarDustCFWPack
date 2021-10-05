@@ -1,0 +1,24 @@
+
+name: Build lib
+
+on: [push,workflow_dispatch]
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    container:
+      image: d3fau4/nx-dev:latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Update repo.
+      run: |
+        git submodule update --init --recursive
+        
+    - name: Make app
+      run: |
+        make -j$(nproc) release
+        
+    - uses: actions/upload-artifact@master
+      with:
+        name: Lib release
+        path: release/*
