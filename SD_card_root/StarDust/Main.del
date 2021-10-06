@@ -65,6 +65,7 @@
 
 -/sept/
 -/bootloader/hekate_ipl.bak
+-/bootloader/patches.ini
 -/bootloader/payloads/boot_menu.bin
 -/bootloader/update.bin
 -/config/hid_mitm/
@@ -81,6 +82,7 @@
 -/sxos/exefs_patches/NxThemesInstaller/
 -/sxos/template.txt
 -/sxos/titles/010000000000100C/exefs.nsp
+-/switch/RipJKAnime_NX/
 -/switch/mercury/
 -/switch/Z-stuff/
 -/switch/sys-clk-Editor/
