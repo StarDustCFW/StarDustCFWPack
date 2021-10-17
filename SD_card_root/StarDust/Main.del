@@ -218,6 +218,10 @@
 #-/atmosphere/contents/
 #**
 
+# SXOS Licence
+</StarDust/license.dat
+~/license.dat
+
 # Pequeña correccion
 </Backup/prodinfo.bin
 ~/prodinfo_sysnand.bin
