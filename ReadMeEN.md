@@ -14,12 +14,12 @@ Instalation
 <a href="https://discord.io/myrincon"><img src="borrame/prev1.jpg" alt="screenshot" /></a>
 
 **Credits**<br>
-https://github.com/Atmosphere-NX/Atmosphere<br>
-https://github.com/Reisyukaku/ReiNX<br>
-https://github.com/Guillem96/argon-nx<br>
-Retrogamer 74<br>
+[Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)<br>
+[ReiNX](https://github.com/Reisyukaku/ReiNX)<br>
+[argon-nx](https://github.com/Guillem96/argon-nx)<br>
 D3fau4<br>
 PricelessTwo2<br>
+Retrogamer 74 (el quejas)<br>
 
 # [Forks](https://github.com/StarDustCFW) <br>
 
