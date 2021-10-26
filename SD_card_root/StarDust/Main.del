@@ -59,7 +59,8 @@
 +/atmosphere/fatal_errors/
 -/atmosphere/fatal_reports/
 +/atmosphere/fatal_reports/
-#-/atmosphere/erpt_reports/+/atmosphere/erpt_reports/
+#-/atmosphere/erpt_reports/
+#+/atmosphere/erpt_reports/
 #-/atmosphere/crash_reports/
 #+/atmosphere/crash_reports/
 
@@ -93,6 +94,7 @@
 -/switch/Amiigo.nro
 -/switch/toolbox.nro
 -/switch/ChoiDujourNX.nro
+-/switch/ChoiDujourNX/
 -/switch/ftpd.nro
 -/switch/changelog
 -/switch/appstore.nro
@@ -195,15 +197,15 @@
 
 # remove themes
 [remove themes
--/atmosphere/contents/0100000000001000/romfs/lyt/Entrance.szs
--/atmosphere/contents/0100000000001000/sfmor/lyt/Entrance.szs
--/atmosphere/contents/0100000000001000/romfs/lyt/Set.szs
+#-/atmosphere/contents/0100000000001000/romfs/lyt/Entrance.szs
+#-/atmosphere/contents/0100000000001000/sfmor/lyt/Entrance.szs
+#-/atmosphere/contents/0100000000001000/romfs/lyt/Set.szs
 -/atmosphere/contents/0100000000001013/fsmitm.flag
 -/atmosphere/contents/0100000000001000/romfs/lyt/common.szs
 -/atmosphere/contents/0100000000001013/romfs/
 
--/sxos/titles/0100000000001000/romfs/lyt/Entrance.szs
--/sxos/titles/0100000000001000/romfs/lyt/Set.szs
+#-/sxos/titles/0100000000001000/romfs/lyt/Entrance.szs
+#-/sxos/titles/0100000000001000/romfs/lyt/Set.szs
 -/sxos/titles/0100000000001000/romfs/lyt/common.szs
 -/sxos/titles/0100000000001013/fsmitm.flag
 -/sxos/titles/0100000000001013/romfs/
