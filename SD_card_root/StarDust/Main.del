@@ -221,8 +221,10 @@
 #**
 
 # SXOS Licence
+</license.dat
+~/sxos/license.dat
 </StarDust/license.dat
-~/license.dat
+>/license.dat
 
 # Pequeña correccion
 </Backup/prodinfo.bin
