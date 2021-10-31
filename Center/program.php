@@ -19,25 +19,6 @@ if (!file_exists($OVL)) mkdir($OVL,0777,true);
 if (!file_exists($pay)) mkdir($pay,0777,true);
 if (!file_exists($root.$uLa)) mkdir($root.$uLa,0777,true);
 
-
-//print_r($info);
-/*
-sleep(30);
-https://github.com/XorTroll/uLaunch/releases
-
-echo ' CFW>'.PHP_EOL;
-	//CFW
-	$set = github_release("XorTroll/uLaunch");
-	if (DBC($set,$info)){
-		$filez=Download($set['files'][0]['url'],$TMP.$set['files'][0]['name']);
-		UnZip($filez,'/'.$uLa);
-		write_DB();
-	}
-sleep(30);
-*/
-
-
-
 echo 'HEAD>'.PHP_EOL;
 
 {
@@ -227,28 +208,6 @@ echo ' Data>'.PHP_EOL;
 		write_DB();
 	}
 
-
-
-
-
-
-	
-
-
-
-/*
-	//NRO
-	$set = github_release("D3fau4/NightFall");
-	if (DBC($set,$info)){
-		$filez=Download($set['files'][0]['url'],$TMP.$set['files'][0]['name']);
-		UnZip($filez);
-		unlink('switch/NightFall/config.json');
-		write_DB();
-	}
-
-*/
-
-	
 }
 if ($haschange){
 	CMD('del sdroot\\README.md /s/q');
@@ -324,14 +283,7 @@ function get_content_from_github($url,$force = false) {
 		$content = curl_exec($ch);
 		curl_close($ch);
 		if(!$force)
-/*
 
-	if (older(5,$files)||$force){
-		file_put_contents($files,$content.PHP_EOL);
-	}else{
-		$content = file_get_contents($files);
-	}
-*/
 	return json_decode($content,true)[0];
 }
 
@@ -354,9 +306,6 @@ function github_release($url){
 //	print_r($githubD);
 	return $set;
 	return $githubD;
-
-
-
 
 	for ($i=0; $i <= count($githubD['assets']); $i++){
 		//echo $githubD['assets'][$i]['name'].'   '.$wordK.'    '.strpos($githubD['assets'][$i]['name'],$wordK).PHP_EOL;
