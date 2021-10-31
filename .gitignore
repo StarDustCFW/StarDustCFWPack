@@ -2,3 +2,5 @@
 *.cmd
 For PC/emutool-*/*
 *.vbs
+Center/tmp
+Center/sdroot

@@ -134,12 +134,20 @@ echo ' Servisios>'.PHP_EOL;
 		write_DB();
 	}
 echo ' Overlay>'.PHP_EOL;
+// 
 	$set = github_release("WerWolv/ovl-sysmodules");
 	if (DBC($set,$info)){
 		Download($set['files'][0]['url'],$OVL.$set['files'][0]['name']);
 		write_DB();
 	}
 	
+	$set = github_release("znxDomain/DNS-MITM_Manager");
+	if (DBC($set,$info)){
+		$filez=Download($set['files'][0]['url'],$TMP.$set['files'][0]['name']);
+		UnZip($filez,'/switch/.overlays/');
+		write_DB();
+	}
+
 	$set = github_release("HookedBehemoth/sys-tune");
 	if (DBC($set,$info)){
 		$filez=Download($set['files'][0]['url'],$TMP.$set['files'][0]['name']);
@@ -213,10 +221,11 @@ if ($haschange){
 	CMD('del sdroot\\README.md /s/q');
 	CMD('del sdroot\\boot2.flag /s/q');
 	CMD('xcopy /H/F/E/Y sdroot\\ ..\\SD_card_root\\');
-	CMD('rmdir sdroot /s/q');
-	CMD('rmdir tmp /s/q');
 	CMD('cmd /c  ..\\Push.cmd');
 }
+CMD('rmdir sdroot /s/q');
+CMD('rmdir tmp /s/q');
+
 //print_r($set);
 echo 'END>';
 sleep(30);
