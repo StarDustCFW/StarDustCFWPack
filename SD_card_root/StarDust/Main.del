@@ -193,7 +193,7 @@
 -/StarDust/payloads/zBackup.bin
 -/StarDust/Touch
 -/StarDust/boot.temp
--/StarDust/ulaunch/
+#-/StarDust/ulaunch/
 
 # remove themes
 [remove themes
