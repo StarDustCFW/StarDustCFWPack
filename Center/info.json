@@ -1,59 +1,59 @@
 {
     "Atmosphere-NX_Atmosphere": {
-        "ver": null,
-        "date": 1635805517
+        "ver": "1.2.2",
+        "date": 1635722663
     },
     "Cpasjuste_pplay": {
-        "ver": null,
-        "date": 1635805518
+        "ver": "v3.5",
+        "date": 1633432517
     },
     "J-D-K_JKSV": {
-        "ver": null,
-        "date": 1635805518
+        "ver": "09\/01\/2021",
+        "date": 1633432520
     },
     "rdmrocha_linkalho": {
-        "ver": null,
-        "date": 1635805519
+        "ver": "v1.0.6",
+        "date": 1635468809
     },
     "Huntereb_Awoo-Installer": {
-        "ver": null,
-        "date": 1635805519
+        "ver": "1.3.4",
+        "date": 1633432524
     },
     "exelix11_SwitchThemeInjector": {
-        "ver": null,
-        "date": 1635805519
+        "ver": "v-4.6.4",
+        "date": 1635540762
     },
     "XorTroll_Goldleaf": {
-        "ver": null,
-        "date": 1635805519
+        "ver": "0.9",
+        "date": 1633432529
     },
     "ndeadly_MissionControl": {
-        "ver": null,
-        "date": 1635805520
+        "ver": "v0.6.1",
+        "date": 1635453893
     },
     "spacemeowx2_ldn_mitm": {
-        "ver": null,
-        "date": 1635805521
+        "ver": "v1.11.0",
+        "date": 1635437687
     },
     "XorTroll_emuiibo": {
-        "ver": null,
-        "date": 1635805521
+        "ver": "0.6.3",
+        "date": 1633432534
     },
     "cathery_sys-con": {
-        "ver": null,
-        "date": 1635805521
+        "ver": "v0.6.4",
+        "date": 1633432536
     },
     "retronx-team_sys-clk": {
-        "ver": null,
-        "date": 1635805522
+        "ver": "1.0.1",
+        "date": 1633432538
     },
     "WerWolv_nx-ovlloader": {
-        "ver": null,
-        "date": 1635805522
+        "ver": "v1.0.6",
+        "date": 1633432539
     },
     "WerWolv_ovl-sysmodules": {
-        "ver": null,
-        "date": 1635805522
+        "ver": "v1.2.2",
+        "date": 1633432541
     },
     "HookedBehemoth_sys-tune": {
         "ver": "v1.2.1",
@@ -96,15 +96,15 @@
         "date": 1635722683
     },
     "HamletDuFromage_aio-switch-updater": {
-        "ver": null,
-        "date": 1635805518
+        "ver": "2.16.1",
+        "date": 1635437678
     },
     "XorTroll_uLaunch": {
-        "ver": null,
-        "date": 1635805520
+        "ver": "0.3.1",
+        "date": 1635722906
     },
     "znxDomain_DNS-MITM_Manager": {
-        "ver": null,
-        "date": 1635805523
+        "ver": "0.1.0",
+        "date": 1635724100
     }
 }
