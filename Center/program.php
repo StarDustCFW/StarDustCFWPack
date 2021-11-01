@@ -1,6 +1,4 @@
 <?php
-echo '---';
-
 //get info
 $info = array();
 $infofile = 'info.json';
@@ -289,12 +287,20 @@ function get_content_from_github($url,$force = false) {
 		curl_setopt($ch,CURLOPT_RETURNTRANSFER,1); 
 		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 	//	curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,1);
-		//curl_setopt($ch, CURLOPT_HTTPHEADER, $Headers = ['Authorization: token ???????????????????']);
+		if (file_exists("token.vbs")){
+			$token = file_get_contents("token.vbs");
+			curl_setopt($ch, CURLOPT_HTTPHEADER, $Headers = ['Authorization: token '.$token]);
+		}
 		$content = curl_exec($ch);
 		curl_close($ch);
 		if(!$force)
-
-	return json_decode($content,true)[0];
+	$result = json_decode($content,true);
+	if(isset($result['message'])){
+		print_r($result);
+		sleep(30);
+		die();
+	}
+	return $result[0];
 }
 
 function github_release($url){
@@ -305,7 +311,7 @@ function github_release($url){
 	
 	$githubD = get_content_from_github($url.'/releases');
 	
-	//print_r($set);
+	//print_r($githubD);
 	$set['version']=$githubD['tag_name'];
 	
 	for ($i=0; $i < count($githubD['assets']); $i++){
