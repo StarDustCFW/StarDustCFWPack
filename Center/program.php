@@ -1,10 +1,11 @@
-﻿<?php
+<?php
+echo '---';
+
 //get info
 $info = array();
 $infofile = 'info.json';
 if (file_exists($infofile)) $info = json_decode(file_get_contents($infofile),true);
 $haschange=false;
-
 //Folders
 $root='sdroot/';
 $pay=$root.'StarDust/payloads/';
@@ -220,7 +221,7 @@ echo ' Data>'.PHP_EOL;
 if ($haschange){
 	CMD('del sdroot\\README.md /s/q');
 	CMD('del sdroot\\boot2.flag /s/q');
-	CMD('xcopy /H/F/E/Y sdroot\\ ..\\SD_card_root\\');
+	CMD('xcopy /H/F/E/Y sdroot\\* ..\\SD_card_root\\');
 	CMD('cmd /c  ..\\Push.cmd');
 }
 CMD('rmdir sdroot /s/q');
