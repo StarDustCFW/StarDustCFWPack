@@ -12,11 +12,13 @@ $NRO=$root.'switch/';
 $OVL=$root.'switch/.overlays/';
 $XXX=$root.'switch/XXX/';
 $TMP='tmp/';
+$AMSIPS=$root.'atmosphere/kip_patches/loader_patches';
 if (!file_exists($XXX)) mkdir($XXX,0777,true);
 if (!file_exists($TMP)) mkdir($TMP,0777,true);
 if (!file_exists($OVL)) mkdir($OVL,0777,true);
 if (!file_exists($pay)) mkdir($pay,0777,true);
 if (!file_exists($root.$uLa)) mkdir($root.$uLa,0777,true);
+if (!file_exists($AMSIPS)) mkdir($AMSIPS,0777,true);
 
 echo 'HEAD>'.PHP_EOL;
 
@@ -31,9 +33,9 @@ echo ' CFW>'.PHP_EOL;
 		Download($set['files'][1]['url'],$pay.$set['files'][1]['name']);
 		unlink($root.'atmosphere/reboot_payload.bin');
 		unlink($root.'switch/reboot_to_payload.nro');
+		CMD('Loader-AutoIPS.exe sdroot\\atmosphere\\package3 sdroot\\atmosphere\\kip_patches\\loader_patches\\');
 		write_DB();
 	}
-
 echo ' NRO>'.PHP_EOL;
 	//NRO
 	$set = github_release("HamletDuFromage/aio-switch-updater");
