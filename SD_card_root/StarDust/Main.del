@@ -122,7 +122,7 @@
 -/reboot.nro
 
 # Nada en contra de RR es solo que si usas este pack esos ficheros son innesesarios
--/ulaunch/
+#-/ulaunch/
 -/Toolkit/
 -/uboot/
 -/modules/
@@ -212,13 +212,13 @@
 
 # Clean romfs_metadata
 [Clean romfs_metadata
--/atmosphere/contents/010000000000100C/romfs_metadata.bin
--/atmosphere/contents/0100000000001000/romfs_metadata.bin
--/atmosphere/contents/01007EF00011E000/romfs_metadata.bin
--/atmosphere/contents/010080b00ad66000/romfs_metadata.bin
-#*romfs_metadata.bin
-#-/atmosphere/contents/
-#**
+#-/atmosphere/contents/010000000000100C/romfs_metadata.bin
+#-/atmosphere/contents/0100000000001000/romfs_metadata.bin
+#-/atmosphere/contents/01007EF00011E000/romfs_metadata.bin
+#-/atmosphere/contents/010080b00ad66000/romfs_metadata.bin
+*romfs_metadata.bin
+-/atmosphere/contents/
+**
 
 # SXOS Licence
 </StarDust/license.dat
