@@ -106,5 +106,9 @@
     "znxDomain_DNS-MITM_Manager": {
         "ver": "0.1.0",
         "date": 1635724100
+    },
+    "tomvita_EdiZon-SE": {
+        "ver": "3.8.25c",
+        "date": 1636995575
     }
 }

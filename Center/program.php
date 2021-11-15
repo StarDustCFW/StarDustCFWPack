@@ -64,6 +64,13 @@ echo ' NRO>'.PHP_EOL;
 		write_DB();
 	}
 
+	$set = github_release("tomvita/EdiZon-SE");
+	if (DBC($set,$info)){
+		$filez=Download($set['files'][0]['url'],$TMP.$set['files'][0]['name']);
+		UnZip($filez);
+		write_DB();
+	}
+
 	$set = github_release("Huntereb/Awoo-Installer");
 	if (DBC($set,$info)){
 		$filez=Download($set['files'][0]['url'],$TMP.$set['files'][0]['name']);
