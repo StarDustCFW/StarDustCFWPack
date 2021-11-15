@@ -202,7 +202,7 @@
 
 # remove themes
 [remove themes
--/atmosphere/contents/0100000000001000/romfs/
+#-/atmosphere/contents/0100000000001000/romfs/
 -/atmosphere/contents/0100000000001000/romfs/lyt/Entrance.szs
 -/atmosphere/contents/0100000000001000/sfmor/lyt/Entrance.szs
 -/atmosphere/contents/0100000000001000/romfs/lyt/common.szs
