@@ -3,11 +3,11 @@
 StarDustCFWPack
 ## Guide for newbies
 
-* 1.- Download the latest Stable Release [Here](https://github.com/StarDustCFW/StarDustCFWPack/releases/latest) 
+#### * 1.- Download the latest Stable Release [Here](https://github.com/StarDustCFW/StarDustCFWPack/releases/latest) 
 
 ![alt text](borrame/12.png)
 
-* 2.- Open compressed file
+#### * 2.- Open compressed file
 
 ![alt text](borrame/22.png)
 
@@ -15,20 +15,20 @@ Copy and overwrite the contents of **SD_card_root** in the SD
 
 ![alttext](borrame/32.png)
 
-* 3.- Always use [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/boot_payload.bin?raw=true) to drag with [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases/latest) or other injector like RCMloader, Rekado ...
+#### * 3.- Always use [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/boot_payload.bin?raw=true) to drag with [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases/latest) or other injector like RCMloader, Rekado ...
 * * This payload never changes will be the same today and tomorrow, Its objective, Start StarDustCFWpack Correctly
 * * *  (PegaScape) users: Run cafeine has always and after step 2 go to step 4 (d'not enable AutoRCM on iPatched unit) 
 ![alt text](borrame/42.png)
 
- 3a.-If you use R4s, use this [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true) in the dongle. instructions [Here](http://bit.ly/2tLBTua).
+#### 3a.-If you use R4s, use this [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true) in the dongle. instructions [Here](http://bit.ly/2tLBTua).
 
-3b.-For RCM loader like me, delete all inside the device and use [RCM_Loader_Firmware](https://github.com/StarDustCFW/StarDustCFWPack/raw/master/borrame/RCM_Loader_Root/RCM_Loader_Firmware.rar) has the new firmware <a href="https://es.aliexpress.com/item/4000406540765.html?spm=a2g0o.productlist.0.0.11af28b8SIiAsF&algo_pvid=acdccb2e-5226-4aa3-8998-908524c71a79&algo_expid=acdccb2e-5226-4aa3-8998-908524c71a79-0&btsid=bd7c91ef-0833-4837-a0df-243f0b05ce1c&ws_ab_test=searchweb0_0,searchweb201602_9,searchweb201603_53"> <img src = "borrame/LED.png" alt = "Rcm loader"/> </a >
+#### 3b.-For RCM loader like me, delete all inside the device and use [RCM_Loader_Firmware](https://github.com/StarDustCFW/StarDustCFWPack/raw/master/borrame/RCM_Loader_Root/RCM_Loader_Firmware.rar) has the new firmware <a href="https://es.aliexpress.com/item/4000406540765.html?spm=a2g0o.productlist.0.0.11af28b8SIiAsF&algo_pvid=acdccb2e-5226-4aa3-8998-908524c71a79&algo_expid=acdccb2e-5226-4aa3-8998-908524c71a79-0&btsid=bd7c91ef-0833-4837-a0df-243f0b05ce1c&ws_ab_test=searchweb0_0,searchweb201602_9,searchweb201603_53"> <img src = "borrame/LED.png" alt = "Rcm loader"/> </a >
 
-* 4.- Install Incognito to use the internet safely
+#### * 4.- Install Incognito to use the internet safely
 You can follow this video: [Incognito_RCM](https://www.youtube.com/watch?v=eHPqRX4tv5E&list=PLNawpCFHdbXY-ZgF43vEJBk2IoweJfAlm)
 <a href="https://www.youtube.com/watch?v=eHPqRX4tv5E&list=PLNawpCFHdbXY-ZgF43vEJBk2IoweJfAlm"> <img src = "borrame/incognito.jpg" alt = "Incognito_RCM"/> </a >
 
-5.- Choose one of the boot options.
+#### * 5.- Choose one of the boot options.
 
 ![alt text](borrame/screenshot.png)
 
