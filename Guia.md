@@ -22,7 +22,7 @@ Copiar Y sobrescribir el contenido de **SD_card_root** en la sd
 
  3a.-Si usas R4s, usa este [CURRENT.UF2](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/borrame/CURRENT.UF2?raw=true) en el dongle. instrucciones [Aqui](http://bit.ly/2tLBTua).
 
-3b.-Para RCM loader como yo, copia [boot_payload.bin](https://github.com/Kronos2308/StarDustCFWPack/blob/master/borrame/PAYLOAD.BIN?raw=true) en /ATMOPHERE_HEKATE/PAYLOAD.BIN dentro del dongle sobrescribiendo, luego selecciona el color AZUL 
+3b.-Para RCM loader como yo,borra todo lo q esta dentro del aparato y descarga [RCM_Loader_Firmware](https://github.com/StarDustCFW/StarDustCFWPack/raw/master/borrame/RCM_Loader_Root/RCM_Loader_Firmware.rar) y descomprimelo en el aparato, esto cargara un payload.bin de la sd 
 <a href="https://es.aliexpress.com/item/4000406540765.html?spm=a2g0o.productlist.0.0.11af28b8SIiAsF&algo_pvid=acdccb2e-5226-4aa3-8998-908524c71a79&algo_expid=acdccb2e-5226-4aa3-8998-908524c71a79-0&btsid=bd7c91ef-0833-4837-a0df-243f0b05ce1c&ws_ab_test=searchweb0_0,searchweb201602_9,searchweb201603_53"> <img src = "borrame/LED.png" alt = "Rcm loader"/> </a >
 
 
