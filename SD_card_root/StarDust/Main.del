@@ -14,7 +14,7 @@
 # borrar SoundNX
 [SoundNX
 #-/atmosphere/contents/010000000000100C/
-#-/atmosphere/contents/010000000000100C/romfs/
+-/atmosphere/contents/010000000000100C/romfs/
 
 # borrar archivos innecesarios que se acumulan
 [General Clean
