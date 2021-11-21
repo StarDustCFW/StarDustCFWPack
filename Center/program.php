@@ -30,7 +30,7 @@ echo ' CFW>'.PHP_EOL;
 	if (DBC($set,$info)){
 		$filez=Download($set['files'][0]['url'],$TMP.$set['files'][0]['name']);
 		UnZip($filez);
-		Download($set['files'][1]['url'],$pay.$set['files'][1]['name']);
+		Download($set['files'][1]['url'],$pay.'Atmosphere.bin');
 		unlink($root.'atmosphere/reboot_payload.bin');
 		unlink($root.'switch/reboot_to_payload.nro');
 		CMD('Loader-AutoIPS.exe sdroot\\atmosphere\\package3 sdroot\\atmosphere\\kip_patches\\loader_patches\\');
