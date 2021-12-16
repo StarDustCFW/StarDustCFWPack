@@ -253,6 +253,10 @@ function DBC($set,$info){
 //echo $info[$set['repo']].' --> '.$set['version'];
 	$name = $set['autor'].'_'.$set['repo'];
 	if (!isset($info[$name]['ver']) || $info[$name]['ver']!=$set['version']){
+		if($set['version'] == null){
+			echo '  ERR '.$name.' --> '.$set['version'].PHP_EOL;
+			return false;
+		}
 		echo '  >> '.$name.' --> '.$set['version'].PHP_EOL;
 		return true;
 	} else {
@@ -321,7 +325,10 @@ function github_release($url){
 	$githubD = get_content_from_github($url.'/releases');
 	
 	//print_r($githubD);
+
 	$set['version']=$githubD['tag_name'];
+	//print_r($set);
+	//exit();
 	
 	for ($i=0; $i < count($githubD['assets']); $i++){
 		$set['files'][$i]['name']=$githubD['assets'][$i]['name'];
@@ -330,6 +337,8 @@ function github_release($url){
 	
 //	print_r($githubD);
 	return $set;
+	/*
+	//
 	return $githubD;
 
 	for ($i=0; $i <= count($githubD['assets']); $i++){
@@ -344,6 +353,10 @@ function github_release($url){
 			return $set;
 		}
 	}//print_r($set);
-	return $githubD;
+	return $githubD;	
+	
+	
+	*/
+
 }
 ?>
