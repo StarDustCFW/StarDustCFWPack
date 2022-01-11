@@ -1,7 +1,7 @@
 <a href="https://discord.io/myrincon"><img src="https://discordapp.com/api/guilds/516631805621960704/embed.png" alt="Discord Server" /></a> >>[Leer en español](ReadMe.md)<< >> **[Beta Pack](https://github.com/StarDustCFW/StarDustCFWPack/archive/refs/heads/master.zip)**<<
 # StarDustCFWPack (STD)<a href="https://github.com/StarDustCFW/StarDustCFWPack/releases/latest"><img src="https://img.shields.io/github/downloads/StarDustCFW/StarDustCFWPack/total?style=for-the-badge" alt="Downloads" /></a><br>
 #### Release [Compressed](https://github.com/StarDustCFW/StarDustCFWPack/actions)
-## Support 13.1.0 and Below
+## Support 13.2.0 and Below
 ### STD is a pack with the current cfw, configured to live well together, Atmosphere, SXOS, Android. With a comfortable interface, also add the most basic apps to start<br>
 <a href="https://discord.io/myrincon"><img src="borrame/prev2.jpg" alt="screenshot" /></a>
 
