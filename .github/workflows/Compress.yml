@@ -1,6 +1,9 @@
 name: Compress
+on:
+  push:
+    tags:
+    - '*'
 
-on: [push]
 jobs:
   build:
 
