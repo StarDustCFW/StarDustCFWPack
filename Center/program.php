@@ -45,12 +45,14 @@ echo ' NRO>'.PHP_EOL;
 		rename ($root.'/switch/aio-switch-updater',$XXX.'aio-switch-updater');
 		write_DB();
 	}
+	/*
 	$set = github_release("Cpasjuste/pplay");
 	if (DBC($set,$info)){
 		$filez=Download($set['files'][0]['url'],$TMP.$set['files'][0]['name']);
 		UnZip($filez,'/switch/');
 		write_DB();
 	}
+	*/
 	$set = github_release("J-D-K/JKSV");
 	if (DBC($set,$info)){
 		Download($set['files'][0]['url'],getnro($set['files'][0]['name']));
