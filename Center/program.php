@@ -45,7 +45,17 @@ echo ' NRO>'.PHP_EOL;
 		rename ($root.'/switch/aio-switch-updater',$XXX.'aio-switch-updater');
 		write_DB();
 	}
+	$set = github_release("proconsule/nxmp");
+	if (DBC($set,$info)){
+		$filez=Download($set['files'][0]['url'],$TMP.$set['files'][0]['name']);
+		UnZip($filez,'/switch/');
+		CMD('rmdir /s/q sdroot\\switch\\nxmp\\mpv\\anime4k ');
+		CMD('rmdir /s/q sdroot\\switch\\nxmp\\mpv\\shaders ');
+		write_DB();
+	}
 	/*
+sleep(30);
+return;
 	$set = github_release("Cpasjuste/pplay");
 	if (DBC($set,$info)){
 		$filez=Download($set['files'][0]['url'],$TMP.$set['files'][0]['name']);
