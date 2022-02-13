@@ -51,7 +51,7 @@ echo ' NRO>'.PHP_EOL;
 		UnZip($filez,'/switch/');
 		CMD('rmdir /s/q sdroot\\switch\\nxmp\\mpv\\anime4k ');
 		CMD('rmdir /s/q sdroot\\switch\\nxmp\\mpv\\shaders ');
-		CMD('rmdir /s/q sdroot\\switch\\nxmp\\mpv\\themes ');
+		CMD('rmdir /s/q sdroot\\switch\\nxmp\\themes ');
 		write_DB();
 	}
 	/*
