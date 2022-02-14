@@ -146,6 +146,7 @@
 # Corregir Archivos basura
 [StarDust Clean...
 -/StarDust/payloads/Stock.bin
+-/StarDust/payloads/fusee.bin
 -/StarDust/ftpd/
 -/StarDust/back-exp.bmp
 -/StarDust/background.bmp
