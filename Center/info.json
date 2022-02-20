@@ -96,8 +96,8 @@
         "date": 1642641426
     },
     "HamletDuFromage_aio-switch-updater": {
-        "ver": "2.16.3",
-        "date": 1642131651
+        "ver": "2.17.0",
+        "date": 1645373055
     },
     "XorTroll_uLaunch": {
         "ver": "0.3.2",
@@ -112,7 +112,7 @@
         "date": 1639475863
     },
     "proconsule_nxmp": {
-        "ver": "v0.6.2_Rev8_Nightly",
-        "date": 1645308242
+        "ver": "v0.6.2",
+        "date": 1645373063
     }
 }
