@@ -205,8 +205,11 @@
 [remove themes
 #-/atmosphere/contents/0100000000001000/romfs/
 -/atmosphere/contents/0100000000001000/romfs/lyt/Entrance.szs
--/atmosphere/contents/0100000000001000/sfmor/lyt/Entrance.szs
 -/atmosphere/contents/0100000000001000/romfs/lyt/common.szs
+-/atmosphere/contents/0100000000001000/romfs/lyt/Flaunch.szs
+-/atmosphere/contents/0100000000001000/sfmor/lyt/Entrance.szs
+-/atmosphere/contents/0100000000001000/sfmor/lyt/common.szs
+-/atmosphere/contents/0100000000001000/sfmor/lyt/Flaunch.szs
 -/atmosphere/contents/0100000000001013/fsmitm.flag
 #-/atmosphere/contents/0100000000001000/romfs/lyt/Set.szs
 #-/atmosphere/contents/0100000000001013/romfs/
@@ -240,7 +243,7 @@
 
 # Add folders
 [Add folders
-+config/MissionControl/controllers/
++/config/MissionControl/controllers/
 +/atmosphere/contents/0000000000534C56/flags/
 +/atmosphere/contents/00FF0000636C6BFF/flags/
 +/atmosphere/contents/0100000000000081/flags/
