@@ -1,7 +1,7 @@
 {
     "Atmosphere-NX_Atmosphere": {
-        "ver": "1.3.0",
-        "date": 1648139670
+        "ver": "1.3.1",
+        "date": 1649122430
     },
     "Cpasjuste_pplay": {
         "ver": "v3.6",
@@ -92,8 +92,8 @@
         "date": 1648070193
     },
     "ITotalJustice_patches": {
-        "ver": "14.0.0-1.3.0-p2",
-        "date": 1648091786
+        "ver": "14.1.0-1.3.1",
+        "date": 1649122450
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.17.1",
