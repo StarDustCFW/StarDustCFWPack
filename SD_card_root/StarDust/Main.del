@@ -262,7 +262,7 @@
 # Service handle
 [Service Manager
 #mission control
--/atmosphere/contents/010000000000bd00/flags/boot2.flag
+#-/atmosphere/contents/010000000000bd00/flags/boot2.flag
 
 # Fix Archive bit to SD
 .Fix Archive bit: 
