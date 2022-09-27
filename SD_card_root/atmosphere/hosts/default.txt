@@ -44,6 +44,9 @@
 127.0.0.1 9*.nintendo.*
 127.0.0.1 0*.nintendo.*
 
+# Block Nintendo Telemetry logs
+127.0.0.1 receive-%.dg.srv.nintendo.net receive-%.er.srv.nintendo.net
+
 # 90 dns
 95.216.149.205 *90dns.test
 

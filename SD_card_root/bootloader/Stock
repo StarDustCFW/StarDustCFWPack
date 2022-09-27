@@ -12,3 +12,33 @@ fss0=atmosphere/package3
 stock=1
 emummc_force_disable=1
 {}
+
+[Atmosphere]
+payload=StarDust/payloads/Atmosphere.bin
+icon=bootloader/res/AMS.bmp
+{ }
+
+[SXOS]
+payload=StarDust/payloads/SXOS.bin
+icon=bootloader/res/SXOS.bmp
+{ }
+
+[Incognito_RCM]
+payload=StarDust/payloads/Incognito_RCM.bin
+{ }
+
+[Lockpick_RCM]
+payload=StarDust/payloads/Lockpick_RCM.bin
+{ }
+
+[TegraExplorer]
+payload=StarDust/payloads/TegraExplorer.bin
+{ }
+
+[Prodinfo_gen]
+payload=StarDust/payloads/prodinfo_gen.bin
+{ }
+
+[StarDust Menu]
+payload=StarDust.bin
+{ }
