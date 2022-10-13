@@ -269,11 +269,9 @@
 #-/atmosphere/contents/010000000000bd00/flags/boot2.flag
 
 # Fix Archive bit to SD
-#.Fix Archive bit: 
-#[Fix Archive bit
-#:atmosphere
-#:atmosphere/contents
-#:switch
-#:switch/XXX
+.Fix Archive bit: 
+[Fix Archive bit
+:atmosphere
+:switch
 
 #End of Script
