@@ -234,6 +234,10 @@
 </StarDust/license.dat
 >/license.dat
 
+# Remove V2 patch
+</StarDust.bin
+>/payload.bin
+
 # Pequeña correccion
 </Backup/prodinfo.bin
 ~/prodinfo_sysnand.bin
