@@ -65,7 +65,7 @@
     },
     "masagrator_Status-Monitor-Overlay": {
         "ver": "0.7",
-        "date": 1668524549
+        "date": 1668861268
     },
     "nedex_QuickNTP": {
         "ver": "1.2.6",
@@ -81,7 +81,7 @@
     },
     "shchmue_Lockpick_RCM": {
         "ver": "v1.9.9",
-        "date": 1668524555
+        "date": 1668861272
     },
     "suchmememanyskill_TegraExplorer": {
         "ver": "4.0.1-hotfix3",
@@ -97,7 +97,7 @@
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.21.1",
-        "date": 1668524476
+        "date": 1668861253
     },
     "XorTroll_uLaunch": {
         "ver": "0.3.4",
@@ -114,5 +114,9 @@
     "proconsule_nxmp": {
         "ver": "v0.6.3_Rev7_Nightly",
         "date": 1656455897
+    },
+    "proferabg_EdiZon-Overlay": {
+        "ver": "v1.0.3",
+        "date": 1668861552
     }
 }
