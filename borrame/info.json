@@ -1,122 +1,170 @@
 {
     "Atmosphere-NX_Atmosphere": {
         "ver": "1.5.0-prerelease",
-        "date": 1677112574
-    },
-    "Cpasjuste_pplay": {
-        "ver": "v3.6",
-        "date": 1644145752
-    },
-    "J-D-K_JKSV": {
-        "ver": "02\/23\/2023",
-        "date": 1677192914
-    },
-    "rdmrocha_linkalho": {
-        "ver": "v2.0.1",
-        "date": 1666578093
-    },
-    "Huntereb_Awoo-Installer": {
-        "ver": "1.3.5",
-        "date": 1671077635
-    },
-    "exelix11_SwitchThemeInjector": {
-        "ver": "v-4.7",
-        "date": 1648318635
-    },
-    "XorTroll_Goldleaf": {
-        "ver": "0.10",
-        "date": 1644534663
-    },
-    "ndeadly_MissionControl": {
-        "ver": "v0.9.0",
-        "date": 1677192923
-    },
-    "spacemeowx2_ldn_mitm": {
-        "ver": "v1.14.0",
-        "date": 1666656849
-    },
-    "XorTroll_emuiibo": {
-        "ver": "0.6.4",
-        "date": 1652250301
-    },
-    "cathery_sys-con": {
-        "ver": "v0.6.4",
-        "date": 1639475886
-    },
-    "retronx-team_sys-clk": {
-        "ver": "1.0.2",
-        "date": 1652253902
-    },
-    "WerWolv_nx-ovlloader": {
-        "ver": "v1.0.6",
-        "date": 1639475892
-    },
-    "WerWolv_ovl-sysmodules": {
-        "ver": "v1.3.0",
-        "date": 1666656853
-    },
-    "HookedBehemoth_sys-tune": {
-        "ver": "v1.2.2",
-        "date": 1677384108
-    },
-    "HeadpatServices_sys-clk-Overlay": {
-        "ver": "v1.1",
-        "date": 1639475901
-    },
-    "masagrator_Status-Monitor-Overlay": {
-        "ver": "0.8.0",
-        "date": 1677453168
-    },
-    "nedex_QuickNTP": {
-        "ver": "1.2.7",
-        "date": 1677281668
-    },
-    "WerWolv_Tesla-Menu": {
-        "ver": "v1.2.0",
-        "date": 1652300719
-    },
-    "CaramelDunes_prodinfo_gen": {
-        "ver": "v1.1.0",
-        "date": 1648891204
-    },
-    "shchmue_Lockpick_RCM": {
-        "ver": "v1.9.10",
-        "date": 1677111772
-    },
-    "suchmememanyskill_TegraExplorer": {
-        "ver": "4.0.1-hotfix4",
-        "date": 1677027322
-    },
-    "CTCaer_hekate": {
-        "ver": "v6.0.2",
-        "date": 1677146706
-    },
-    "ITotalJustice_patches": {
-        "ver": "14.1.0-1.3.2",
-        "date": 1651278051
+        "prerelease": true,
+        "published_at": null,
+        "date": 1677454618
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.21.3",
-        "date": 1670212896
-    },
-    "XorTroll_uLaunch": {
-        "ver": "0.3.4",
-        "date": 1650194122
-    },
-    "znxDomain_DNS-MITM_Manager": {
-        "ver": "0.1.0",
-        "date": 1639475896
-    },
-    "tomvita_EdiZon-SE": {
-        "ver": "3.8.36",
-        "date": 1655721290
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454622
     },
     "proconsule_nxmp": {
         "ver": "v0.6.3_Rev7_Nightly",
-        "date": 1656455897
+        "prerelease": true,
+        "published_at": null,
+        "date": 1677454631
+    },
+    "J-D-K_JKSV": {
+        "ver": "02\/23\/2023",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454633
+    },
+    "rdmrocha_linkalho": {
+        "ver": "v2.0.1",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454637
+    },
+    "tomvita_EdiZon-SE": {
+        "ver": "3.8.36",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454642
+    },
+    "Huntereb_Awoo-Installer": {
+        "ver": "1.3.5",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454647
+    },
+    "exelix11_SwitchThemeInjector": {
+        "ver": "v-4.7",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454651
+    },
+    "XorTroll_Goldleaf": {
+        "ver": "0.10",
+        "prerelease": true,
+        "published_at": null,
+        "date": 1677454654
+    },
+    "XorTroll_uLaunch": {
+        "ver": "0.3.4",
+        "prerelease": true,
+        "published_at": null,
+        "date": 1677454659
+    },
+    "ndeadly_MissionControl": {
+        "ver": "v0.9.0",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454662
+    },
+    "spacemeowx2_ldn_mitm": {
+        "ver": "v1.14.0",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454666
+    },
+    "XorTroll_emuiibo": {
+        "ver": "0.6.4",
+        "prerelease": true,
+        "published_at": null,
+        "date": 1677454669
+    },
+    "cathery_sys-con": {
+        "ver": "v0.6.4",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454671
+    },
+    "retronx-team_sys-clk": {
+        "ver": "1.0.2",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454675
+    },
+    "WerWolv_nx-ovlloader": {
+        "ver": "v1.0.6",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454677
+    },
+    "WerWolv_ovl-sysmodules": {
+        "ver": "v1.3.0",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454680
+    },
+    "znxDomain_DNS-MITM_Manager": {
+        "ver": "0.1.0",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454683
+    },
+    "HookedBehemoth_sys-tune": {
+        "ver": "v1.2.2",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454686
     },
     "proferabg_EdiZon-Overlay": {
         "ver": "v1.0.4",
-        "date": 1677384112
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454689
+    },
+    "HeadpatServices_sys-clk-Overlay": {
+        "ver": "v1.1",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454691
+    },
+    "masagrator_Status-Monitor-Overlay": {
+        "ver": "0.8.0",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454693
+    },
+    "nedex_QuickNTP": {
+        "ver": "1.2.7",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454695
+    },
+    "WerWolv_Tesla-Menu": {
+        "ver": "v1.2.0",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454698
+    },
+    "CaramelDunes_prodinfo_gen": {
+        "ver": "v1.1.0",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454700
+    },
+    "shchmue_Lockpick_RCM": {
+        "ver": "v1.9.10",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454702
+    },
+    "suchmememanyskill_TegraExplorer": {
+        "ver": "4.0.1-hotfix4",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454704
+    },
+    "CTCaer_hekate": {
+        "ver": "v6.0.2",
+        "prerelease": false,
+        "published_at": null,
+        "date": 1677454707
     }
 }
