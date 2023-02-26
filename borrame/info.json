@@ -56,8 +56,8 @@
         "date": 1666656853
     },
     "HookedBehemoth_sys-tune": {
-        "ver": "v1.2.1",
-        "date": 1639475898
+        "ver": "v1.2.2",
+        "date": 1677384108
     },
     "HeadpatServices_sys-clk-Overlay": {
         "ver": "v1.1",
@@ -116,7 +116,7 @@
         "date": 1656455897
     },
     "proferabg_EdiZon-Overlay": {
-        "ver": "v1.0.3",
-        "date": 1668861552
+        "ver": "v1.0.4",
+        "date": 1677384112
     }
 }
