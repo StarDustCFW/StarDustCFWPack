@@ -2,169 +2,146 @@
     "Atmosphere-NX_Atmosphere": {
         "ver": "1.5.0-prerelease",
         "prerelease": true,
-        "published_at": null,
-        "date": 1677454618
+        "published_at": "2023-02-23T01:45:30Z",
+        "date": 1677455010
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.21.3",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454622
+        "published_at": "2022-12-05T01:41:27Z",
+        "date": 1677455012
     },
     "proconsule_nxmp": {
         "ver": "v0.6.3_Rev7_Nightly",
         "prerelease": true,
-        "published_at": null,
-        "date": 1677454631
+        "published_at": "2022-06-28T17:15:52Z",
+        "date": 1677455017
     },
     "J-D-K_JKSV": {
         "ver": "02\/23\/2023",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454633
+        "published_at": "2023-02-23T22:28:30Z",
+        "date": 1677455019
     },
     "rdmrocha_linkalho": {
         "ver": "v2.0.1",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454637
+        "published_at": "2022-10-22T11:16:27Z",
+        "date": 1677455021
     },
     "tomvita_EdiZon-SE": {
         "ver": "3.8.36",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454642
+        "published_at": "2022-06-20T09:56:45Z",
+        "date": 1677455024
     },
     "Huntereb_Awoo-Installer": {
         "ver": "1.3.5",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454647
+        "published_at": "2022-12-15T15:38:08Z",
+        "date": 1677455026
     },
     "exelix11_SwitchThemeInjector": {
         "ver": "v-4.7",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454651
+        "published_at": "2022-03-26T17:28:12Z",
+        "date": 1677455030
     },
     "XorTroll_Goldleaf": {
         "ver": "0.10",
         "prerelease": true,
-        "published_at": null,
-        "date": 1677454654
+        "published_at": "2022-02-10T22:57:24Z",
+        "date": 1677455034
     },
     "XorTroll_uLaunch": {
         "ver": "0.3.4",
         "prerelease": true,
-        "published_at": null,
-        "date": 1677454659
+        "published_at": "2022-04-17T10:48:32Z",
+        "date": 1677455036
     },
     "ndeadly_MissionControl": {
         "ver": "v0.9.0",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454662
+        "published_at": "2023-02-23T21:19:10Z",
+        "date": 1677455038
     },
     "spacemeowx2_ldn_mitm": {
         "ver": "v1.14.0",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454666
+        "published_at": "2022-10-24T18:35:51Z",
+        "date": 1677455040
     },
     "XorTroll_emuiibo": {
         "ver": "0.6.4",
         "prerelease": true,
-        "published_at": null,
-        "date": 1677454669
+        "published_at": "2022-02-10T22:53:32Z",
+        "date": 1677455042
     },
     "cathery_sys-con": {
         "ver": "v0.6.4",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454671
+        "published_at": "2021-09-23T16:58:46Z",
+        "date": 1677455044
     },
     "retronx-team_sys-clk": {
         "ver": "1.0.2",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454675
+        "published_at": "2022-03-24T00:34:13Z",
+        "date": 1677455046
     },
     "WerWolv_nx-ovlloader": {
         "ver": "v1.0.6",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454677
+        "published_at": "2020-05-05T20:29:12Z",
+        "date": 1677455047
     },
     "WerWolv_ovl-sysmodules": {
         "ver": "v1.3.0",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454680
+        "published_at": "2022-10-24T18:29:23Z",
+        "date": 1677455049
     },
     "znxDomain_DNS-MITM_Manager": {
         "ver": "0.1.0",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454683
+        "published_at": "2021-03-12T17:11:27Z",
+        "date": 1677455050
     },
     "HookedBehemoth_sys-tune": {
         "ver": "v1.2.2",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454686
+        "published_at": "2023-02-25T18:26:13Z",
+        "date": 1677455052
     },
     "proferabg_EdiZon-Overlay": {
         "ver": "v1.0.4",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454689
+        "published_at": "2023-02-25T20:55:41Z",
+        "date": 1677455054
     },
     "HeadpatServices_sys-clk-Overlay": {
         "ver": "v1.1",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454691
+        "published_at": "2020-03-01T21:47:08Z",
+        "date": 1677455056
     },
     "masagrator_Status-Monitor-Overlay": {
         "ver": "0.8.0",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454693
+        "published_at": "2023-02-26T18:28:16Z",
+        "date": 1677455057
     },
     "nedex_QuickNTP": {
         "ver": "1.2.7",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454695
+        "published_at": "2023-02-24T18:20:13Z",
+        "date": 1677455059
     },
     "WerWolv_Tesla-Menu": {
         "ver": "v1.2.0",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454698
+        "published_at": "2022-05-11T19:36:21Z",
+        "date": 1677455061
     },
     "CaramelDunes_prodinfo_gen": {
         "ver": "v1.1.0",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454700
+        "published_at": "2022-04-02T08:33:15Z",
+        "date": 1677455062
     },
     "shchmue_Lockpick_RCM": {
         "ver": "v1.9.10",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454702
+        "published_at": "2023-02-23T00:20:15Z",
+        "date": 1677455064
     },
     "suchmememanyskill_TegraExplorer": {
         "ver": "4.0.1-hotfix4",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454704
+        "published_at": "2023-02-21T22:01:34Z",
+        "date": 1677455066
     },
     "CTCaer_hekate": {
         "ver": "v6.0.2",
-        "prerelease": false,
-        "published_at": null,
-        "date": 1677454707
+        "published_at": "2023-02-23T09:00:03Z",
+        "date": 1677455068
     }
 }
