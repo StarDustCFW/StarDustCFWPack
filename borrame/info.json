@@ -27,9 +27,10 @@
         "date": 1677455021
     },
     "tomvita_EdiZon-SE": {
-        "ver": "3.8.36",
-        "published_at": "2022-06-20T09:56:45Z",
-        "date": 1677455024
+        "ver": "3.8.37",
+        "published_at": "2023-03-13T14:38:54Z",
+        "date": 1678736604,
+        "prerelease": true
     },
     "Huntereb_Awoo-Installer": {
         "ver": "1.3.5",
