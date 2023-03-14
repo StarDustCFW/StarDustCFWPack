@@ -1,9 +1,9 @@
 {
     "Atmosphere-NX_Atmosphere": {
         "ver": "1.5.1",
-        "prerelease": true,
+        "prerelease": false,
         "published_at": "2023-03-14T00:27:55Z",
-        "date": 1678753299
+        "date": 1678808311
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.21.3",
@@ -14,7 +14,7 @@
         "ver": "v0.6.3_Rev7_Nightly",
         "prerelease": true,
         "published_at": "2022-06-28T17:15:52Z",
-        "date": 1677455017
+        "date": 1678808321
     },
     "J-D-K_JKSV": {
         "ver": "02\/23\/2023",
@@ -29,7 +29,7 @@
     "tomvita_EdiZon-SE": {
         "ver": "3.8.37",
         "published_at": "2023-03-13T14:38:54Z",
-        "date": 1678736604,
+        "date": 1678808326,
         "prerelease": true
     },
     "Huntereb_Awoo-Installer": {
@@ -46,13 +46,13 @@
         "ver": "0.10",
         "prerelease": true,
         "published_at": "2022-02-10T22:57:24Z",
-        "date": 1677455034
+        "date": 1678808332
     },
     "XorTroll_uLaunch": {
         "ver": "0.3.4",
         "prerelease": true,
         "published_at": "2022-04-17T10:48:32Z",
-        "date": 1677455036
+        "date": 1678808336
     },
     "ndeadly_MissionControl": {
         "ver": "v0.9.0",
@@ -68,7 +68,7 @@
         "ver": "0.6.4",
         "prerelease": true,
         "published_at": "2022-02-10T22:53:32Z",
-        "date": 1677455042
+        "date": 1678808341
     },
     "cathery_sys-con": {
         "ver": "v0.6.4",
