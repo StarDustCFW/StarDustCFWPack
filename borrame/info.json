@@ -86,9 +86,10 @@
         "date": 1677455047
     },
     "WerWolv_ovl-sysmodules": {
-        "ver": "v1.3.0",
-        "published_at": "2022-10-24T18:29:23Z",
-        "date": 1677455049
+        "ver": "v1.3.1",
+        "published_at": "2023-03-16T21:09:33Z",
+        "date": 1679007769,
+        "prerelease": false
     },
     "znxDomain_DNS-MITM_Manager": {
         "ver": "0.2.0",
@@ -121,9 +122,10 @@
         "date": 1677455059
     },
     "WerWolv_Tesla-Menu": {
-        "ver": "v1.2.0",
-        "published_at": "2022-05-11T19:36:21Z",
-        "date": 1677455061
+        "ver": "v1.2.1",
+        "published_at": "2023-03-16T21:08:36Z",
+        "date": 1679007778,
+        "prerelease": false
     },
     "CaramelDunes_prodinfo_gen": {
         "ver": "v1.1.0",
