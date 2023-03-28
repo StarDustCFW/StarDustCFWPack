@@ -60,9 +60,10 @@
         "date": 1677455038
     },
     "spacemeowx2_ldn_mitm": {
-        "ver": "v1.14.0",
-        "published_at": "2022-10-24T18:35:51Z",
-        "date": 1677455040
+        "ver": "v1.15.0",
+        "published_at": "2023-03-25T11:57:49Z",
+        "date": 1679785356,
+        "prerelease": false
     },
     "XorTroll_emuiibo": {
         "ver": "0.6.4",
