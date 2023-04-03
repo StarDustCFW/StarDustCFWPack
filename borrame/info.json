@@ -49,10 +49,10 @@
         "date": 1678808332
     },
     "XorTroll_uLaunch": {
-        "ver": "0.3.4",
+        "ver": "0.3.5",
         "prerelease": true,
-        "published_at": "2022-04-17T10:48:32Z",
-        "date": 1678808336
+        "published_at": "2023-04-03T17:39:16Z",
+        "date": 1680516633
     },
     "ndeadly_MissionControl": {
         "ver": "v0.9.0",
@@ -120,9 +120,10 @@
         "prerelease": false
     },
     "nedex_QuickNTP": {
-        "ver": "1.2.7",
-        "published_at": "2023-02-24T18:20:13Z",
-        "date": 1677455059
+        "ver": "1.2.8",
+        "published_at": "2023-04-03T18:05:22Z",
+        "date": 1680562986,
+        "prerelease": false
     },
     "WerWolv_Tesla-Menu": {
         "ver": "v1.2.1",
