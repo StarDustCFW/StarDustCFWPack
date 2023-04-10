@@ -232,8 +232,8 @@
 **
 
 # SXOS Licence
-</StarDust/license.dat
->/license.dat
+#</StarDust/license.dat
+#>/license.dat
 
 # Remove V2 patch
 </StarDust.bin
