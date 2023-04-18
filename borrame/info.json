@@ -55,9 +55,10 @@
         "date": 1680516633
     },
     "ndeadly_MissionControl": {
-        "ver": "v0.9.0",
-        "published_at": "2023-02-23T21:19:10Z",
-        "date": 1677455038
+        "ver": "v0.9.1",
+        "published_at": "2023-04-18T20:20:55Z",
+        "date": 1681856939,
+        "prerelease": false
     },
     "spacemeowx2_ldn_mitm": {
         "ver": "v1.15.0",
