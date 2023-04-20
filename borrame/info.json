@@ -78,9 +78,10 @@
         "date": 1677455044
     },
     "retronx-team_sys-clk": {
-        "ver": "1.0.2",
-        "published_at": "2022-03-24T00:34:13Z",
-        "date": 1677455046
+        "ver": "1.0.3",
+        "published_at": "2023-04-20T20:21:17Z",
+        "date": 1681985441,
+        "prerelease": false
     },
     "WerWolv_nx-ovlloader": {
         "ver": "v1.0.6",
