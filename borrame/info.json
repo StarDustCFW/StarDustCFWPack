@@ -95,9 +95,10 @@
         "prerelease": false
     },
     "znxDomain_DNS-MITM_Manager": {
-        "ver": "0.2.0",
-        "published_at": "2023-03-11T02:55:56Z",
-        "date": 1678507317
+        "ver": "0.1.0",
+        "published_at": "2021-03-12T17:11:27Z",
+        "date": 1682417025,
+        "prerelease": false
     },
     "HookedBehemoth_sys-tune": {
         "ver": "v1.2.2",
