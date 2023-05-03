@@ -6,9 +6,10 @@
         "date": 1681807184
     },
     "HamletDuFromage_aio-switch-updater": {
-        "ver": "2.21.3",
-        "published_at": "2022-12-05T01:41:27Z",
-        "date": 1677455012
+        "ver": "2.21.4",
+        "published_at": "2023-05-02T17:10:18Z",
+        "date": 1683108208,
+        "prerelease": false
     },
     "proconsule_nxmp": {
         "ver": "v0.6.3_Rev7_Nightly",
