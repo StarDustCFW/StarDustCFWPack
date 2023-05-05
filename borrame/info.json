@@ -68,10 +68,10 @@
         "prerelease": false
     },
     "XorTroll_emuiibo": {
-        "ver": "0.6.4",
-        "prerelease": true,
-        "published_at": "2022-02-10T22:53:32Z",
-        "date": 1678808341
+        "ver": "1.0.0",
+        "prerelease": false,
+        "published_at": "2023-05-05T15:43:38Z",
+        "date": 1683305560
     },
     "cathery_sys-con": {
         "ver": "v0.6.4",
@@ -85,9 +85,10 @@
         "prerelease": false
     },
     "WerWolv_nx-ovlloader": {
-        "ver": "v1.0.6",
-        "published_at": "2020-05-05T20:29:12Z",
-        "date": 1677455047
+        "ver": "v1.0.7",
+        "published_at": "2023-05-05T14:37:42Z",
+        "date": 1683305564,
+        "prerelease": false
     },
     "WerWolv_ovl-sysmodules": {
         "ver": "v1.3.1",
@@ -130,9 +131,9 @@
         "prerelease": false
     },
     "WerWolv_Tesla-Menu": {
-        "ver": "v1.2.1",
-        "published_at": "2023-03-16T21:08:36Z",
-        "date": 1679007778,
+        "ver": "v1.2.2",
+        "published_at": "2023-05-05T14:38:14Z",
+        "date": 1683305571,
         "prerelease": false
     },
     "CaramelDunes_prodinfo_gen": {
