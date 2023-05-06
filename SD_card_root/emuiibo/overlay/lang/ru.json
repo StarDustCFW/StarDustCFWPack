@@ -1,0 +1,152 @@
+{
+    "strings": [
+        {
+            "key": "UpngInvalidFile",
+            "value": "Плохой файл"
+        },
+        {
+            "key": "UpngUnsupportedRgbPng",
+            "value": "Требуется RGBA PNG."
+        },
+        {
+            "key": "UpngUpscaleUnsupported",
+            "value": "Скалирование запрещено."
+        },
+        {
+            "key": "UpngImageTooLarge",
+            "value": "Картинка слишком большая."
+        },
+        {
+            "key": "UpngImageNotFound",
+            "value": "Картинка не найдена."
+        },
+        {
+            "key": "UpngNotPngImage",
+            "value": "Картинка не PNG."
+        },
+        {
+            "key": "UpngMalformedPng",
+            "value": "PNG испорчен."
+        },
+        {
+            "key": "UpngUnsupportedPng",
+            "value": "Этот PNG не поддерживается."
+        },
+        {
+            "key": "UpngUnsupportedInterlacing",
+            "value": "interlacing не поддерживается."
+        },
+        {
+            "key": "UpngUnsupportedColorFormat",
+            "value": "Формат цвета не поддерживается."
+        },
+        {
+            "key": "UpngInvalidParameter",
+            "value": "Ошибка параметра."
+        },
+        {
+            "key": "EmuiiboNotPresent",
+            "value": "emuiibo сервис не найден."
+        },
+        {
+            "key": "Help",
+            "value": "Помощь"
+        },
+        {
+            "key": "EnableEmulation",
+            "value": "Включить эмуляцию"
+        },
+        {
+            "key": "DisableEmulation",
+            "value": "Выключить эмуляцию"
+        },
+        {
+            "key": "ToogleConnectVirtualAmiibo",
+            "value": "Подключить/отключить виртуальный amiibo"
+        },
+        {
+            "key": "SelectFolderVirtualAmiibo",
+            "value": "Выбрать папку/виртуальный amiibo"
+        },
+        {
+            "key": "AddFavorite",
+            "value": "Добавить в избранное"
+        },
+        {
+            "key": "RemoveFavorite",
+            "value": "Удалить из избранного"
+        },
+        {
+            "key": "ResetActiveVirtualAmiibo",
+            "value": "Сбросить активный amiibo"
+        },
+        {
+            "key": "EmulationStatus",
+            "value": "Статус эмуляции"
+        },
+        {
+            "key": "On",
+            "value": "вкл"
+        },
+        {
+            "key": "Off",
+            "value": "выкл"
+        },
+        {
+            "key": "CurrentGameIntercepted",
+            "value": "Текущая игра"
+        },
+        {
+            "key": "AvailableVirtualAmiibos",
+            "value": "Доступные amiibos в"
+        },
+        {
+            "key": "Intercepted",
+            "value": "перехватывается"
+        },
+        {
+            "key": "NotIntercepted",
+            "value": "не перехватывается"
+        },
+        {
+            "key": "NoActiveVirtualAmiibo",
+            "value": "Виртуальный amiibo не выбран"
+        },
+        {
+            "key": "Connected",
+            "value": "подключен"
+        },
+        {
+            "key": "Disconnected",
+            "value": "отключен"
+        },
+        {
+            "key": "ViewVirtualAmiibos",
+            "value": "Просмотр amiibos"
+        },
+        {
+            "key": "ViewFavorites",
+            "value": "Избранное"
+        },
+        {
+            "key": "SelectedArea",
+            "value": "Selected area"
+        },
+        {
+            "key": "NoVirtualAmiiboAreas",
+            "value": "This virtual amiibo has no areas"
+        },
+        {
+            "key": "EnableRandomUuid",
+            "value": "Enable random UUID"
+        },
+        {
+            "key": "DisableRandomUuid",
+            "value": "Disable random UUID"
+        },
+        {
+            "key": "RandomUuid",
+            "value": "Random UUID"
+        }
+    ]
+}

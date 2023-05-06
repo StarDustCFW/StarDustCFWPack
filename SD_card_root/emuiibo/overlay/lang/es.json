@@ -1,0 +1,152 @@
+{
+    "strings": [
+        {
+            "key": "UpngInvalidFile",
+            "value": "Archivo PNG inválido"
+        },
+        {
+            "key": "UpngUnsupportedRgbPng",
+            "value": "No se soportan imágenes PNG de formato RGB."
+        },
+        {
+            "key": "UpngUpscaleUnsupported",
+            "value": "No se permite escalar la imagen."
+        },
+        {
+            "key": "UpngImageTooLarge",
+            "value": "La imagen es demasiado grande."
+        },
+        {
+            "key": "UpngImageNotFound",
+            "value": "Imagen no encontrada."
+        },
+        {
+            "key": "UpngNotPngImage",
+            "value": "La imagen no es un PNG."
+        },
+        {
+            "key": "UpngMalformedPng",
+            "value": "La imagen PNG es inválida."
+        },
+        {
+            "key": "UpngUnsupportedPng",
+            "value": "No se soporta este archivo PNG."
+        },
+        {
+            "key": "UpngUnsupportedInterlacing",
+            "value": "No se soportan imagénes entrelazadas."
+        },
+        {
+            "key": "UpngUnsupportedColorFormat",
+            "value": "No se soporta el formato de color de esta imagen."
+        },
+        {
+            "key": "UpngInvalidParameter",
+            "value": "Parámetro incorrecto."
+        },
+        {
+            "key": "EmuiiboNotPresent",
+            "value": "emuiibo no parece estar presente."
+        },
+        {
+            "key": "Help",
+            "value": "Ayuda"
+        },
+        {
+            "key": "EnableEmulation",
+            "value": "Activar emulación"
+        },
+        {
+            "key": "DisableEmulation",
+            "value": "Desactivar emulación"
+        },
+        {
+            "key": "ToogleConnectVirtualAmiibo",
+            "value": "Conectar/Desconectar amiibo virtual"
+        },
+        {
+            "key": "SelectFolderVirtualAmiibo",
+            "value": "Selecionar carpeta/amiibo virtual"
+        },
+        {
+            "key": "AddFavorite",
+            "value": "Añadir a favoritos"
+        },
+        {
+            "key": "RemoveFavorite",
+            "value": "Quitar de favoritos"
+        },
+        {
+            "key": "ResetActiveVirtualAmiibo",
+            "value": "Restablecer amiibo virtual activo"
+        },
+        {
+            "key": "EmulationStatus",
+            "value": "Estado de la emulación"
+        },
+        {
+            "key": "On",
+            "value": "activa"
+        },
+        {
+            "key": "Off",
+            "value": "inactiva"
+        },
+        {
+            "key": "CurrentGameIntercepted",
+            "value": "El juego actual"
+        },
+        {
+            "key": "AvailableVirtualAmiibos",
+            "value": "Amiibos disponibles en"
+        },
+        {
+            "key": "Intercepted",
+            "value": "está siendo interceptado"
+        },
+        {
+            "key": "NotIntercepted",
+            "value": "no está siendo interceptado"
+        },
+        {
+            "key": "NoActiveVirtualAmiibo",
+            "value": "No hay ningún amiibo virtual activo"
+        },
+        {
+            "key": "Connected",
+            "value": "conectado"
+        },
+        {
+            "key": "Disconnected",
+            "value": "desconectado"
+        },
+        {
+            "key": "ViewVirtualAmiibos",
+            "value": "Ver amiibos virtuales"
+        },
+        {
+            "key": "ViewFavorites",
+            "value": "Ver favoritos"
+        },
+        {
+            "key": "SelectedArea",
+            "value": "Area seleccionada"
+        },
+        {
+            "key": "NoVirtualAmiiboAreas",
+            "value": "Este amiibo virtual no tiene áreas."
+        },
+        {
+            "key": "EnableRandomUuid",
+            "value": "Activar UUID aleatoria"
+        },
+        {
+            "key": "DisableRandomUuid",
+            "value": "Desactivar UUID aleatoria"
+        },
+        {
+            "key": "RandomUuid",
+            "value": "UUID aleatoria"
+        }
+    ]
+}

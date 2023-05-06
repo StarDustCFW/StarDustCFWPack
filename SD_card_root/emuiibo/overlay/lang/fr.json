@@ -1,0 +1,152 @@
+{
+    "strings": [
+        {
+            "key": "UpngInvalidFile",
+            "value": "Fichier incorrect"
+        },
+        {
+            "key": "UpngUnsupportedRgbPng",
+            "value": "Le format RGB du/des PNGs ne sont pas supportés."
+        },
+        {
+            "key": "UpngUpscaleUnsupported",
+            "value": "L'Upscaling n'est pas permis."
+        },
+        {
+            "key": "UpngImageTooLarge",
+            "value": "L'image est trop grande."
+        },
+        {
+            "key": "UpngImageNotFound",
+            "value": "Image non trouvée."
+        },
+        {
+            "key": "UpngNotPngImage",
+            "value": "L'image n'est pas un PNG."
+        },
+        {
+            "key": "UpngMalformedPng",
+            "value": "PNG mal formé."
+        },
+        {
+            "key": "UpngUnsupportedPng",
+            "value": "Ce PNG n'est pas supporté."
+        },
+        {
+            "key": "UpngUnsupportedInterlacing",
+            "value": "L'entrelacement de l'image n'est pas supporté."
+        },
+        {
+            "key": "UpngUnsupportedColorFormat",
+            "value": "Le format de couleur de l'image n'est pas supporté."
+        },
+        {
+            "key": "UpngInvalidParameter",
+            "value": "Paramètre incorrect."
+        },
+        {
+            "key": "EmuiiboNotPresent",
+            "value": "emuiibo ne semble pas être présent."
+        },
+        {
+            "key": "Help",
+            "value": "Aide"
+        },
+        {
+            "key": "EnableEmulation",
+            "value": "Activer l'émulation"
+        },
+        {
+            "key": "DisableEmulation",
+            "value": "Désactiver l'émulation"
+        },
+        {
+            "key": "ToogleConnectVirtualAmiibo",
+            "value": "Connecter/déconnecter l'amiibo virtuel"
+        },
+        {
+            "key": "SelectFolderVirtualAmiibo",
+            "value": "Sélectionner le dossier/l'amiibo virtuel"
+        },
+        {
+            "key": "AddFavorite",
+            "value": "Ajouter aux favoris"
+        },
+        {
+            "key": "RemoveFavorite",
+            "value": "Supprimer des favoris"
+        },
+        {
+            "key": "ResetActiveVirtualAmiibo",
+            "value": "Réinitialiser l'amiibo virtuel actif"
+        },
+        {
+            "key": "EmulationStatus",
+            "value": "Etat de l'émulation"
+        },
+        {
+            "key": "On",
+            "value": "activé"
+        },
+        {
+            "key": "Off",
+            "value": "désactivé"
+        },
+        {
+            "key": "CurrentGameIntercepted",
+            "value": "Le jeu actuel est"
+        },
+        {
+            "key": "AvailableVirtualAmiibos",
+            "value": "Amiibos disponibles dans"
+        },
+        {
+            "key": "Intercepted",
+            "value": "intercepté"
+        },
+        {
+            "key": "NotIntercepted",
+            "value": "non intercepté"
+        },
+        {
+            "key": "NoActiveVirtualAmiibo",
+            "value": "Aucun amiibo virtuel activé"
+        },
+        {
+            "key": "Connected",
+            "value": "connecté"
+        },
+        {
+            "key": "Disconnected",
+            "value": "déconnecté"
+        },
+        {
+            "key": "ViewVirtualAmiibos",
+            "value": "Voir les amiibos virtuels"
+        },
+        {
+            "key": "ViewFavorites",
+            "value": "Voir les favoris"
+        },
+        {
+            "key": "SelectedArea",
+            "value": "Zone sélectionnée"
+        },
+        {
+            "key": "NoVirtualAmiiboAreas",
+            "value": "Cet amiibo n’a pas de zone"
+        },
+        {
+            "key": "EnableRandomUuid",
+            "value": "Enable random UUID"
+        },
+        {
+            "key": "DisableRandomUuid",
+            "value": "Disable random UUID"
+        },
+        {
+            "key": "RandomUuid",
+            "value": "Random UUID"
+        }
+    ]
+}
