@@ -1,9 +1,9 @@
 {
     "Atmosphere-NX_Atmosphere": {
-        "ver": "1.5.2",
+        "ver": "1.5.3",
         "prerelease": false,
-        "published_at": "2023-04-18T03:51:29Z",
-        "date": 1681807184
+        "published_at": "2023-05-09T01:50:08Z",
+        "date": 1683626585
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.21.4",
@@ -152,9 +152,9 @@
         "date": 1677455066
     },
     "CTCaer_hekate": {
-        "ver": "v6.0.3",
-        "published_at": "2023-04-06T15:22:07Z",
-        "date": 1680797044,
+        "ver": "v6.0.4",
+        "published_at": "2023-05-09T08:23:38Z",
+        "date": 1683662540,
         "prerelease": false
     }
 }
