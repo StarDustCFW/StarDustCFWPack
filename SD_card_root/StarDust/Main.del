@@ -133,6 +133,7 @@
 -/uboot/
 -/modules/
 -/RR/
+-/atmosphere/exefs_patches/RR_logo/
 -/atmosphere/contents/010000000000100C/fsmitm.flag
 -/atmosphere/contents/010000000000100C/exefs.nsp
 -/sxos/titles/010000000000100C/fsmitm.flag
