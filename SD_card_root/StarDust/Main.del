@@ -237,8 +237,8 @@
 #>/license.dat
 
 # Remove V2 patch
-</StarDust.bin
->/payload.bin
+#</StarDust.bin
+#>/payload.bin
 
 # Pequeña correccion
 </Backup/prodinfo.bin
