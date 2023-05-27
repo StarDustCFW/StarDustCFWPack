@@ -119,9 +119,9 @@
         "date": 1677556899
     },
     "masagrator_Status-Monitor-Overlay": {
-        "ver": "0.9.0",
-        "published_at": "2023-04-23T13:51:49Z",
-        "date": 1682290997,
+        "ver": "0.9.1",
+        "published_at": "2023-05-27T12:56:26Z",
+        "date": 1685203590,
         "prerelease": false
     },
     "nedex_QuickNTP": {
@@ -131,9 +131,9 @@
         "prerelease": false
     },
     "WerWolv_Tesla-Menu": {
-        "ver": "v1.2.2",
-        "published_at": "2023-05-05T14:38:14Z",
-        "date": 1683305571,
+        "ver": "v1.2.3",
+        "published_at": "2023-05-27T12:55:49Z",
+        "date": 1685203592,
         "prerelease": false
     },
     "CaramelDunes_prodinfo_gen": {
