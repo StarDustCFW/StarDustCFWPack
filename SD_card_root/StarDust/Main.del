@@ -269,6 +269,8 @@
 [Service Manager
 #mission control
 #-/atmosphere/contents/010000000000bd00/flags/boot2.flag
+#Emuiibo
+-/atmosphere/contents/0100000000000352/flags/boot2.flag
 
 # Fix Archive bit to SD
 .Fix Archive bit: 
