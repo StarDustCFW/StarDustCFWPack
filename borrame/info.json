@@ -44,10 +44,10 @@
         "date": 1677455030
     },
     "XorTroll_Goldleaf": {
-        "ver": "0.10.1",
-        "prerelease": true,
-        "published_at": "2023-04-08T22:35:35Z",
-        "date": 1680992841
+        "ver": "1.0.0",
+        "prerelease": false,
+        "published_at": "2023-08-19T19:07:29Z",
+        "date": 1692577971
     },
     "XorTroll_uLaunch": {
         "ver": "0.3.5",
@@ -68,10 +68,10 @@
         "prerelease": false
     },
     "XorTroll_emuiibo": {
-        "ver": "1.0.0",
+        "ver": "1.1.0",
         "prerelease": false,
-        "published_at": "2023-05-05T15:43:38Z",
-        "date": 1683305560
+        "published_at": "2023-08-20T19:54:21Z",
+        "date": 1692577980
     },
     "cathery_sys-con": {
         "ver": "v0.6.4",
