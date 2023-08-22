@@ -56,9 +56,9 @@
         "date": 1680516633
     },
     "ndeadly_MissionControl": {
-        "ver": "v0.9.2",
-        "published_at": "2023-04-26T22:08:33Z",
-        "date": 1682587839,
+        "ver": "v0.9.3",
+        "published_at": "2023-08-22T17:56:23Z",
+        "date": 1692674098,
         "prerelease": false
     },
     "spacemeowx2_ldn_mitm": {
@@ -153,9 +153,9 @@
         "prerelease": true
     },
     "CTCaer_hekate": {
-        "ver": "v6.0.5",
-        "published_at": "2023-06-09T16:13:15Z",
-        "date": 1686327349,
+        "ver": "v6.0.6",
+        "published_at": "2023-08-22T15:26:53Z",
+        "date": 1692745319,
         "prerelease": false
     }
 }
