@@ -215,12 +215,17 @@
 -/atmosphere/contents/0100000000001013/fsmitm.flag
 #-/atmosphere/contents/0100000000001000/romfs/lyt/Set.szs
 #-/atmosphere/contents/0100000000001013/romfs/
-
 #-/sxos/titles/0100000000001000/romfs/lyt/Entrance.szs
 #-/sxos/titles/0100000000001000/romfs/lyt/Set.szs
 -/sxos/titles/0100000000001000/romfs/lyt/common.szs
 -/sxos/titles/0100000000001013/fsmitm.flag
 -/sxos/titles/0100000000001013/romfs/
+
+[Clean OLD Sigpatches
+-/atmosphere/contents/exefs_patches/es_patches/
+-/atmosphere/contents/exefs_patches/nfim_ctest/
+-/atmosphere/contents/kip_patches/fs_patches/
+-/atmosphere/contents/kip_patches/loader_patches/
 
 # Clean romfs_metadata
 [Clean romfs_metadata
