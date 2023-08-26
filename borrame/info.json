@@ -157,5 +157,11 @@
         "published_at": "2023-08-22T15:26:53Z",
         "date": 1692745319,
         "prerelease": false
+    },
+    "ITotalJustice_sys-patch": {
+        "ver": "v1.4.2",
+        "prerelease": false,
+        "published_at": "2023-05-28T00:22:35Z",
+        "date": 1693050057
     }
 }
