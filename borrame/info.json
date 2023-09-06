@@ -12,10 +12,10 @@
         "prerelease": false
     },
     "proconsule_nxmp": {
-        "ver": "v0.6.3_Rev7_Nightly",
-        "prerelease": true,
-        "published_at": "2022-06-28T17:15:52Z",
-        "date": 1689282368
+        "ver": "v0.7.0",
+        "prerelease": false,
+        "published_at": "2023-09-06T16:23:13Z",
+        "date": 1693955411
     },
     "J-D-K_JKSV": {
         "ver": "02\/23\/2023",
