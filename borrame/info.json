@@ -103,9 +103,10 @@
         "prerelease": false
     },
     "HookedBehemoth_sys-tune": {
-        "ver": "v1.2.2",
-        "published_at": "2023-02-25T18:26:13Z",
-        "date": 1677455052
+        "ver": "v2.0.0",
+        "published_at": "2023-09-07T09:55:42Z",
+        "date": 1694041772,
+        "prerelease": false
     },
     "proferabg_EdiZon-Overlay": {
         "ver": "v1.0.7",
