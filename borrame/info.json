@@ -148,10 +148,10 @@
         "date": 1677455064
     },
     "suchmememanyskill_TegraExplorer": {
-        "ver": "4.1.0-b1",
-        "published_at": "2023-07-28T22:19:31Z",
-        "date": 1690244537,
-        "prerelease": true
+        "ver": "4.1.1",
+        "published_at": "2023-10-11T09:27:18Z",
+        "date": 1697018550,
+        "prerelease": false
     },
     "CTCaer_hekate": {
         "ver": "v6.0.6",
