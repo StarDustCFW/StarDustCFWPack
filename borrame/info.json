@@ -39,9 +39,10 @@
         "date": 1677455026
     },
     "exelix11_SwitchThemeInjector": {
-        "ver": "v-4.7",
-        "published_at": "2022-03-26T17:28:12Z",
-        "date": 1677455030
+        "ver": "v4.7.1",
+        "published_at": "2023-10-14T11:43:04Z",
+        "date": 1697295855,
+        "prerelease": false
     },
     "XorTroll_Goldleaf": {
         "ver": "1.0.0",
@@ -79,10 +80,10 @@
         "date": 1677455044
     },
     "retronx-team_sys-clk": {
-        "ver": "1.0.3",
-        "published_at": "2023-04-20T20:21:17Z",
-        "date": 1681985441,
-        "prerelease": false
+        "ver": "2.0.0-rc",
+        "published_at": "2023-10-14T13:51:15Z",
+        "date": 1697295863,
+        "prerelease": true
     },
     "WerWolv_nx-ovlloader": {
         "ver": "v1.0.7",
