@@ -2,4 +2,5 @@
 *.cmd
 For PC/emutool-*/*
 *.vbs
-Center/*
+Center/program.php
+Center/program.txt
