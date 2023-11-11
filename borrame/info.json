@@ -134,6 +134,36 @@
         "ver": "v1.5.0",
         "prerelease": false,
         "published_at": "2023-10-24T21:20:19Z",
-        "date": 1698186820
+        "date": 1699707035
+    },
+    "WerWolv_nx-ovlloader": {
+        "ver": "v1.0.7",
+        "prerelease": false,
+        "published_at": "2023-05-05T14:37:42Z",
+        "date": 1699707040
+    },
+    "WerWolv_ovl-sysmodules": {
+        "ver": "v1.3.1",
+        "prerelease": false,
+        "published_at": "2023-03-16T21:09:33Z",
+        "date": 1699707041
+    },
+    "znxDomain_DNS-MITM_Manager": {
+        "ver": "0.2.0",
+        "prerelease": false,
+        "published_at": "2023-03-11T02:55:56Z",
+        "date": 1699707042
+    },
+    "masagrator_Status-Monitor-Overlay": {
+        "ver": "1.0.0",
+        "prerelease": false,
+        "published_at": "2023-11-10T17:14:37Z",
+        "date": 1699707046
+    },
+    "WerWolv_Tesla-Menu": {
+        "ver": "v1.2.3",
+        "prerelease": false,
+        "published_at": "2023-05-27T12:55:49Z",
+        "date": 1699707048
     }
 }
