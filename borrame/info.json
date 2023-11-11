@@ -85,24 +85,6 @@
         "date": 1697295863,
         "prerelease": true
     },
-    "WerWolv_nx-ovlloader": {
-        "ver": "v1.0.7",
-        "published_at": "2023-05-05T14:37:42Z",
-        "date": 1683305564,
-        "prerelease": false
-    },
-    "WerWolv_ovl-sysmodules": {
-        "ver": "v1.3.1",
-        "published_at": "2023-03-16T21:09:33Z",
-        "date": 1679007769,
-        "prerelease": false
-    },
-    "znxDomain_DNS-MITM_Manager": {
-        "ver": "0.2.0",
-        "published_at": "2023-03-11T02:55:56Z",
-        "date": 1682463786,
-        "prerelease": false
-    },
     "HookedBehemoth_sys-tune": {
         "ver": "v2.0.0",
         "published_at": "2023-09-07T09:55:42Z",
@@ -120,22 +102,10 @@
         "published_at": "2020-03-01T21:47:08Z",
         "date": 1677556899
     },
-    "masagrator_Status-Monitor-Overlay": {
-        "ver": "1.0.0",
-        "published_at": "2023-11-10T17:14:37Z",
-        "date": 1699632371,
-        "prerelease": false
-    },
     "nedex_QuickNTP": {
         "ver": "1.2.8",
         "published_at": "2023-04-03T18:05:22Z",
         "date": 1680562986,
-        "prerelease": false
-    },
-    "WerWolv_Tesla-Menu": {
-        "ver": "v1.2.3",
-        "published_at": "2023-05-27T12:55:49Z",
-        "date": 1685203592,
         "prerelease": false
     },
     "CaramelDunes_prodinfo_gen": {
