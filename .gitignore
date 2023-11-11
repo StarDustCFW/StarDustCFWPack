@@ -4,3 +4,5 @@ For PC/emutool-*/*
 *.vbs
 Center/program.php
 Center/program.txt
+Center/sdroot/*
+Center/tmp/*
