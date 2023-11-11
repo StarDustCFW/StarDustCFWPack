@@ -154,16 +154,16 @@
         "published_at": "2023-03-11T02:55:56Z",
         "date": 1699707042
     },
-    "masagrator_Status-Monitor-Overlay": {
-        "ver": "1.0.0",
-        "prerelease": false,
-        "published_at": "2023-11-10T17:14:37Z",
-        "date": 1699707046
-    },
     "WerWolv_Tesla-Menu": {
         "ver": "v1.2.3",
         "prerelease": false,
         "published_at": "2023-05-27T12:55:49Z",
         "date": 1699707048
+    },
+    "masagrator_Status-Monitor-Overlay": {
+        "ver": "1.0.0",
+        "prerelease": false,
+        "published_at": "2023-11-10T17:14:37Z",
+        "date": 1699707692
     }
 }
