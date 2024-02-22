@@ -82,8 +82,8 @@
     "retronx-team_sys-clk": {
         "ver": "2.0.0-rc",
         "published_at": "2023-10-14T13:51:15Z",
-        "date": 1697295863,
-        "prerelease": true
+        "date": 1708642921,
+        "prerelease": false
     },
     "HookedBehemoth_sys-tune": {
         "ver": "v2.0.0",
@@ -125,9 +125,9 @@
         "prerelease": false
     },
     "CTCaer_hekate": {
-        "ver": "v6.0.7",
-        "published_at": "2023-10-13T04:07:43Z",
-        "date": 1697175239,
+        "ver": "v6.1.0",
+        "published_at": "2024-02-22T16:15:38Z",
+        "date": 1708642932,
         "prerelease": false
     },
     "ITotalJustice_sys-patch": {
