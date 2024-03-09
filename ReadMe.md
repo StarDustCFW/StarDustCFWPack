@@ -2,7 +2,7 @@
 # StarDustCFWPack (STD)<a href="https://github.com/StarDustCFW/StarDustCFWPack/releases/latest"><img src="https://img.shields.io/github/downloads/StarDustCFW/StarDustCFWPack/total?style=for-the-badge" alt="Downloads" /></a><br>
 #### Lanzamientos [SuperComprimidos](https://github.com/StarDustCFW/StarDustCFWPack/actions) Pa internet d palo
 ## Soporta Último Firmware e inferior 
-### STD es un pack con los cfw actuales, configurado para convivir bien entre si, Atmosphere, SXOS, Android. Con una interfaz comoda y facil de usar, agrega también las app mas básicas para empezar<br>
+### STD es un pack con los cfw actuales, configurado para convivir bien entre si, Atmosphere, Hekate, Android. Con una interfaz comoda y facil de usar, agrega también las app mas básicas para empezar<br>
 <a href="https://discord.io/myrincon"><img src="borrame/prev2.jpg" alt="screenshot" /></a>
 
 

@@ -2,7 +2,7 @@
 # StarDustCFWPack (STD)<a href="https://github.com/StarDustCFW/StarDustCFWPack/releases/latest"><img src="https://img.shields.io/github/downloads/StarDustCFW/StarDustCFWPack/total?style=for-the-badge" alt="Downloads" /></a><br>
 #### Release [Compressed](https://github.com/StarDustCFW/StarDustCFWPack/actions)
 ## Support 14.1.1 and Below
-### STD is a pack with the current cfw, configured to live well together, Atmosphere, SXOS, Android. With a comfortable interface, also add the most basic apps to start<br>
+### STD is a pack with the current cfw, configured to live well together, Atmosphere, Hekate, Android. With a comfortable interface, also add the most basic apps to start<br>
 <a href="https://discord.io/myrincon"><img src="borrame/prev2.jpg" alt="screenshot" /></a>
 
 Instalation
