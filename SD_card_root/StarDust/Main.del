@@ -201,7 +201,8 @@
 -/StarDust/Touch
 -/StarDust/music/
 -/StarDust/boot.temp
-#-/StarDust/ulaunch/
+-/atmosphere/contents/0100000000001013/exefs.nsp
+-/atmosphere/contents/0100000000001013/exefs.nsp1
 
 # remove themes
 [remove themes
@@ -238,8 +239,9 @@
 **
 
 # SXOS Licence
-#</StarDust/license.dat
-#>/license.dat
+-/StarDust/license.dat
+-/StarDust/boot.dat
+
 
 # Remove V2 patch
 #</StarDust.bin
