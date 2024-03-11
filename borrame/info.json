@@ -131,12 +131,6 @@
         "published_at": "2024-01-04T13:35:12Z",
         "date": 1710123287
     },
-    "nedex_QuickNTP": {
-        "ver": "1.2.8",
-        "prerelease": false,
-        "published_at": "2023-04-03T18:05:22Z",
-        "date": 1710123289
-    },
     "WerWolv_Tesla-Menu": {
         "ver": "v1.2.3",
         "prerelease": false,
@@ -160,5 +154,11 @@
         "prerelease": false,
         "published_at": "2024-02-22T16:15:38Z",
         "date": 1710123298
+    },
+    "nedex_QuickNTP": {
+        "ver": "1.2.8",
+        "prerelease": false,
+        "published_at": "2023-04-03T18:05:22Z",
+        "date": 1710123671
     }
 }
