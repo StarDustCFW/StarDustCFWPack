@@ -15,5 +15,5 @@ if ($res === TRUE) {
 } else {
     echo 'failed, code:' . $res;
 }
-
+sleep(10);
 ?>
