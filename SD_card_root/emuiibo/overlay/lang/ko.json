@@ -138,15 +138,15 @@
         },
         {
             "key": "EnableRandomUuid",
-            "value": "Enable random UUID"
+            "value": "무작위 UUID 활성화"
         },
         {
             "key": "DisableRandomUuid",
-            "value": "Disable random UUID"
+            "value": "무작위 UUID 활성화"
         },
         {
             "key": "RandomUuid",
-            "value": "Random UUID"
+            "value": "무작위 UUID"
         }
     ]
 }

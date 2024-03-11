@@ -2,151 +2,151 @@
     "strings": [
         {
             "key": "UpngInvalidFile",
-            "value": "Ungültige Datei"
+            "value": "Arquivo PNG inválido"
         },
         {
             "key": "UpngUnsupportedRgbPng",
-            "value": "Bitte verwenden Sie RGBA PNG."
+            "value": "Imagens PNG no formato RGB não são suportadas."
         },
         {
             "key": "UpngUpscaleUnsupported",
-            "value": "Upscale nicht erlaubt."
+            "value": "O dimensionamento da imagem não é permitido."
         },
         {
             "key": "UpngImageTooLarge",
-            "value": "Bild ist zu groß."
+            "value": "A imagem é muito grande."
         },
         {
             "key": "UpngImageNotFound",
-            "value": "Bild nicht gefunden."
+            "value": "Imagem não encontrada."
         },
         {
             "key": "UpngNotPngImage",
-            "value": "Bild ist kein PNG."
+            "value": "A imagem não é PNG."
         },
         {
             "key": "UpngMalformedPng",
-            "value": "PNG fehlerhaft."
+            "value": "O arquivo não é um PNG válido."
         },
         {
             "key": "UpngUnsupportedPng",
-            "value": "Dieses PNG wird nicht unterstützt."
+            "value": "Esta imagem PNG não é suportada."
         },
         {
             "key": "UpngUnsupportedInterlacing",
-            "value": "Bild Interlacing wird nicht unterstützt."
+            "value": "Imagens entrelaçadas não são suportadas."
         },
         {
             "key": "UpngUnsupportedColorFormat",
-            "value": "Das Bildfarbformat wird nicht unterstützt."
+            "value": "O formato de cor desta imagem não é suportado."
         },
         {
             "key": "UpngInvalidParameter",
-            "value": "Ungültiger Parameter."
+            "value": "Parâmetro inválido."
         },
         {
             "key": "EmuiiboNotPresent",
-            "value": "emuiibo nicht gefunden."
+            "value": "emuiibo parece não estar presente."
         },
         {
             "key": "Help",
-            "value": "Hilfe"
+            "value": "Ajuda"
         },
         {
             "key": "EnableEmulation",
-            "value": "Emulation aktivieren"
+            "value": "Ativar Emulação"
         },
         {
             "key": "DisableEmulation",
-            "value": "Emulation deaktivieren"
+            "value": "Desativar Emulação"
         },
         {
             "key": "ToogleConnectVirtualAmiibo",
-            "value": "Virtuelles Amiibo verbinden/trennen"
+            "value": "Conectar/Desconectar amiibo virtual"
         },
         {
             "key": "SelectFolderVirtualAmiibo",
-            "value": "Ordner/virtuelles Amiibo auswählen"
+            "value": "Escolher Pasta/amiibo virtual"
         },
         {
             "key": "AddFavorite",
-            "value": "Zu Favoriten hinzufügen"
+            "value": "Adicionar aos favoritos"
         },
         {
             "key": "RemoveFavorite",
-            "value": "Aus Favoriten entfernen"
+            "value": "Remover dos favoritos"
         },
         {
             "key": "ResetActiveVirtualAmiibo",
-            "value": "Aktives virtuelles Amiibo zurücksetzen"
+            "value": "Redefinir amiibo virtual ativo"
         },
         {
             "key": "EmulationStatus",
-            "value": "Emulationsstatus"
+            "value": "Emulação"
         },
         {
             "key": "On",
-            "value": "an"
+            "value": "Ativada"
         },
         {
             "key": "Off",
-            "value": "aus"
+            "value": "Desativada"
         },
         {
             "key": "CurrentGameIntercepted",
-            "value": "Aktuelles Spiel ist"
+            "value": "Jogo atual"
         },
         {
             "key": "AvailableVirtualAmiibos",
-            "value": "Verfügbare Amiibos in"
+            "value": "Amiibos disponíveis em"
         },
         {
             "key": "Intercepted",
-            "value": "abgefangen"
+            "value": "interceptado"
         },
         {
             "key": "NotIntercepted",
-            "value": "nicht abgefangen"
+            "value": "não interceptado"
         },
         {
             "key": "NoActiveVirtualAmiibo",
-            "value": "Kein aktives virtuelles Amiibo"
+            "value": "Não há amiibo virtual ativo"
         },
         {
             "key": "Connected",
-            "value": "verbunden"
+            "value": "conectado"
         },
         {
             "key": "Disconnected",
-            "value": "getrennt"
+            "value": "desconectado"
         },
         {
             "key": "ViewVirtualAmiibos",
-            "value": "Virtuelles amiibos anzeigen"
+            "value": "Visualizar amiibos virtuais"
         },
         {
             "key": "ViewFavorites",
-            "value": "Favoriten anzeigen"
+            "value": "Visualizar favoritos"
         },
         {
             "key": "SelectedArea",
-            "value": "Ausgewählter Bereich"
+            "value": "Área Escolhida"
         },
         {
             "key": "NoVirtualAmiiboAreas",
-            "value": "Das Amiibo hat keine Bereiche."
+            "value": "Este amiibo virtual não tem áreas."
         },
         {
             "key": "EnableRandomUuid",
-            "value": "Zufällige UUID aktivieren"
+            "value": "Ativar UUID aleatório"
         },
         {
             "key": "DisableRandomUuid",
-            "value": "Zufällige UUID deaktivieren"
+            "value": "Desativar UUID aleatório"
         },
         {
             "key": "RandomUuid",
-            "value": "Zufällige UUID"
+            "value": "UUID aleatório"
         }
     ]
 }

@@ -6,47 +6,47 @@
         },
         {
             "key": "UpngUnsupportedRgbPng",
-            "value": "請使用RGBA PNG."
+            "value": "不支持RGB的PNG格式"
         },
         {
             "key": "UpngUpscaleUnsupported",
-            "value": "尚未支援縮放圖片."
+            "value": "尚未支援縮放圖片"
         },
         {
             "key": "UpngImageTooLarge",
-            "value": "圖片超出範圍."
+            "value": "圖片超出範圍"
         },
         {
             "key": "UpngImageNotFound",
-            "value": "沒有符合的圖片."
+            "value": "沒有符合的圖片"
         },
         {
             "key": "UpngNotPngImage",
-            "value": "圖片並非PNG格式."
+            "value": "圖片並非PNG格式"
         },
         {
             "key": "UpngMalformedPng",
-            "value": "PNG格式錯誤."
+            "value": "PNG格式錯誤"
         },
         {
             "key": "UpngUnsupportedPng",
-            "value": "此PNG檔案格式尚未支援."
+            "value": "不支援此PNG檔案"
         },
         {
             "key": "UpngUnsupportedInterlacing",
-            "value": "尚未支援隔行掃描圖片."
+            "value": "不支援隔行掃描圖片"
         },
         {
             "key": "UpngUnsupportedColorFormat",
-            "value": "此圖片顏色格式尚未支援."
+            "value": "不支援此圖片顏色格式"
         },
         {
             "key": "UpngInvalidParameter",
-            "value": "無效的參數."
+            "value": "無效的參數"
         },
         {
             "key": "EmuiiboNotPresent",
-            "value": "沒有符合的emuiibo."
+            "value": "沒有符合的emuiibo"
         },
         {
             "key": "Help",
@@ -130,23 +130,23 @@
         },
         {
             "key": "SelectedArea",
-            "value": "Selected area"
+            "value": "選定持有者"
         },
         {
             "key": "NoVirtualAmiiboAreas",
-            "value": "This virtual amiibo has no areas"
+            "value": "這個虛擬amiibo沒有持有者"
         },
         {
             "key": "EnableRandomUuid",
-            "value": "Enable random UUID"
+            "value": "啟用隨機UUID"
         },
         {
             "key": "DisableRandomUuid",
-            "value": "Disable random UUID"
+            "value": "關閉隨機UUID"
         },
         {
             "key": "RandomUuid",
-            "value": "Random UUID"
+            "value": "隨機UUID"
         }
     ]
 }

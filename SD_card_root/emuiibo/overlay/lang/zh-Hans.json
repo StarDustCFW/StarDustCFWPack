@@ -130,23 +130,23 @@
         },
         {
             "key": "SelectedArea",
-            "value": "Selected area"
+            "value": "所选程序数据区域"
         },
         {
             "key": "NoVirtualAmiiboAreas",
-            "value": "This virtual amiibo has no areas"
+            "value": "这个虚拟Amiibo没有程序数据区域"
         },
         {
             "key": "EnableRandomUuid",
-            "value": "Enable random UUID"
+            "value": "开启随机UUID"
         },
         {
             "key": "DisableRandomUuid",
-            "value": "Disable random UUID"
+            "value": "关闭随机UUID"
         },
         {
             "key": "RandomUuid",
-            "value": "Random UUID"
+            "value": "随机UUID"
         }
     ]
 }
