@@ -40,5 +40,5 @@ payload=StarDust/payloads/prodinfo_gen.bin
 { }
 
 [StarDust Menu]
-payload=StarDust.bin
+payload=payload.bin
 { }
