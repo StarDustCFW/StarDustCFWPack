@@ -160,5 +160,11 @@
         "prerelease": false,
         "published_at": "2023-04-03T18:05:22Z",
         "date": 1710123671
+    },
+    "impeeza_sys-patch": {
+        "ver": "v1.5.2",
+        "prerelease": false,
+        "published_at": "2024-06-11T17:26:28Z",
+        "date": 1718301594
     }
 }
