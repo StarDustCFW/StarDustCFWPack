@@ -1,9 +1,9 @@
 {
     "Atmosphere-NX_Atmosphere": {
-        "ver": "1.7.0-prerelease",
-        "prerelease": true,
-        "published_at": "2024-03-29T15:42:11Z",
-        "date": 1711887514
+        "ver": "1.7.1",
+        "prerelease": false,
+        "published_at": "2024-06-11T05:26:33Z",
+        "date": 1718294572
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.23.2",
@@ -60,10 +60,10 @@
         "date": 1710123260
     },
     "ndeadly_MissionControl": {
-        "ver": "v0.11.0",
+        "ver": "v0.11.1",
         "prerelease": false,
-        "published_at": "2024-04-01T05:24:59Z",
-        "date": 1711987778
+        "published_at": "2024-06-11T07:48:30Z",
+        "date": 1718294580
     },
     "spacemeowx2_ldn_mitm": {
         "ver": "v1.16.0",
@@ -114,10 +114,10 @@
         "date": 1710123280
     },
     "proferabg_EdiZon-Overlay": {
-        "ver": "v1.0.7",
+        "ver": "v1.0.8",
         "prerelease": false,
-        "published_at": "2023-06-26T04:36:54Z",
-        "date": 1710123282
+        "published_at": "2024-06-07T01:04:07Z",
+        "date": 1718294586
     },
     "HeadpatServices_sys-clk-Overlay": {
         "ver": "v1.1",
@@ -150,10 +150,10 @@
         "date": 1710123295
     },
     "CTCaer_hekate": {
-        "ver": "v6.1.1",
+        "ver": "v6.2.0",
         "prerelease": false,
-        "published_at": "2024-03-29T15:53:03Z",
-        "date": 1711887532
+        "published_at": "2024-06-11T09:51:52Z",
+        "date": 1718294592
     },
     "nedex_QuickNTP": {
         "ver": "1.2.8",
