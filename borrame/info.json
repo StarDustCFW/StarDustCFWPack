@@ -66,10 +66,10 @@
         "date": 1718294580
     },
     "spacemeowx2_ldn_mitm": {
-        "ver": "v1.16.0",
-        "prerelease": false,
-        "published_at": "2023-09-05T08:24:26Z",
-        "date": 1710123265
+        "ver": "v1.17.0",
+        "prerelease": true,
+        "published_at": "2024-06-25T08:09:24Z",
+        "date": 1719305601
     },
     "XorTroll_emuiibo": {
         "ver": "1.1.1",
@@ -126,10 +126,10 @@
         "date": 1710123284
     },
     "masagrator_Status-Monitor-Overlay": {
-        "ver": "1.0.3a",
+        "ver": "1.0.4",
         "prerelease": false,
-        "published_at": "2024-01-04T13:35:12Z",
-        "date": 1710123287
+        "published_at": "2024-06-25T06:10:05Z",
+        "date": 1719305610
     },
     "WerWolv_Tesla-Menu": {
         "ver": "v1.2.3",
