@@ -3,168 +3,162 @@
         "ver": "1.7.1",
         "prerelease": false,
         "published_at": "2024-06-11T05:26:33Z",
-        "date": 1718294572
+        "date": 1720613428
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.23.2",
         "prerelease": false,
         "published_at": "2023-11-15T18:42:38Z",
-        "date": 1710123226
+        "date": 1720613430
     },
     "proconsule_nxmp": {
         "ver": "v0.9.0",
         "prerelease": false,
         "published_at": "2024-01-04T11:38:24Z",
-        "date": 1710123229
+        "date": 1720613433
     },
     "J-D-K_JKSV": {
         "ver": "02\/23\/2023",
         "prerelease": false,
         "published_at": "2023-02-23T22:28:30Z",
-        "date": 1710123233
+        "date": 1720613435
     },
     "tomvita_EdiZon-SE": {
         "ver": "3.8.37",
         "prerelease": true,
         "published_at": "2023-03-13T14:38:54Z",
-        "date": 1710123237
+        "date": 1720613438
     },
     "Huntereb_Awoo-Installer": {
         "ver": "1.3.5",
         "prerelease": false,
         "published_at": "2022-12-15T15:38:08Z",
-        "date": 1710123241
+        "date": 1720613440
     },
     "exelix11_SwitchThemeInjector": {
         "ver": "v4.7.1",
         "prerelease": false,
         "published_at": "2023-10-14T11:43:04Z",
-        "date": 1710123250
+        "date": 1720613442
     },
     "XorTroll_Goldleaf": {
         "ver": "1.0.0",
         "prerelease": false,
         "published_at": "2023-08-19T19:07:29Z",
-        "date": 1710123255
+        "date": 1720613444
     },
     "XorTroll_uLaunch": {
         "ver": "1.0.0",
         "prerelease": false,
         "published_at": "2024-07-04T19:07:01Z",
-        "date": 1720130499
-    },
-    "ITotalJustice_sys-patch": {
-        "ver": "v1.5.0",
-        "prerelease": false,
-        "published_at": "2023-10-24T21:20:19Z",
-        "date": 1710123260
-    },
-    "ndeadly_MissionControl": {
-        "ver": "v0.11.1",
-        "prerelease": false,
-        "published_at": "2024-06-11T07:48:30Z",
-        "date": 1718294580
-    },
-    "spacemeowx2_ldn_mitm": {
-        "ver": "v1.17.0",
-        "prerelease": false,
-        "published_at": "2024-06-25T11:07:55Z",
-        "date": 1719306124
-    },
-    "XorTroll_emuiibo": {
-        "ver": "1.1.1",
-        "prerelease": false,
-        "published_at": "2023-09-02T14:18:03Z",
-        "date": 1710123268
-    },
-    "cathery_sys-con": {
-        "ver": "v0.6.4",
-        "prerelease": false,
-        "published_at": "2021-09-23T16:58:46Z",
-        "date": 1710123270
-    },
-    "retronx-team_sys-clk": {
-        "ver": "2.0.0-rc",
-        "prerelease": false,
-        "published_at": "2023-10-14T13:51:15Z",
-        "date": 1710123272
-    },
-    "WerWolv_nx-ovlloader": {
-        "ver": "v1.0.7",
-        "prerelease": false,
-        "published_at": "2023-05-05T14:37:42Z",
-        "date": 1710123274
-    },
-    "WerWolv_ovl-sysmodules": {
-        "ver": "v1.3.1",
-        "prerelease": false,
-        "published_at": "2023-03-16T21:09:33Z",
-        "date": 1710123276
-    },
-    "znxDomain_DNS-MITM_Manager": {
-        "ver": "0.2.0",
-        "prerelease": false,
-        "published_at": "2023-03-11T02:55:56Z",
-        "date": 1710123278
-    },
-    "HookedBehemoth_sys-tune": {
-        "ver": "v2.0.0",
-        "prerelease": false,
-        "published_at": "2023-09-07T09:55:42Z",
-        "date": 1710123280
-    },
-    "proferabg_EdiZon-Overlay": {
-        "ver": "v1.0.8",
-        "prerelease": false,
-        "published_at": "2024-06-07T01:04:07Z",
-        "date": 1718294586
-    },
-    "HeadpatServices_sys-clk-Overlay": {
-        "ver": "v1.1",
-        "prerelease": false,
-        "published_at": "2020-03-01T21:47:08Z",
-        "date": 1710123284
-    },
-    "masagrator_Status-Monitor-Overlay": {
-        "ver": "1.0.4",
-        "prerelease": false,
-        "published_at": "2024-06-25T06:10:05Z",
-        "date": 1719305610
-    },
-    "WerWolv_Tesla-Menu": {
-        "ver": "v1.2.3",
-        "prerelease": false,
-        "published_at": "2023-05-27T12:55:49Z",
-        "date": 1710123291
-    },
-    "CaramelDunes_prodinfo_gen": {
-        "ver": "v1.1.0",
-        "prerelease": false,
-        "published_at": "2022-04-02T08:33:15Z",
-        "date": 1710123293
-    },
-    "suchmememanyskill_TegraExplorer": {
-        "ver": "4.2.0",
-        "prerelease": true,
-        "published_at": "2024-07-07T17:33:02Z",
-        "date": 1720376873
-    },
-    "CTCaer_hekate": {
-        "ver": "v6.2.1",
-        "prerelease": false,
-        "published_at": "2024-07-02T16:37:31Z",
-        "date": 1719939747
-    },
-    "nedex_QuickNTP": {
-        "ver": "1.2.8",
-        "prerelease": false,
-        "published_at": "2023-04-03T18:05:22Z",
-        "date": 1710123671
+        "date": 1720613446
     },
     "impeeza_sys-patch": {
         "ver": "v1.5.2",
         "prerelease": false,
         "published_at": "2024-06-11T17:26:28Z",
-        "date": 1718301594
+        "date": 1720613448
+    },
+    "ndeadly_MissionControl": {
+        "ver": "v0.11.1",
+        "prerelease": false,
+        "published_at": "2024-06-11T07:48:30Z",
+        "date": 1720613450
+    },
+    "spacemeowx2_ldn_mitm": {
+        "ver": "v1.17.0",
+        "prerelease": false,
+        "published_at": "2024-06-25T11:07:55Z",
+        "date": 1720613452
+    },
+    "XorTroll_emuiibo": {
+        "ver": "1.1.1",
+        "prerelease": false,
+        "published_at": "2023-09-02T14:18:03Z",
+        "date": 1720613455
+    },
+    "cathery_sys-con": {
+        "ver": "v0.6.4",
+        "prerelease": false,
+        "published_at": "2021-09-23T16:58:46Z",
+        "date": 1720613457
+    },
+    "retronx-team_sys-clk": {
+        "ver": "2.0.0-rc",
+        "prerelease": false,
+        "published_at": "2023-10-14T13:51:15Z",
+        "date": 1720613459
+    },
+    "WerWolv_nx-ovlloader": {
+        "ver": "v1.0.7",
+        "prerelease": false,
+        "published_at": "2023-05-05T14:37:42Z",
+        "date": 1720613760
+    },
+    "WerWolv_ovl-sysmodules": {
+        "ver": "v1.3.1",
+        "prerelease": false,
+        "published_at": "2023-03-16T21:09:33Z",
+        "date": 1720613762
+    },
+    "znxDomain_DNS-MITM_Manager": {
+        "ver": "0.2.0",
+        "prerelease": false,
+        "published_at": "2023-03-11T02:55:56Z",
+        "date": 1720613763
+    },
+    "HookedBehemoth_sys-tune": {
+        "ver": "v2.0.0",
+        "prerelease": false,
+        "published_at": "2023-09-07T09:55:42Z",
+        "date": 1720613765
+    },
+    "proferabg_EdiZon-Overlay": {
+        "ver": "v1.0.8",
+        "prerelease": false,
+        "published_at": "2024-06-07T01:04:07Z",
+        "date": 1720613767
+    },
+    "HeadpatServices_sys-clk-Overlay": {
+        "ver": "v1.1",
+        "prerelease": false,
+        "published_at": "2020-03-01T21:47:08Z",
+        "date": 1720613769
+    },
+    "masagrator_Status-Monitor-Overlay": {
+        "ver": "1.0.4",
+        "prerelease": false,
+        "published_at": "2024-06-25T06:10:05Z",
+        "date": 1720613771
+    },
+    "nedex_QuickNTP": {
+        "ver": "1.2.8",
+        "prerelease": false,
+        "published_at": "2023-04-03T18:05:22Z",
+        "date": 1720613773
+    },
+    "WerWolv_Tesla-Menu": {
+        "ver": "v1.2.3",
+        "prerelease": false,
+        "published_at": "2023-05-27T12:55:49Z",
+        "date": 1720613775
+    },
+    "CaramelDunes_prodinfo_gen": {
+        "ver": "v1.1.0",
+        "prerelease": false,
+        "published_at": "2022-04-02T08:33:15Z",
+        "date": 1720613776
+    },
+    "suchmememanyskill_TegraExplorer": {
+        "ver": "4.2.0",
+        "prerelease": true,
+        "published_at": "2024-07-07T17:33:02Z",
+        "date": 1720613778
+    },
+    "CTCaer_hekate": {
+        "ver": "v6.2.1",
+        "prerelease": false,
+        "published_at": "2024-07-02T16:37:31Z",
+        "date": 1720613780
     }
 }
