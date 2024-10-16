@@ -1,9 +1,9 @@
 {
     "Atmosphere-NX_Atmosphere": {
-        "ver": "1.7.1",
-        "prerelease": false,
-        "published_at": "2024-06-11T05:26:33Z",
-        "date": 1728753419
+        "ver": "1.8.0-prerelease",
+        "prerelease": true,
+        "published_at": "2024-10-16T05:07:32Z",
+        "date": 1729056614
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.23.2",
