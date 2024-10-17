@@ -71,7 +71,6 @@
 
 -/sept/
 -/bootloader/hekate_ipl.bak
--/bootloader/patches.ini
 -/bootloader/payloads/boot_menu.bin
 -/bootloader/update.bin
 -/config/hid_mitm/
