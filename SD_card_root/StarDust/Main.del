@@ -145,8 +145,8 @@
 
 # Corregir Archivos basura
 [StarDust Clean...
--/StarDust/payloads/Stock.bin
--/StarDust/payloads/fusee.bin
+-/StarDust/bootloader/hekate_ipl.conf
+-/StarDust/bootloader/Stock
 -/StarDust/ftpd/
 -/StarDust/back-exp.bmp
 -/StarDust/background.bmp
