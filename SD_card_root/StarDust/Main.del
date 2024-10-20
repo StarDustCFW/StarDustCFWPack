@@ -243,11 +243,6 @@
 -/StarDust/license.dat
 -/StarDust/boot.dat
 
-
-# Remove V2 patch
-#</StarDust.bin
-#>/payload.bin
-
 # Pequeña correccion
 </Backup/prodinfo.bin
 ~/prodinfo_sysnand.bin
@@ -275,6 +270,8 @@
 
 # Service handle
 [Service Manager
+#Syspatch
++/atmosphere/contents/420000000000000B/flags/boot2.flag
 #mission control
 #-/atmosphere/contents/010000000000bd00/flags/boot2.flag
 #Emuiibo
