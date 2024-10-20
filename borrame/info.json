@@ -160,5 +160,11 @@
         "prerelease": false,
         "published_at": "2024-10-12T15:18:45Z",
         "date": 1729164628
+    },
+    "rashevskyv_dbi": {
+        "ver": "712ru",
+        "prerelease": false,
+        "published_at": "2024-10-20T10:38:08Z",
+        "date": 1729462239
     }
 }
