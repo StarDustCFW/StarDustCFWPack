@@ -23,16 +23,22 @@
 -/atmosphere/hbl.json
 -/atmosphere/hbl.nsp.sig
 -/atmosphere/hbl_ori.nsp
--/atmosphere/contents/0100000000000081/
--/atmosphere/contents/010000000000000D/
--/atmosphere/contents/010000000000002B/
--/atmosphere/contents/010000000000003C/
 -/atmosphere/contents/0100000000000008/
+-/atmosphere/contents/010000000000000d/
+-/atmosphere/contents/0100000000000017/
+-/atmosphere/contents/010000000000002b/
 -/atmosphere/contents/0100000000000032/
 -/atmosphere/contents/0100000000000034/
 -/atmosphere/contents/0100000000000036/
 -/atmosphere/contents/0100000000000037/
 -/atmosphere/contents/0100000000000042/
+-/atmosphere/contents/0100000000000420/
+-/atmosphere/contents/010000000000b240/
+-/atmosphere/contents/010000000000d609/
+-/atmosphere/contents/010000000000d623/
+
+-/atmosphere/contents/0100000000000081/
+-/atmosphere/contents/010000000000003C/
 -/atmosphere/contents/0100000000000BEF/
 -/atmosphere/contents/010000000000100B/
 -/atmosphere/contents/0100000000001010/
@@ -77,16 +83,6 @@
 -/config/reinx-spoofer/
 -/config/sys-ftpd/connect.mp3
 -/config/sys-ftpd/disconnect.mp3
--/sxos/kip_patches/
--/sxos/titles/0100000000534C56/
--/sxos/flags/
--/sxos/titles/4200000000000010/
--/sxos/titles/420000000000000E/
--/sxos/titles/0100000000000034-OFF/
--/sxos/titles/0100000000000034/
--/sxos/exefs_patches/NxThemesInstaller/
--/sxos/template.txt
--/sxos/titles/010000000000100C/exefs.nsp
 #-/switch/pplay/
 -/switch/tinfoil_install_temp.nro
 -/switch/RipJKAnime_NX/
@@ -136,8 +132,6 @@
 -/atmosphere/exefs_patches/RR_logo/
 -/atmosphere/contents/010000000000100C/fsmitm.flag
 -/atmosphere/contents/010000000000100C/exefs.nsp
--/sxos/titles/010000000000100C/fsmitm.flag
--/sxos/titles/010000000000100C/exefs.nsp
 -/RR_version.txt
 -/ums_boot0.ini
 -/ums_boot1.ini
@@ -217,11 +211,6 @@
 -/atmosphere/contents/0100000000001013/fsmitm.flag
 #-/atmosphere/contents/0100000000001000/romfs/lyt/Set.szs
 #-/atmosphere/contents/0100000000001013/romfs/
-#-/sxos/titles/0100000000001000/romfs/lyt/Entrance.szs
-#-/sxos/titles/0100000000001000/romfs/lyt/Set.szs
--/sxos/titles/0100000000001000/romfs/lyt/common.szs
--/sxos/titles/0100000000001013/fsmitm.flag
--/sxos/titles/0100000000001013/romfs/
 
 [Clean OLD Sigpatches
 -/atmosphere/contents/exefs_patches/es_patches/
