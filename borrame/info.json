@@ -53,12 +53,6 @@
         "published_at": "2024-07-04T19:07:01Z",
         "date": 1728753438
     },
-    "impeeza_sys-patch": {
-        "ver": "v1.5.4",
-        "prerelease": false,
-        "published_at": "2024-10-26T16:26:58Z",
-        "date": 1729960217
-    },
     "ndeadly_MissionControl": {
         "ver": "v0.12.0",
         "prerelease": false,
@@ -166,5 +160,11 @@
         "prerelease": false,
         "published_at": "2024-10-31T22:58:55Z",
         "date": 1730417418
+    },
+    "impeeza_sys-patch": {
+        "ver": "v1.5.4",
+        "prerelease": false,
+        "published_at": "2024-10-26T16:26:58Z",
+        "date": 1730465040
     }
 }
