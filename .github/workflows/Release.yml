@@ -12,7 +12,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Get version from StarDustV.txt
+    - name: Get Version from StarDustV.txt
       id: version
       run: |
         # Leer el contenido del archivo y eliminar saltos de línea y caracteres Windows
@@ -24,5 +24,17 @@ jobs:
       run: |
         # Crear la release usando el contenido limpio de StarDustV.txt como tag_name
         gh release create ${{ env.VERSION }} ./SD_card_root/boot_payload.bin
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Compress Release to File
+      run: |
+        sudo apt-get install rar -y
+        rar a -m5 -r -s "StarDustCFW.rar" ./SD_card_root/
+
+    - name: Update Release
+      run: | 
+        gh release upload ${{env.VERSION}} StarDustCFW.rar
+        echo gh release upload ${{env.VERSION}} ./SD_card_root/boot_payload.bin
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

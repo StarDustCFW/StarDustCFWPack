@@ -17,6 +17,6 @@ jobs:
     - name: Update Release
       run: | 
         gh release upload ${{github.event.release.tag_name}} StarDustCFW.rar
-        echo gh release upload ${{github.event.release.tag_name}} ./SD_card_root/boot_payload.bin
+        gh release upload ${{github.event.release.tag_name}} ./SD_card_root/boot_payload.bin
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
