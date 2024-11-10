@@ -20,10 +20,11 @@ jobs:
         echo "VERSION=$VERSION" >> $GITHUB_ENV
         echo "Cleaned VERSION: $VERSION"
 
-    - name: Create release
+    - name: Create Release
       run: |
-        # Crear la release usando el contenido limpio de StarDustV.txt como tag_name
-        gh release create ${{ env.VERSION }} ./SD_card_root/boot_payload.bin
+        # Intentar crear la release, y si falla, continuar
+        gh release create ${{ env.VERSION }} --title "StarDustCFW ${VERSION}" \
+        --notes "# ES\n* Cambios menores \n# EN\n* Minnor Bugfixes\n\n\n##### Actualiza con el \`\`StarDust-Toolkit\`\` desde tu switch\n## [Guía detallada](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/Guia.md)\n## [Detailed Guide](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/Guide.md)" || true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -33,8 +34,8 @@ jobs:
         rar a -m5 -r -s "StarDustCFW.rar" ./SD_card_root/
 
     - name: Update Release
-      run: | 
+      run: |
         gh release upload ${{env.VERSION}} StarDustCFW.rar
-        echo gh release upload ${{env.VERSION}} ./SD_card_root/boot_payload.bin
+        gh release upload ${{env.VERSION}} ./SD_card_root/boot_payload.bin
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
