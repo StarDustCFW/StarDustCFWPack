@@ -16,12 +16,13 @@ jobs:
       id: version
       run: |
         # Leer el contenido del archivo y eliminar saltos de línea
-        VERSION=$(cat SD_card_root/StarDust/StarDustV.txt | tr -d '\n')
+        VERSION=$(cat SD_card_root/StarDust/StarDustV.txt | tr -d '\n' | tr -d '[:space:]' | tr -cd '[:alnum:]-')
         echo "VERSION=$VERSION" >> $GITHUB_ENV
+        echo "Cleaned VERSION: $VERSION"
 
     - name: Create release
       run: |
-        # Crear la release usando el contenido de StarDustV.txt como tag_name
-        gh release create ${{ env.VERSION }} SD_card_root/boot_payload.bin
+        # Crear la release usando el contenido limpio de StarDustV.txt como tag_name
+        gh release create ${{ env.VERSION }} ./SD_card_root/boot_payload.bin
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
