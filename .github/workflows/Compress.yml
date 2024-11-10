@@ -24,6 +24,5 @@ jobs:
           "Source_code.rar"
           "boot_payload.bin"
         tag_name: ${{ github.ref }}
-        overwrite: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
