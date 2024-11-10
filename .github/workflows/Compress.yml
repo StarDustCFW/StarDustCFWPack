@@ -14,9 +14,9 @@ jobs:
         sudo apt-get install rar -y
         rar a -m5 -r -s "StarDustCFW.rar" ./SD_card_root/
 
-    - name: Update release
+    - name: Update Release
       run: | 
         gh release upload ${{github.event.release.tag_name}} StarDustCFW.rar
-        gh release upload ${{github.event.release.tag_name}} ./SD_card_root/boot_payload.bin
+        echo gh release upload ${{github.event.release.tag_name}} ./SD_card_root/boot_payload.bin
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

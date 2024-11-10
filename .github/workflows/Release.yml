@@ -1,0 +1,27 @@
+name: Create Release from StarDustV.txt
+
+on:
+  push:
+    paths:
+      - 'SD_card_root/StarDust/StarDustV.txt'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Get version from StarDustV.txt
+      id: version
+      run: |
+        # Leer el contenido del archivo y eliminar saltos de línea
+        VERSION=$(cat SD_card_root/StarDust/StarDustV.txt | tr -d '\n')
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+    - name: Create release
+      run: |
+        # Crear la release usando el contenido de StarDustV.txt como tag_name
+        gh release create ${{ env.VERSION }} SD_card_root/boot_payload.bin
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
