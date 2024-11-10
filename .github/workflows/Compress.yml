@@ -18,14 +18,22 @@ jobs:
         rar a -m5 -r -s "Source_code.rar" ./SD_card_root/
         ls -a
         
-    - name: Create or Update GitHub Release
+    - name: Update release
+      uses: johnwbyrd/update-release@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        files: ./SD_card_root/boot_payload.bin Source_code.rar
+        tag: ${{ github.ref_name }}
+        
+    - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
       if: startsWith(github.ref, 'refs/tags/')
       with:
         body: TODO
+        name: StarDustCFW ${{ github.ref_name }}
         files: |
           Source_code.rar
-          ./SD_card_root/boot_payload.bin
+          
         tag_name: ${{ github.ref }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
