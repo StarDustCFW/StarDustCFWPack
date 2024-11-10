@@ -15,8 +15,7 @@ jobs:
     - name: Get Version from StarDustV.txt
       id: version
       run: |
-        # Leer el contenido del archivo y eliminar saltos de línea y caracteres Windows
-        VERSION=$(cat SD_card_root/StarDust/StarDustV.txt | tr -d '\r' | tr -d '\n' | tr -d '[:space:]' | tr -cd '[:alnum:]-')
+        VERSION=$(cat SD_card_root/StarDust/StarDustV.txt | tr -d '\r' | tr -d '\n' | tr -d '[:space:]')
         echo "VERSION=$VERSION" >> $GITHUB_ENV
         echo "Cleaned VERSION: $VERSION"
 
