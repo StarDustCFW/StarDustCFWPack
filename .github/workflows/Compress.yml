@@ -15,25 +15,12 @@ jobs:
 
     - name: Compress to File
       run: |
-        rar a -m5 -r -s "Source_code.rar" ./SD_card_root/
+        echo rar a -m5 -r -s "Source_code.rar" ./SD_card_root/
         ls -a
         
     - name: Update release
-      uses: johnwbyrd/update-release@v1
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        files: ./SD_card_root/boot_payload.bin Source_code.rar
-        tag: ${{ github.ref_name }}
-        
-    - name: Create GitHub Release
-      uses: softprops/action-gh-release@v2
-      if: startsWith(github.ref, 'refs/tags/')
-      with:
-        body: TODO
-        name: StarDustCFW ${{ github.ref_name }}
-        files: |
-          Source_code.rar
-          
-        tag_name: ${{ github.ref }}
+      run: | 
+        echo gh release upload ${github.ref_name}} Source_code.rar
+        gh release upload ${github.ref_name}} ./SD_card_root/boot_payload.bin
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
