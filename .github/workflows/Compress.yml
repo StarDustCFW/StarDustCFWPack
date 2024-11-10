@@ -20,7 +20,7 @@ jobs:
         
     - name: Update release
       run: | 
-        echo gh release upload ${github.ref_name}} Source_code.rar
-        gh release upload ${github.ref_name}} ./SD_card_root/boot_payload.bin
+        echo gh release upload ${{github.ref_name}} Source_code.rar
+        gh release upload ${{github.ref_name}} ./SD_card_root/boot_payload.bin
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
