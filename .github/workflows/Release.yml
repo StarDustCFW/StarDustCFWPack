@@ -34,6 +34,6 @@ jobs:
     - name: Update Release
       run: |
         gh release upload ${{env.VERSION}} StarDustCFW.rar
-        gh release upload ${{env.VERSION}} ./SD_card_root/boot_payload.bin
+        gh release upload ${{env.VERSION}} ./SD_card_root/boot_payload.bin || true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
