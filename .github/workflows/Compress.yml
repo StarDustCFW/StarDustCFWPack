@@ -22,8 +22,9 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: |
-          "Source_code.rar"
-          "boot_payload.bin"
+          "./Source_code.rar"
+          "./SD_card_root/boot_payload.bin"
+        overwrite: true
         tag_name: ${{ github.ref }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
