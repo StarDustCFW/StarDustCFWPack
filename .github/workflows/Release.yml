@@ -23,8 +23,7 @@ jobs:
     - name: Create Release
       run: |
         # Intentar crear la release, y si falla, continuar
-        gh release create ${{ env.VERSION }} --title "StarDustCFW ${VERSION}" \
-        --notes "# ES\n* Cambios menores \n# EN\n* Minnor Bugfixes\n\n\n##### Actualiza con el \`\`StarDust-Toolkit\`\` desde tu switch\n## [Guía detallada](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/Guia.md)\n## [Detailed Guide](https://github.com/StarDustCFW/StarDustCFWPack/blob/master/Guide.md)" || true
+        gh release create ${{ env.VERSION }} --title "StarDustCFW ${VERSION}" --notes-file ./borrame/Notes.md  || true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
