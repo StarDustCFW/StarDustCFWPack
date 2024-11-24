@@ -120,10 +120,10 @@
         "date": 1728753460
     },
     "masagrator_Status-Monitor-Overlay": {
-        "ver": "1.1.6",
-        "prerelease": false,
-        "published_at": "2024-11-05T18:04:52Z",
-        "date": 1730831428
+        "ver": "1.1.7",
+        "prerelease": true,
+        "published_at": "2024-11-24T17:19:23Z",
+        "date": 1732469426
     },
     "nedex_QuickNTP": {
         "ver": "1.2.8-1",
