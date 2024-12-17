@@ -1,9 +1,9 @@
 {
     "Atmosphere-NX_Atmosphere": {
         "ver": "1.8.0-prerelease",
-        "prerelease": true,
+        "prerelease": false,
         "published_at": "2024-10-16T05:07:32Z",
-        "date": 1729056614
+        "date": 1734458577
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.23.2",
@@ -120,10 +120,10 @@
         "date": 1728753460
     },
     "masagrator_Status-Monitor-Overlay": {
-        "ver": "1.1.7",
+        "ver": "1.1.7a",
         "prerelease": true,
-        "published_at": "2024-11-24T17:19:23Z",
-        "date": 1732469426
+        "published_at": "2024-12-15T07:48:02Z",
+        "date": 1734458586
     },
     "nedex_QuickNTP": {
         "ver": "1.2.8-1",
