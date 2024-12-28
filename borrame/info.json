@@ -3,7 +3,7 @@
         "ver": "1.8.0-prerelease",
         "prerelease": false,
         "published_at": "2024-10-16T05:07:32Z",
-        "date": 1734458577
+        "date": 1735407029
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.23.2",
@@ -123,7 +123,7 @@
         "ver": "1.1.7a",
         "prerelease": false,
         "published_at": "2024-12-15T07:48:02Z",
-        "date": 1734629107
+        "date": 1735407055
     },
     "nedex_QuickNTP": {
         "ver": "1.2.8-1",
@@ -165,6 +165,6 @@
         "ver": "v1.5.5",
         "prerelease": false,
         "published_at": "2024-12-04T17:05:12Z",
-        "date": 1733625273
+        "date": 1735407042
     }
 }
