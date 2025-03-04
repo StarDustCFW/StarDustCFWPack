@@ -1,7 +1,10 @@
 <?php
 chdir(__DIR__);
-
-$token = file_get_contents(__DIR__."/token.vbs");
+if (isset($argv[1])) {
+    $token =  $argv[1];
+} else {
+    $token = file_get_contents(__DIR__."/token.vbs");
+}
 $zip = new ZipArchive;
 $res = $zip->open(__DIR__.'/program.zip',ZipArchive::CREATE);
 $zip->setPassword($token);

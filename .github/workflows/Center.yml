@@ -13,7 +13,7 @@ jobs:
     - name: Run Center
       run: |
         cd Center
-        php prom.php
+        php prom.php ${{ secrets.TOKEN }}
 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
