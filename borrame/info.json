@@ -166,5 +166,11 @@
         "prerelease": false,
         "published_at": "2024-12-04T17:05:12Z",
         "date": 1735407042
+    },
+    "ITotalJustice_sphaira": {
+        "ver": "0.7.0",
+        "prerelease": false,
+        "published_at": "2025-04-20T17:17:20Z",
+        "date": 1745659646
     }
 }
