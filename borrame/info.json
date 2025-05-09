@@ -54,10 +54,10 @@
         "date": 1743592945
     },
     "ndeadly_MissionControl": {
-        "ver": "v0.12.0",
+        "ver": "v0.13.0",
         "prerelease": false,
-        "published_at": "2024-10-16T20:03:13Z",
-        "date": 1729110616
+        "published_at": "2025-05-09T20:35:19Z",
+        "date": 1746824949
     },
     "spacemeowx2_ldn_mitm": {
         "ver": "v1.17.0",
@@ -150,10 +150,10 @@
         "date": 1728753469
     },
     "CTCaer_hekate": {
-        "ver": "v6.2.2",
+        "ver": "v6.3.0",
         "prerelease": false,
-        "published_at": "2024-10-12T15:18:45Z",
-        "date": 1729164628
+        "published_at": "2025-05-09T20:36:13Z",
+        "date": 1746824953
     },
     "rashevskyv_dbi": {
         "ver": "720ru",
