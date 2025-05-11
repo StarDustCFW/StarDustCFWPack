@@ -2,7 +2,7 @@ name: Center
 on:
   workflow_dispatch:  # Ejecución manual
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */3 * * *"
 
 jobs:
   UpdateBot:
