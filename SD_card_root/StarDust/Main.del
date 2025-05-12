@@ -70,10 +70,10 @@
 +/atmosphere/fatal_errors/
 -/atmosphere/fatal_reports/
 +/atmosphere/fatal_reports/
-#-/atmosphere/erpt_reports/
-#+/atmosphere/erpt_reports/
-#-/atmosphere/crash_reports/
-#+/atmosphere/crash_reports/
+-/atmosphere/erpt_reports/
++/atmosphere/erpt_reports/
+-/atmosphere/crash_reports/
++/atmosphere/crash_reports/
 
 -/sept/
 -/bootloader/hekate_ipl.bak
@@ -200,33 +200,33 @@
 -/atmosphere/contents/0100000000001013/exefs.nsp1
 
 # remove themes
-[remove themes
+# [remove themes
 #-/atmosphere/contents/0100000000001000/romfs/
--/atmosphere/contents/0100000000001000/romfs/lyt/Entrance.szs
--/atmosphere/contents/0100000000001000/romfs/lyt/common.szs
--/atmosphere/contents/0100000000001000/romfs/lyt/Flaunch.szs
--/atmosphere/contents/0100000000001000/sfmor/lyt/Entrance.szs
--/atmosphere/contents/0100000000001000/sfmor/lyt/common.szs
--/atmosphere/contents/0100000000001000/sfmor/lyt/Flaunch.szs
--/atmosphere/contents/0100000000001013/fsmitm.flag
+# -/atmosphere/contents/0100000000001000/romfs/lyt/Entrance.szs
+# -/atmosphere/contents/0100000000001000/romfs/lyt/common.szs
+# -/atmosphere/contents/0100000000001000/romfs/lyt/Flaunch.szs
+# -/atmosphere/contents/0100000000001000/sfmor/lyt/Entrance.szs
+# -/atmosphere/contents/0100000000001000/sfmor/lyt/common.szs
+# -/atmosphere/contents/0100000000001000/sfmor/lyt/Flaunch.szs
+# -/atmosphere/contents/0100000000001013/fsmitm.flag
 #-/atmosphere/contents/0100000000001000/romfs/lyt/Set.szs
 #-/atmosphere/contents/0100000000001013/romfs/
 
-[Clean OLD Sigpatches
--/atmosphere/contents/exefs_patches/es_patches/
--/atmosphere/contents/exefs_patches/nfim_ctest/
--/atmosphere/contents/kip_patches/fs_patches/
--/atmosphere/contents/kip_patches/loader_patches/
+#[Clean OLD Sigpatches
+# -/atmosphere/contents/exefs_patches/es_patches/
+# -/atmosphere/contents/exefs_patches/nfim_ctest/
+# -/atmosphere/contents/kip_patches/fs_patches/
+# -/atmosphere/contents/kip_patches/loader_patches/
 
 # Clean romfs_metadata
 [Clean romfs_metadata
+*romfs_metadata.bin
+-/atmosphere/contents/
+**
 #-/atmosphere/contents/010000000000100C/romfs_metadata.bin
 #-/atmosphere/contents/0100000000001000/romfs_metadata.bin
 #-/atmosphere/contents/01007EF00011E000/romfs_metadata.bin
 #-/atmosphere/contents/010080b00ad66000/romfs_metadata.bin
-*romfs_metadata.bin
--/atmosphere/contents/
-**
 
 # SXOS Licence
 -/StarDust/license.dat
@@ -273,5 +273,9 @@
 :switch
 :StarDust
 :config
+
+#Cyper
+#<payload.enc
+#_dec.bin
 
 #End of Script
