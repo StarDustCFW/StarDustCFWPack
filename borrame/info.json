@@ -172,5 +172,11 @@
         "prerelease": false,
         "published_at": "2025-05-03T20:18:58Z",
         "date": 1746306525
+    },
+    "ppkantorski_Ultrahand-Overlay": {
+        "ver": "v1.8.3",
+        "prerelease": false,
+        "published_at": "2025-05-06T09:45:53Z",
+        "date": 1747075590
     }
 }
