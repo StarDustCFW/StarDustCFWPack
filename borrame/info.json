@@ -12,10 +12,10 @@
         "date": 1728753421
     },
     "proconsule_nxmp": {
-        "ver": "v0.9.0",
+        "ver": "v0.9.1",
         "prerelease": false,
-        "published_at": "2024-01-04T11:38:24Z",
-        "date": 1729478012
+        "published_at": "2025-05-11T13:59:42Z",
+        "date": 1747060634
     },
     "J-D-K_JKSV": {
         "ver": "11\/05\/2024",
@@ -42,16 +42,16 @@
         "date": 1728753433
     },
     "XorTroll_Goldleaf": {
-        "ver": "1.0.0",
-        "prerelease": false,
-        "published_at": "2023-08-19T19:07:29Z",
-        "date": 1728753435
-    },
-    "XorTroll_uLaunch": {
         "ver": "1.1.0",
         "prerelease": false,
-        "published_at": "2025-03-16T20:58:50Z",
-        "date": 1743592945
+        "published_at": "2025-05-11T21:24:48Z",
+        "date": 1747060640
+    },
+    "XorTroll_uLaunch": {
+        "ver": "1.2.0",
+        "prerelease": false,
+        "published_at": "2025-05-11T20:56:55Z",
+        "date": 1747060643
     },
     "ndeadly_MissionControl": {
         "ver": "v0.13.0",
