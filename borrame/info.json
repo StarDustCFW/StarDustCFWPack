@@ -19,9 +19,9 @@
     },
     "J-D-K_JKSV": {
         "ver": "08\/25\/2025",
-        "prerelease": true,
+        "prerelease": false,
         "published_at": "2025-08-25T19:52:22Z",
-        "date": 1756156740
+        "date": 1756212276
     },
     "tomvita_EdiZon-SE": {
         "ver": "3.8.37",
