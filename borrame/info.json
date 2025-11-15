@@ -1,9 +1,9 @@
 {
     "Atmosphere-NX_Atmosphere": {
-        "ver": "1.9.5",
-        "prerelease": false,
-        "published_at": "2025-09-30T01:57:12Z",
-        "date": 1759203128
+        "ver": "1.10.0-prerelease",
+        "prerelease": true,
+        "published_at": "2025-11-15T20:11:34Z",
+        "date": 1763246156
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.23.2",
@@ -30,10 +30,10 @@
         "date": 1728753429
     },
     "Huntereb_Awoo-Installer": {
-        "ver": "1.3.5",
+        "ver": "v1.3.6",
         "prerelease": false,
-        "published_at": "2022-12-15T15:38:08Z",
-        "date": 1728753430
+        "published_at": "2025-11-15T15:38:59Z",
+        "date": 1763246162
     },
     "exelix11_SwitchThemeInjector": {
         "ver": "v4.8.2",
@@ -102,10 +102,10 @@
         "date": 1728753455
     },
     "HookedBehemoth_sys-tune": {
-        "ver": "v2.0.0",
-        "prerelease": false,
-        "published_at": "2023-09-07T09:55:42Z",
-        "date": 1728753457
+        "ver": "v2.1.0-beta.1",
+        "prerelease": true,
+        "published_at": "2025-11-15T16:53:03Z",
+        "date": 1763246171
     },
     "proferabg_EdiZon-Overlay": {
         "ver": "v1.0.11",
@@ -120,10 +120,10 @@
         "date": 1728753460
     },
     "masagrator_Status-Monitor-Overlay": {
-        "ver": "1.3.1",
+        "ver": "1.3.2",
         "prerelease": false,
-        "published_at": "2025-11-05T07:19:10Z",
-        "date": 1762334646
+        "published_at": "2025-11-15T20:37:01Z",
+        "date": 1763246175
     },
     "nedex_QuickNTP": {
         "ver": "1.5.1",
@@ -150,10 +150,10 @@
         "date": 1728753469
     },
     "CTCaer_hekate": {
-        "ver": "v6.3.1",
+        "ver": "v6.4.0",
         "prerelease": false,
-        "published_at": "2025-05-29T03:14:42Z",
-        "date": 1748490321
+        "published_at": "2025-11-15T20:42:06Z",
+        "date": 1763246180
     },
     "rashevskyv_dbi": {
         "ver": "720ru",
