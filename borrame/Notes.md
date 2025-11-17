@@ -1,11 +1,11 @@
 # ES 
-* Soporte
+* Soporte 21.0.0
 * Actualizado :
 * * Payloads
 * * Homebrews
 
 # EN
-* Support
+* Support 21.0.0
 * Updated:
 * * Payloads
 * * Homebrews
