@@ -139,9 +139,9 @@
     },
     "nedex_QuickNTP": {
         "ver": "1.5.2",
-        "prerelease": true,
+        "prerelease": false,
         "published_at": "2025-11-18T10:47:21Z",
-        "date": 1763469883
+        "date": 1763556309
     },
     "ppkantorski_Ultrahand-Overlay": {
         "ver": "v2.1.8",
