@@ -1,0 +1,85 @@
+##########
+# ftpsrv #
+##########
+
+#######################################################################
+# Rename config.ini.template to config.ini for changes to take effect.#
+#######################################################################
+
+[Login]
+
+# disabled by default, do not enable if using ldn_mitm as
+# it's a security risk - you have been warned!
+anon = 0
+
+# if anon is disabled, then user and pass must be set.
+user = ""
+pass = ""
+
+[Network]
+# port 21 is the default port for an ftp server, some platforms may not
+# support using privileged ports, change if needed.
+port = 21
+
+# timeout in seconds until a session is closed.
+# if 0, then no timeout is set.
+# it is recommended to set this to an actual value, eg 20.
+timeout = 0
+
+[Misc]
+# use local time zone over gm (UTC) time zone.
+use_localtime = 0
+
+[Log]
+# enables log output to /config/ftpsrv/log.txt
+log = 0
+
+# options specific to Nintendo Switch
+[Nx]
+# enables showing all available mount points at root "/"
+# for example, SdCard is as at "/sdmc:"
+mount_devices = 0
+
+# enables custom mount points for Breeze users
+mount_breeze_devices = 1
+
+# allows save data to be writable, needs mount_devices = 1
+save_writable = 0
+
+# allows for bis partitions to be mounted, needs mount_devices = 1
+# WARNING: modifying bis files can soft brick your switch!
+mount_bis = 0
+
+# enables led on the controller to light flash
+led = 0
+
+# set to disable convert non-ascii characters to _
+skip_ascii_convert = 0
+
+# options specific to Nintendo Switch App
+[Nx-App]
+; anon = 0
+; user = ""
+; pass = ""
+; port = 21
+; timeout = 0
+; use_localtime = 0
+; log = 0
+; mount_devices = 0
+; save_writable = 0
+; mount_bis = 0
+; led = 0
+
+# options specific to Nintendo Switch Sysmodule
+[Nx-Sys]
+; anon = 0
+; user = ""
+; pass = ""
+port = 5001
+; timeout = 0
+; use_localtime = 0
+; log = 0
+; mount_devices = 0
+; save_writable = 0
+; mount_bis = 0
+; led = 0

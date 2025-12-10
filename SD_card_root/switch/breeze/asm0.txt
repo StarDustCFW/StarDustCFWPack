@@ -1,0 +1,4 @@
+mov 
+str 
+original: {original}	
+return: b code1+4

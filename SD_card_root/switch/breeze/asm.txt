@@ -1,0 +1,25 @@
+stp x25, x26, [sp,#-0x90]	
+ldr w25,e
+lsl w26,w30,16
+cmp w25, w26
+b.ne original
+ldr w25, a
+ldr w26, b
+cmp w25, w26
+b.eq original
+b.ne original
+mov w25, #1
+fmov w25,#1
+str w25, [{target}]
+original: {original}	
+ldp x25, x26, [sp,#-0x90]
+return: b code1+4
+a:
+.word 100
+b:
+.float 100
+c:
+.double 100
+e:
+.short 0
+.short 0x1234
