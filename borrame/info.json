@@ -144,10 +144,10 @@
         "date": 1764440978
     },
     "ppkantorski_Ultrahand-Overlay": {
-        "ver": "v2.2.4",
+        "ver": "v2.2.5",
         "prerelease": false,
-        "published_at": "2025-12-15T14:08:59Z",
-        "date": 1765812420
+        "published_at": "2025-12-17T12:03:54Z",
+        "date": 1765975791
     },
     "CaramelDunes_prodinfo_gen": {
         "ver": "v1.1.0",
@@ -168,9 +168,9 @@
         "date": 1764700533
     },
     "rashevskyv_dbi": {
-        "ver": "849ru",
+        "ver": "854ru",
         "prerelease": false,
-        "published_at": "2025-11-28T20:12:31Z",
-        "date": 1764364722
+        "published_at": "2025-12-17T09:37:31Z",
+        "date": 1765975780
     }
 }
