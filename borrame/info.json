@@ -48,16 +48,16 @@
         "date": 1763430121
     },
     "XorTroll_Goldleaf": {
-        "ver": "1.1.1",
+        "ver": "1.2.0",
         "prerelease": false,
-        "published_at": "2025-06-10T17:45:32Z",
-        "date": 1763313957
+        "published_at": "2025-12-22T19:28:38Z",
+        "date": 1766679629
     },
     "XorTroll_uLaunch": {
-        "ver": "1.2.1",
+        "ver": "1.2.2",
         "prerelease": false,
-        "published_at": "2025-06-09T13:35:36Z",
-        "date": 1763313960
+        "published_at": "2025-12-22T19:35:46Z",
+        "date": 1766679631
     },
     "impeeza_sys-patch": {
         "ver": "v1.5.8",
@@ -78,10 +78,10 @@
         "date": 1765466867
     },
     "XorTroll_emuiibo": {
-        "ver": "1.1.1",
+        "ver": "1.1.2",
         "prerelease": false,
-        "published_at": "2023-09-02T14:18:03Z",
-        "date": 1763313967
+        "published_at": "2025-12-22T19:26:12Z",
+        "date": 1766679635
     },
     "cathery_sys-con": {
         "ver": "v0.6.5",
