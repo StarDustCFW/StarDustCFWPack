@@ -2,7 +2,7 @@ name: Center
 on:
   workflow_dispatch:  # Ejecución manual
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 */6 * * *"
 
 jobs:
   UpdateBot:
@@ -17,3 +17,4 @@ jobs:
 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
