@@ -60,10 +60,10 @@
         "date": 1769306621
     },
     "impeeza_sys-patch": {
-        "ver": "v1.5.9",
+        "ver": "v1.6.0",
         "prerelease": false,
-        "published_at": "2025-12-27T18:18:22Z",
-        "date": 1766860258
+        "published_at": "2026-03-17T13:05:23Z",
+        "date": 1775233730
     },
     "ndeadly_MissionControl": {
         "ver": "v0.14.2",
@@ -78,10 +78,10 @@
         "date": 1770777592
     },
     "XorTroll_emuiibo": {
-        "ver": "1.1.2",
+        "ver": "1.1.3",
         "prerelease": false,
-        "published_at": "2025-12-22T19:26:12Z",
-        "date": 1766679751
+        "published_at": "2026-03-14T21:52:14Z",
+        "date": 1775233734
     },
     "cathery_sys-con": {
         "ver": "v0.6.5",
@@ -162,10 +162,10 @@
         "date": 1763313988
     },
     "CTCaer_hekate": {
-        "ver": "v6.5.1",
+        "ver": "v6.5.2",
         "prerelease": false,
-        "published_at": "2026-01-20T19:12:50Z",
-        "date": 1770068663
+        "published_at": "2026-03-19T22:23:23Z",
+        "date": 1775233745
     },
     "rashevskyv_dbi": {
         "ver": "878ru",

@@ -49,6 +49,14 @@
             "value": "emuiibo가 없는 것 같습니다..."
         },
         {
+            "key": "EmuiiboServiceError",
+            "value": "An error ocurred accessing emuiibo:"
+        },
+        {
+            "key": "OtherServiceError",
+            "value": "An error ocurred accessing services:"
+        },
+        {
             "key": "Help",
             "value": "도움말"
         },

@@ -49,6 +49,14 @@
             "value": "沒有符合的emuiibo"
         },
         {
+            "key": "EmuiiboServiceError",
+            "value": "An error ocurred accessing emuiibo:"
+        },
+        {
+            "key": "OtherServiceError",
+            "value": "An error ocurred accessing services:"
+        },
+        {
             "key": "Help",
             "value": "協助"
         },

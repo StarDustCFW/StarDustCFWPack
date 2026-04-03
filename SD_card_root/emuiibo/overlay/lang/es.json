@@ -49,6 +49,14 @@
             "value": "emuiibo no parece estar presente."
         },
         {
+            "key": "EmuiiboServiceError",
+            "value": "An error ocurred accessing emuiibo:"
+        },
+        {
+            "key": "OtherServiceError",
+            "value": "An error ocurred accessing services:"
+        },
+        {
             "key": "Help",
             "value": "Ayuda"
         },
