@@ -1,11 +1,13 @@
 # ES 
 * Soporte 22.0.0
+* Parche para Tinfoil
 * Actualizado :
 * * Payloads
 * * Homebrews
 
 # EN
 * Support 22.0.0
+* Fix Tinfoil Crash
 * Updated:
 * * Payloads
 * * Homebrews
