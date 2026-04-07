@@ -1,12 +1,12 @@
 # ES 
-* Soporte Parcial 22.0.0
+* Soporte Parcial 22.1.0
 * Parche para Tinfoil
 * Actualizado :
 * * Payloads
 * * Homebrews
 
 # EN
-* Partial Support 22.0.0
+* Partial Support 22.1.0
 * Fix Tinfoil Crash
 * Updated:
 * * Payloads
