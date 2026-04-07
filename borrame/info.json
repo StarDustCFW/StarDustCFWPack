@@ -1,9 +1,9 @@
 {
     "Atmosphere-NX_Atmosphere": {
-        "ver": "1.11.0",
+        "ver": "1.11.1",
         "prerelease": false,
-        "published_at": "2026-04-03T23:15:08Z",
-        "date": 1775259814
+        "published_at": "2026-04-07T17:06:47Z",
+        "date": 1775584898
     },
     "HamletDuFromage_aio-switch-updater": {
         "ver": "2.23.3",
@@ -66,10 +66,10 @@
         "date": 1775233730
     },
     "ndeadly_MissionControl": {
-        "ver": "v0.15.0",
+        "ver": "v0.15.1",
         "prerelease": false,
-        "published_at": "2026-04-04T17:38:28Z",
-        "date": 1775328558
+        "published_at": "2026-04-07T17:59:14Z",
+        "date": 1775584910
     },
     "spacemeowx2_ldn_mitm": {
         "ver": "v1.25.0",
