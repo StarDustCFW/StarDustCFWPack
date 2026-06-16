@@ -60,10 +60,10 @@
         "date": 1780860468
     },
     "impeeza_sys-patch": {
-        "ver": "v1.6.2.1",
+        "ver": "v1.6.2.2",
         "prerelease": false,
-        "published_at": "2026-06-16T11:46:33Z",
-        "date": 1781629195
+        "published_at": "2026-06-16T17:38:38Z",
+        "date": 1781643344
     },
     "ndeadly_MissionControl": {
         "ver": "v0.15.1",
