@@ -1,0 +1,39 @@
+; ryu_ldn_nx Configuration
+; Auto-generated on first boot
+; Edit this file to customize settings
+
+[server]
+; Server hostname or IP address
+host = ldn.ryujinx.app
+; Server port
+port = 30456
+; Use TLS encryption (0/1)
+use_tls = 0
+
+[network]
+; Connection timeout in milliseconds
+connect_timeout = 5000
+; Ping interval in milliseconds (parsed but not used — server drives pings)
+ping_interval = 10000
+; Initial reconnect delay in milliseconds (fast retry of 200ms applies first attempt)
+reconnect_delay = 3000
+; Max reconnect attempts (0 = disable auto-reconnect, not infinite)
+max_reconnect_attempts = 5
+
+[ldn]
+; Enable LDN emulation (0/1/true/false/yes/no)
+enabled = 1
+; Room passphrase (empty = public)
+passphrase =
+; Network interface (empty = auto)
+interface =
+; Disable P2P proxy (0 = P2P enabled with auto-relay fallback | 1 = relay only)
+disable_p2p = 0
+
+[debug]
+; Enable debug logging (0/1/true/false/yes/no)
+enabled = 0
+; Log level (0=errors, 1=warnings, 2=info, 3=verbose)
+level = 2
+; Log to file (0/1/true/false/yes/no)
+log_to_file = 0
