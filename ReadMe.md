@@ -22,6 +22,7 @@ Instalación
 D3fau4<br>
 PricelessTwo2<br>
 Retrogamer 74 (el quejas)<br>
+[jecoteco](https://github.com/jecoteco/Atmosphere-Tinfoil-Patched)<br>
 
 # [Forks](https://github.com/StarDustCFW) <br>
 
