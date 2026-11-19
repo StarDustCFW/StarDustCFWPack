@@ -1,0 +1,158 @@
+Name = Graph
+NAME_LOCALE{"PL-PL", "Wykres"}
+NAME_LOCALE{"DE-DE", "FPS-Diagramm"}
+VERSION = 1
+
+User_RefreshRate = 30
+;;User_RefreshRate_Description = Max refresh rate of rendered overlay. It won't be faster than your current display refresh rate because of vsync.
+;;User_RefreshRate_Description_PL-PL = Maksymalne odświeżanie nakładki. Przez vsync nie będzie szybsze niż odświeżanie ekranu.
+;;User_RefreshRate_Description_DE-DE = Maximale Aktualisierungsrate des Overlays. Aufgrund von VSync kann es nicht höher als die aktuelle Bildwiederholrate sein.
+;;User_RefreshRate_Name = Refresh rate
+;;User_RefreshRate_Name_PL-PL = Odświeżanie
+;;User_RefreshRate_Name_DE-DE = Aktualisierungsrate
+;;User_RefreshRate_DefaultValue = 30
+;;User_RefreshRate_Range = {int, 1, 60}
+User_FpsCounterColor = COLOR{0x4444}
+;;User_FpsCounterColor_Description = It's behind graph when game runs.
+;;User_FpsCounterColor_Description_PL-PL = Wyświetla się za grafem gdy gra jest uruchomiona.
+;;User_FpsCounterColor_Description_DE-DE = Es befindet sich hinter dem Diagramm, wenn das Spiel läuft.
+;;User_FpsCounterColor_Name = FPS Counter color
+;;User_FpsCounterColor_Name_PL-PL = Kolor licznika FPS
+;;User_FpsCounterColor_Name_DE-DE = FPS-Zähler Frabe
+;;User_FpsCounterColor_DefaultValue = COLOR{0x4444}
+User_BorderColor = COLOR{0xF77F}
+;;User_BorderColor_Name = Graph border color
+;;User_BorderColor_Name_PL-PL = Kolor obwódki grafu
+;;User_BorderColor_Name_DE-DE = Diagrammrahmenfarbe
+;;User_BorderColor_DefaultValue = COLOR{0xF77F}
+User_DashedLineColor = COLOR{0x8888}
+;;User_DashedLineColor_Description = It's in the middle of graph.
+;;User_DashedLineColor_Description_PL-PL = Znajduje się na środku grafu.
+;;User_DashedLineColor_Description_DE-DE = Es befindet sich in der Mitte des Diagramms.
+;;User_DashedLineColor_Name = Dashed line color
+;;User_DashedLineColor_Name_PL-PL = Kolor przerywanej linii
+;;User_DashedLineColor_Name_DE-DE = Farbe der gestrichelten Linie
+;;User_DashedLineColor_DefaultValue = COLOR{0x8888}
+User_MainLineColor = COLOR{0xFFFF}
+;;User_MainLineColor_Name = Graph's main line color
+;;User_MainLineColor_Name_PL-PL = Kolor głównej linii grafu
+;;User_MainLineColor_Name_DE-DE = Hauptdiagrammfarbe
+;;User_MainLineColor_DefaultValue = COLOR{0xFFFF}
+User_RoundedLineColor = COLOR{0xF0FF}
+;;User_RoundedLineColor_Description = Color of line if rounded FPS value is equal to half of refresh rate.
+;;User_RoundedLineColor_Description_PL-PL = Kolor linii grafu, gdy zaokrąglona wartość FPS równa się połowy wartości odświeżania ekranu.
+;;User_RoundedLineColor_Description_DE-DE = Farbe der Linie, wenn der gerundete FPS-Wert der Hälfte der Bildwiederholrate entspricht.
+;;User_RoundedLineColor_Name = Half display refresh rate color
+;;User_RoundedLineColor_Name_PL-PL = Kolor połowy odświeżania ekranu
+;;User_RoundedLineColor_Name_DE-DE = Halbe Bildwiederholratefarbe
+;;User_RoundedLineColor_DefaultValue = COLOR{0xF0FF}
+User_PerfectLineColor = COLOR{0x0C0F}
+;;User_PerfectLineColor_Description = Color of line if rounded FPS value is equal to refresh rate.
+;;User_PerfectLineColor_Description_PL-PL = Kolor linii grafu, gdy zaokrąglona wartość FPS równa się wartości odświeżaniu ekranu.
+;;User_PerfectLineColor_Description_DE-DE = Farbe der Linie, wenn der gerundete FPS-Wert der Bildwiederholrate entspricht.
+;;User_PerfectLineColor_Name = Full display refresh rate color
+;;User_PerfectLineColor_Name_PL-PL = Kolor pełnego odświeżania ekranu
+;;User_PerfectLineColor_Name_DE-DE = Volle Bildwiederholratefarbe
+;;User_PerfectLineColor_DefaultValue = COLOR{0x0C0F}
+User_BoxColor = COLOR{0x1117}
+;;User_BoxColor_Name = Background color
+;;User_BoxColor_Name_PL-PL = Kolor tła
+;;User_BoxColor_Name_DE-DE = Hintergrundfarbe
+;;User_BoxColor_DefaultValue = COLOR{0x1117}
+User_MinValueColor = COLOR{0xFFFF}
+;;User_MinValueColor_Description = Is printed on the bottom left.
+;;User_MinValueColor_Description_PL-PL = Wyświetla się w lewym dolnym rogu.
+;;User_MinValueColor_Description_DE-DE = Wird unten links angezeigt.
+;;User_MinValueColor_Name = "0" color
+;;User_MinValueColor_Name_PL-PL = Kolor liczby "0"
+;;User_MinValueColor_Name_DE-DE = "0" Farbe
+;;User_MinValueColor_DefaultValue = COLOR{0xFFFF}
+User_MaxValueColor = COLOR{0xFFFF}
+;;User_MaxValueColor_Description = It is printed on the top left.
+;;User_MaxValueColor_Description_PL-PL = Wyświetla się w lewym górnym rogu.
+;;User_MaxValueColor_Name = Display refresh rate value color
+;;User_MaxValueColor_Name_PL-PL = Kolor wartości odświeżania ekranu
+;;User_MaxValueColor_Name_DE-DE = Farbe des Bildwiederholratenwertes
+;;User_MaxValueColor_DefaultValue = COLOR{0xFFFF}
+User_OldFpsAverage = false
+;;User_OldFpsAverage_Description = Don't clamp FPS if they are in close range of PFPS value.
+;;User_OldFpsAverage_Description_PL-PL = Nie zaokrąglaj FPS jeśli jest w pobliżu wartości PFPS.
+;;User_OldFpsAverage_Description_DE-DE = Begrenze die FPS nicht, wenn sie sich in einem engen Bereich des PFPS-Wertes befinden.
+;;User_OldFpsAverage_Name = Use old FPS averaging
+;;User_OldFpsAverage_Name_PL-PL = Użyj starego uśredniania FPS
+;;User_OldFpsAverage_Name_DE-DE = Alte FPS-Mittelung verwenden
+;;User_ShowReadSpeed_DefaultValue = false
+User_GraphWidth = 180
+;;User_GraphWidth_Name = Graph's width
+;;User_GraphWidth_Name_PL-PL = Szerokość grafu
+;;User_GraphWidth_Name_DE-DE = Diagrammbreite
+;;User_GraphWidth_DefaultValue = 180
+;;User_GraphWidth_Range = {int, 10, 400}
+User_GraphHeight = 60
+;;User_GraphHeight_Name = Graph's height
+;;User_GraphHeight_Name_PL-PL = Wysokość grafu
+;;User_GraphHeight_Name_DE-DE = Diagrammhöhe
+;;User_GraphHeight_DefaultValue = 60
+;;User_GraphHeight_Range = {int, 10, 710}
+User_AdjustToRefreshRate = true
+;;User_AdjustToRefreshRate_Name = Adjust graph's height to display refresh rate
+;;User_AdjustToRefreshRate_Name_PL-PL = Dostosuj wysokość grafu do odświeżania ekranu
+;;User_AdjustToRefreshRate_Name_DE-DE = Die Höhe des Diagramms anpassen, um die Aktualisierungsrate anzuzeigen.
+;;User_AdjustToRefreshRate_DefaultValue = true
+
+COMMON_MARGIN = 0
+BackgroundColor = COLOR{0x0000}
+Movable = true
+HeaderText = false
+FooterText = false
+UseCustomExitCombo = true
+EnableControls = false
+HeightOverriden: false
+ClampToLayerBottom = true
+ClampToLayerRight = true
+
+EnableGame = true
+FPSreading = HISTORY{float, 180}
+GraphConditions: GRAPH_CONDITIONS{{round(x) == System_DisplayRefreshRate_int, User_PerfectLineColor, 0x0000}, {round(x * 2) == System_DisplayRefreshRate_int, User_RoundedLineColor, 0x0000}}
+FPStext: {"%.1f", User_OldFpsAverage ? Game_FpsAvgOld_float : Game_FpsAvg_float}
+FPSmax: {"%d", System_DisplayRefreshRate_int}
+lastFrame: 0
+gameWasActive: false
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Start:
+GET_DIMENSIONS{MaxSize, 10, true, FPSmax}
+#if $User_AdjustToRefreshRate
+	VAR{GraphHeight, System_DisplayRefreshRate_int}
+	#if $GraphHeight > 80
+		VAR{GraphHeight, 80}
+	#endif
+#else
+	VAR{GraphHeight, User_GraphHeight}
+#endif
+VAR{BoxWidth, User_GraphWidth + MaxSize.x + 10}
+BOX{0, 0, BoxWidth, GraphHeight  + 12, User_BoxColor}
+VAR{FPSavg, User_OldFpsAverage ? Game_FpsAvgOld_float : Game_FpsAvg_float}
+VAR{TextBaseOffset, MaxSize.x + 2}
+#if $FPSavg < 254 and $FPSavg >= 0
+	#if $GraphHeight < $User_GraphWidth
+		GET_DIMENSIONS{dimensions, GraphHeight + 4, true, FPStext}
+		TEXT{TextBaseOffset + (((User_GraphWidth + 2) - dimensions.x) / 2), GraphHeight + 4, GraphHeight + 4, User_FpsCounterColor, true, FPStext}
+	#endif
+#endif
+EMPTY_BOX{TextBaseOffset, 5, User_GraphWidth + 2, GraphHeight  + 2, User_BorderColor}
+DASHED_LINE{TextBaseOffset + 1, 6 + (GraphHeight  / 2), (User_GraphWidth + 1) + TextBaseOffset + 1, 6 + (GraphHeight  / 2), 6, 3, User_DashedLineColor}
+TEXT{0, 13, 10, User_MaxValueColor, true, FPSmax}
+TEXT{TextBaseOffset - 9, GraphHeight  + 7, 10, User_MinValueColor, true, "0"}
+#if $Game_IsGameRunning
+	VAR{gameWasActive, true}
+	#if $Game_LastFrameNumber_int > $lastFrame
+		HISTORY_UPDATE{FPSreading, Game_FpsAvg_float}
+		VAR{lastFrame, Game_LastFrameNumber_int}
+	#endif
+#elif $gameWasActive
+	HISTORY_CLEAN{FPSreading}
+	VAR{gameWasActive, false}
+	VAR{lastFrame, 0}
+#endif
+GRAPH_LINE_CHART{TextBaseOffset+1, 6, User_GraphWidth, GraphHeight , 0, System_DisplayRefreshRate_int, RIGHT_TO_LEFT, User_MainLineColor, 0x0000, GraphConditions, FPSreading}

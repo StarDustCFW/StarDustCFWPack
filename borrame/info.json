@@ -178,5 +178,11 @@
         "prerelease": false,
         "published_at": "2026-07-29T15:31:21Z",
         "date": 1785352850
+    },
+    "masagrator_Status-Monitor-Deux": {
+        "ver": "0.2.1",
+        "prerelease": false,
+        "published_at": "2026-06-09T03:53:44Z",
+        "date": 1795115552
     }
 }

@@ -1,0 +1,13 @@
+[status-monitor-deux]
+key_combo=L+DDOWN+RSTICK
+battery_avg_iir_filter=false
+battery_time_left_refreshrate=10
+touch_screen=true
+motion_control=true
+left_joycon_motion_key_combo=ZL+L+LSTICK
+right_joycon_motion_key_combo=ZR+R+RSTICK
+pro_controller_motion_key_combo=ZR+R+RSTICK
+jump_immediately_to_single_smd=true
+override_language=false
+override_language_ietf_code=EN-US
+key_combo_time_delay_ms=200

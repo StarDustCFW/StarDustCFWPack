@@ -1,0 +1,89 @@
+Name = Counter
+NAME_LOCALE{"PL-PL", "Licznik"}
+NAME_LOCALE{"DE-DE", "FPS-Zähler"}
+VERSION = 1
+
+User_RefreshRate = 10
+;;User_RefreshRate_Description = Max refresh rate of rendered overlay. It won't be faster than your current display refresh rate because of vsync.
+;;User_RefreshRate_Description_PL-PL = Maksymalna częstotliwość odświeżania nakładki. Przez vsync nie będzie szybsza niż odświeżanie ekranu.
+;;User_RefreshRate_Description_DE-DE = Maximale Aktualisierungsrate des Overlays. Aufgrund von VSync kann es nicht höher als die aktuelle Bildwiederholrate sein.
+;;User_RefreshRate_DefaultValue = 10
+;;User_RefreshRate_Name = Refresh rate
+;;User_RefreshRate_Name_PL-PL = Odświeżanie
+;;User_RefreshRate_Name_DE-DE = Aktualisierungsrate
+;;User_RefreshRate_Range = {int, 1, 60}
+User_TextColor = COLOR{0xFFFF}
+;;User_TextColor_Name = FPS value color
+;;User_TextColor_Name_PL-PL = Kolor liczby FPS
+;;User_TextColor_Name_DE-DE = FPS-Wert Farbe
+;;User_TextColor_DefaultValue = COLOR{0xFFFF}
+User_BoxColor = COLOR{0x1117}
+;;User_BoxColor_Name = Background color
+;;User_BoxColor_Name_PL-PL = Kolor tła
+;;User_BoxColor_Name_DE-DE = Hintergrundfarbe
+;;User_BoxColor_DefaultValue = COLOR{0x1117}
+User_HandheldFontSize = 40
+;;User_HandheldFontSize_Description = Size of text in handheld mode.
+;;User_HandheldFontSize_Description_PL-PL = Rozmiar tekstu w trybie handheld.
+;;User_HandheldFontSize_Description_DE-DE = Schriftgröße im Handheld-Modus.
+;;User_HandheldFontSize_Name = Font size
+;;User_HandheldFontSize_Name_PL-PL = Rozmiar fonta
+;;User_HandheldFontSize_Name_DE-DE = Schriftgröße
+;;User_HandheldFontSize_DefaultValue = 40
+;;User_HandheldFontSize_Range = {font, 8, 150}
+User_DockedFontSize = 40
+;;User_DockedFontSize_Description = Size of text in docked mode.
+;;User_DockedFontSize_Description_PL-PL = Rozmiar tekstu w doku.
+;;User_DockedFontSize_Description_DE-DE = Schriftgröße im Docked-Modus.
+;;User_DockedFontSize_DefaultValue = 40
+;;User_DockedFontSize_Name = Docked font size
+;;User_DockedFontSize_Name_PL-PL = Rozmiar fonta w doku
+;;User_DockedFontSize_Name_DE-DE = Docked Schriftgröße
+;;User_DockedFontSize_Range = {font, 8, 150}
+User_OldFpsAverage = false
+;;User_OldFpsAverage_Description = Don't clamp FPS if they are in close range of PFPS value.
+;;User_OldFpsAverage_Description_PL-PL = Nie zaokrąglaj FPS jeśli jest w pobliżu wartości PFPS.
+;;User_OldFpsAverage_Description_DE-DE = Begrenze die FPS nicht, wenn sie sich in einem engen Bereich des PFPS-Wertes befinden.
+;;User_OldFpsAverage_Name = Use old FPS averaging
+;;User_OldFpsAverage_Name_PL-PL = Użyj starego uśredniania FPS
+;;User_OldFpsAverage_Name_DE-DE = Alte FPS-Mittelung verwenden
+;;User_OldFpsAverage_DefaultValue = false
+
+BackgroundColor = COLOR{0x0000}
+COMMON_MARGIN = 0
+Movable = true
+HeaderText = false
+FooterText = false
+UseCustomExitCombo = true
+EnableControls = false
+ClampToLayerBottom = true
+ClampToLayerRight = true
+
+EnableGame = true
+FPStext: {"%2.1f", User_OldFpsAverage ? Game_FpsAvgOld_float : Game_FpsAvg_float}
+FPSnoDataText = IETF{"n/d"}
+IETF_LOCALE{FPSnoDataText, "PL-PL", "b/d"}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Start:
+#if $System_IsDocked
+	VAR{fontsize, User_DockedFontSize}
+#else
+	VAR{fontsize, User_HandheldFontSize}
+#endif
+VAR{margin, fontsize / 8}
+#if $EnableGame
+	#if $Game_IsGameRunning
+		VAR{FpsAvg, User_OldFpsAverage ? Game_FpsAvgOld_float : Game_FpsAvg_float}
+		#if FpsAvg >= 254 or FpsAvg < 0
+			VAR{Text, FPSnoDataText}
+		#else
+			VAR{Text, FPStext}
+		#endif
+	#else
+		VAR{Text, FPSnoDataText}
+	#endif
+#endif
+GET_DIMENSIONS{Dimensions, fontsize, true, Text}
+BOX{0, 0, Dimensions.x + margin, fontsize + (margin / 2), User_BoxColor}
+TEXT{0, fontsize - margin, fontsize, User_TextColor, true, Text}

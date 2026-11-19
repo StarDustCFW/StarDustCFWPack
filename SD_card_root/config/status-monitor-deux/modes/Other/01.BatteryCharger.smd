@@ -1,0 +1,72 @@
+Name = Battery/Charger
+NAME_LOCALE{"PL-PL", "Ładowarka/Bateria"}
+NAME_LOCALE{"DE-DE", "Akku/Ladegerät"}
+VERSION = 1
+
+Text01Format = IETF{"Battery Actual Capacity: %.0f mAh\n"}
+Text02Format = IETF{"Battery Designed Capacity: %.0f mAh\n"}
+Text03Format = IETF{"Battery Temperature: %.1f°C\n"}
+Text04Format = IETF{"Battery Raw Charge: %.1f%%\n"}
+Text05Format = IETF{"Battery Age: %.1f%%\n"}
+Text06Format = IETF{"Battery Voltage (%ds AVG): %.0f mV\n"}
+Text07Format = IETF{"Battery Current Flow (%ss AVG): %+.0f mA\n"}
+Text08Format = IETF{"Battery Power Flow%s: %+.3f W\n"}
+Text09Format = IETF{"Battery Remaining Time: %s\n"}
+Text10Format = IETF{"Charger Type: %u\n"}
+Text11Format = IETF{"Charger Max Voltage: %u mV\n"}
+Text12Format = IETF{"Charger Max Current: %u mA\n"}
+Avg5s        = IETF{" (5s AVG)"}
+Title        = IETF{"Battery/Charger Stats:"}
+
+IETF_LOCALE{Text01Format, "PL-PL", "Aktualna pojemność baterii: %.0f mAh\n"}
+IETF_LOCALE{Text02Format, "PL-PL", "Zadeklarowana pojemność baterii: %.0f mAh\n"}
+IETF_LOCALE{Text03Format, "PL-PL", "Temperatura baterii: %.1f°C\n"}
+IETF_LOCALE{Text04Format, "PL-PL", "Obecny poziom naładowania baterii: %.1f%%\n"}
+IETF_LOCALE{Text05Format, "PL-PL", "Ostatni pomiar pełnego naładowania: %.1f%%\n"}
+IETF_LOCALE{Text06Format, "PL-PL", "Napięcie baterii (śr. z %ds): %.0f mV\n"}
+IETF_LOCALE{Text07Format, "PL-PL", "Przepływ prądu w baterii (śr. z %ss): %+.0f mA\n"}
+IETF_LOCALE{Text08Format, "PL-PL", "Przepływ mocy w baterii%s: %+.3f W\n"}
+IETF_LOCALE{Text09Format, "PL-PL", "Pozostały czas pracy na baterii: %s\n"}
+IETF_LOCALE{Text10Format, "PL-PL", "Typ ładowarki: %u\n"}
+IETF_LOCALE{Text11Format, "PL-PL", "Maksymalne napięcie ładowarki: %u mV\n"}
+IETF_LOCALE{Text12Format, "PL-PL", "Maksymalne natężenie ładowarki: %u mA\n"}
+IETF_LOCALE{Avg5s,        "PL-PL", " (śr. z 5s)"}
+IETF_LOCALE{Title,        "PL-PL", "Dane o baterii i ładowarce:"}
+
+IETF_LOCALE{Text01Format, "DE-DE", "Tatsächliche Akku-Kapazität: %.0f mAh\n"}
+IETF_LOCALE{Text02Format, "DE-DE", "Akku-Nennkapazität: %.0f mAh\n"}
+IETF_LOCALE{Text03Format, "DE-DE", "Akku-Temperatur: %.1f°C\n"}
+IETF_LOCALE{Text04Format, "DE-DE", "Akku-Roh-Ladezustand: %.1f%%\n"}
+IETF_LOCALE{Text05Format, "DE-DE", "Akku-Alter: %.1f%%\n"}
+IETF_LOCALE{Text06Format, "DE-DE", "Akku-Spannung (%ds Durchschnitt): %.0f mV\n"}
+IETF_LOCALE{Text07Format, "DE-DE", "Akku-Stromfluss (%ss Durchschnitt): %+.0f mA\n"}
+IETF_LOCALE{Text08Format, "DE-DE", "Akku-Leistungsfluss%s: %+.3f W\n"}
+IETF_LOCALE{Text09Format, "DE-DE", "Akku-Restlaufzeit: %s\n"}
+IETF_LOCALE{Text10Format, "DE-DE", "Ladegerät-Typ: %u\n"}
+IETF_LOCALE{Text11Format, "DE-DE", "Ladegerät-Maximalspannung: %u mV\n"}
+IETF_LOCALE{Text12Format, "DE-DE", "Ladegerät-Maximalstrom: %u mA\n"}
+IETF_LOCALE{Avg5s,        "DE-DE", " (5s Durchschnitt)"}
+IETF_LOCALE{Title,        "DE-DE", "Akku-/Ladegerät-Statistiken:"}
+
+EnableBoard = true ; powerConsumption_float, batTimeEstimateInMinutes_int, SOC_temperature_float, PCB_temperature_float, skin_temperaturemiliC_int, Rotation_Duty_float, actualFullBatCapacity_float, designedFullBatCapacity_float, temperature_celcius_float, battery_charge_percentage_float, battery_age_percentage_float, batVoltageAvg_float, batCurrentAvg_float, isBatteryFiltered, ChargerConnected_int, ChargerVoltageLimit_int, ChargerCurrentLimit_int
+Text1: {IETF_GET{Text01Format}, Board_ActualFullBatteryCapacity_float}
+Text2: {IETF_GET{Text02Format}, Board_DesignedFullBatteryCapacity_float}
+Text3: {IETF_GET{Text03Format}, Board_BatteryTemperatureCelcius_float}
+Text4: {IETF_GET{Text04Format}, Board_BatteryChargePercentage_float}
+Text5: {IETF_GET{Text05Format}, Board_BatteryAgePercentage_float}
+Text6: {IETF_GET{Text06Format}, Board_IsBatteryFiltered ? 45 : 5, Board_BatteryVoltageAvg_float}
+Text7: {IETF_GET{Text07Format}, Board_IsBatteryFiltered ? "11.25" : "5", Board_BatteryCurrentAvg_float}
+Text8: {IETF_GET{Text08Format}, Board_IsBatteryFiltered ? "" : IETF_GET{Avg5s}, Board_PowerConsumption_float}
+Text9: {IETF_GET{Text09Format}, Board_BatteryTimeEstimateInMinutes_int >= 0 ? {"%d:%02d", Board_BatteryTimeEstimateInMinutes_int / 60, Board_BatteryTimeEstimateInMinutes_int % 60} : "-:--"}
+Text10: {IETF_GET{Text10Format}, Board_ChargerConnected_int}
+Text11: {IETF_GET{Text11Format}, Board_ChargerVoltageLimit_int}
+Text12: {IETF_GET{Text12Format}, Board_ChargerCurrentLimit_int}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Start:
+TEXT{0, 120, 20, 0xFFFF, true, IETF_GET{Title}}
+VAR{Text, Text1 + Text2 + Text3 + Text4 + Text5 + Text6 + Text7 + Text8 + Text9}
+#if $Board_ChargerConnected_int
+	VAR{Text, Text + Text10 + Text11 + Text12}
+#endif
+TEXT{0, 155, 18, 0xFFFF, false, Text}

@@ -1,0 +1,39 @@
+service: hoc:clk
+
+structs:
+	- HocClkContext:
+		- 0x14, u32, "CPU_RealHz_int"
+		- 0x18, u32, "GPU_RealHz_int"
+		- 0x1C, u32, "RAM_RealHz_int"
+		- 0x70, u32, "RAM_LoadAll_int"
+		- 0x74, u32, "RAM_LoadCPU_int"
+		- 0x50, s32, "Board_HocClkThermalSensorCPU_int"
+		- 0x54, s32, "Board_HocClkThermalSensorGPU_int"
+		- 0x58, s32, "Board_HocClkThermalSensorMEM_int"
+		- 0x5C, s32, "Board_HocClkThermalSensorPLLX_int"
+		- 0x60, s32, "Board_HocClkThermalSensorAO_int"
+		- 0x64, s32, "Board_HocClkThermalSensorBQ24193_int"
+		- 0x88, u32, "RAM_HocClkRamBWAll_int"
+		- 0x8C, u32, "RAM_HocClkRamBWCpu_int"
+		- 0x90, u32, "RAM_HocClkRamBWGpu_int"
+		- 0x94, u32, "RAM_HocClkRamBWPeak_int"
+		- 0x98, u32, "Board_HocClkVoltageSOC_int"
+		- 0x9C, u32, "Board_HocClkVoltageEMCVDD2_int"
+		- 0x100, u32, "Board_HocClkVoltageCPU_int"
+		- 0x104, u32, "Board_HocClkVoltageGPU_int"
+		- 0x108, u32, "Board_HocClkVoltageEMCVDDQ_int"
+		- 0x10C, u32, "Board_HocClkVoltageDisplay_int"
+		
+cmds:
+	- "GetApiVersion", 0, u32
+	- "GetVersionString", 1, buffer, 0x100, char
+	- "GetCurrentContext", 2, buffer, 0x500, struct HocClkContext
+  
+asserts:
+	GetApiVersion() >= 2
+	GetVersionString() != "[0-1].(.*)"
+	GetVersionString() != "2.[0-1].(.*)"
+	GetVersionString() == "[2-9].(.*)"
+	
+execution:
+	GetCurrentContext()

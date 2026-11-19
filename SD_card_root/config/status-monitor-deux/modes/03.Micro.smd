@@ -1,0 +1,341 @@
+Name = Micro
+NAME_LOCALE{"PL-PL", "Mikro"}
+NAME_LOCALE{"DE-DE", "Mikro"}
+LayerWidth = 1280
+LayerHeight = 28
+VERSION = 1
+
+User_RefreshRate = 1
+;;User_RefreshRate_Description = Max refresh rate of rendered overlay. It won't be faster than your current display refresh rate because of vsync.
+;;User_RefreshRate_Description_PL-PL = Maksymalna częstotliwość odświeżania nakładki. Przez vsync nie będzie szybsza niż odświeżanie ekranu.
+;;User_RefreshRate_Description_DE-DE = Maximale Aktualisierungsrate des Overlays. Aufgrund von VSync kann es nicht höher als die aktuelle Bildwiederholrate sein.
+;;User_RefreshRate_Name = Refresh rate
+;;User_RefreshRate_Name_PL-PL = Odświeżanie
+;;User_RefreshRate_Name_DE-DE = Aktualisierungsrate
+;;User_RefreshRate_DefaultValue = 1
+;;User_RefreshRate_Range = {int, 1, 60}
+User_CategoryColor = COLOR{0xFCCF}
+;;User_CategoryColor_Name = Data type color
+;;User_CategoryColor_Name_PL-PL = Kolor kategorii danych
+;;User_CategoryColor_Name_DE-DE = Datentypfarbe
+;;User_CategoryColor_DefaultValue = COLOR{0xFCCF}
+User_TextColor = COLOR{0xFFFF}
+;;User_TextColor_Name = Data color
+;;User_TextColor_Name_PL-PL = Kolor danych
+;;User_TextColor_Name_DE-DE = Datenfarbe
+;;User_TextColor_DefaultValue = COLOR{0xFFFF}
+User_BoxColor = COLOR{0x1117}
+;;User_BoxColor_Name = Background color
+;;User_BoxColor_Name_PL-PL = Kolor tła
+;;User_BoxColor_Name_DE-DE = Hintergrundfarbe
+;;User_BoxColor_DefaultValue = COLOR{0x1117}
+User_HandheldFontSize = 18
+;;User_HandheldFontSize_Description = Size of text in handheld mode.
+;;User_HandheldFontSize_Description_PL-PL = Rozmiar tekstu w trybie handheld.
+;;User_HandheldFontSize_Description_DE-DE = Schriftgröße im Handheld-Modus.
+;;User_HandheldFontSize_Name = Font size
+;;User_HandheldFontSize_Name_PL-PL = Rozmiar fonta
+;;User_HandheldFontSize_Name_DE-DE = Schriftgröße
+;;User_HandheldFontSize_DefaultValue = 18
+;;User_HandheldFontSize_Range = {font, 8, 18}
+User_DockedFontSize = 18
+;;User_DockedFontSize_Description = Size of text in docked mode.
+;;User_DockedFontSize_Description_PL-PL = Rozmiar tekstu w doku.
+;;User_DockedFontSize_Description_DE-DE = Schriftgröße im Docked-Modus.
+;;User_DockedFontSize_Name = Docked font size
+;;User_DockedFontSize_Name_PL-PL = Rozmiar fonta w doku
+;;User_DockedFontSize_Name_DE-DE = Docked Schriftgröße
+;;User_DockedFontSize_DefaultValue = 18
+;;User_DockedFontSize_Range = {font, 8, 18}
+User_TextPosition = 1
+;;User_TextPosition_Description = 0 - to left. 1 - centered. 2 - to right.
+;;User_TextPosition_Description_PL-PL = 0 - do lewej. 1 - wyśrodkowany.\n2 - do prawej.
+;;User_TextPosition_Description_DE-DE = 0 - nach Links. 1 - zentriert.\n2 - nach rechts.
+;;User_TextPosition_Name = Text alignment
+;;User_TextPosition_Name_PL-PL = Wyrównanie tekstu
+;;User_TextPosition_Name_DE-DE = Textausrichtung
+;;User_TextPosition_DefaultValue = 1
+;;User_TextPosition_Range = {int, 0, 2}
+User_ShowCPU = true
+;;User_ShowCPU_Name = Show CPU data
+;;User_ShowCPU_Name_PL-PL = Pokaż dane CPU
+;;User_ShowCPU_Name_DE-DE = CPU-Daten anzeigen
+;;User_ShowCPU_DefaultValue = true
+User_ShowGPU = true
+;;User_ShowGPU_Name = Show GPU data
+;;User_ShowGPU_Name_PL-PL = Pokaż dane GPU
+;;User_ShowGPU_Name_DE-DE = GPU-Daten anzeigen
+;;User_ShowGPU_DefaultValue = true
+User_ShowRAM = true
+;;User_ShowRAM_Name = Show RAM data
+;;User_ShowRAM_Name_PL-PL = Pokaż dane RAM
+;;User_ShowRAM_Name_DE-DE = RAM-Daten anzeigen
+;;User_ShowRAM_DefaultValue = true
+User_ShowRAMLoad = true
+;;User_ShowRAMLoad_Description = Show RAM load instead of used memory space. Shows only when hoc-clk or sys-clk is running.
+;;User_ShowRAMLoad_Description_PL-PL = Pokaż obciążenie RAM zamiast zajętego miejsca. Dostępne tylko gdy działa w tle hoc-clk lub sys-clk.
+;;User_ShowRAMLoad_Description_DE-DE = Ram-Auslastung anstatt RAM-Nutzung anzeigen. Wird nur angezeigt, wenn hoc-clk oder sys-clk erkannt werden.
+;;User_ShowRAMLoad_Name = Show RAM load
+;;User_ShowRAMLoad_Name_PL-PL = Pokaż obciążenie RAM
+;;User_ShowRAMLoad_Name_DE-DE = RAM-Auslastung anzeigen
+;;User_ShowRAMLoad_DefaultValue = true
+User_ShowBRD = true
+;;User_ShowBRD_Description = Shows up as BRD. PCB/SoC/Skin temperatures + Battery data related to power flow and time left to discharge battery completely.
+;;User_ShowBRD_Description_PL-PL = Oznaczone jako BRD. Pokazuje temperatury PCB/SoC/Skin (obudowa), przepływ mocy w baterii oraz czas pozostały do rozładowania jej.
+;;User_ShowBRD_Description_DE-DE = Wird als BRD angezeigt. PCB/SoC/Gehäuse-Temperaturen + Akkudaten bezüglich Leistungsfluss und verbleibender Zeit bis zur vollständigen Entladung des Akkus.
+;;User_ShowBRD_Name = Show battery draw and temperatures
+;;User_ShowBRD_Name_PL-PL = Pokaż temperatury oraz zużycie baterii
+;;User_ShowBRD_Name_DE-DE = Akkustrom und Temperaturen anzeigen
+;;User_ShowBRD_DefaultValue = true
+User_ShowFAN = true
+;;User_ShowFAN_Description = Show fan rotation level in percentage.
+;;User_ShowFAN_Description_PL-PL = Onaczone jako FAN. Pokazuje stopień obrotów wentylatora w procentach.
+;;User_ShowFAN_Description_DE-DE = Zeigt Lüfterdrehgeschwindigkeit in Prozent an.
+;;User_ShowFAN_Name = Show fan rotation level
+;;User_ShowFAN_Name_PL-PL = Pokaż stopień obrotów wentylatora
+;;User_ShowFAN_Name_DE-DE = Lüfterdrehgeschwindigkeit anzeigen
+;;User_ShowFAN_DefaultValue = true
+User_ShowFPS = true
+;;User_ShowFPS_Description = Shows up only when game is running and SaltyNX is running.
+;;User_ShowFPS_Description_PL-PL = Dostępne tylko gdy gra jest uruchomiona i SaltyNX działa w tle.
+;;User_ShowFPS_Description_DE-DE = Wird nur angezeigt, wenn ein Spiel und SaltyNX erkannt werden.
+;;User_ShowFPS_Name = Show FPS
+;;User_ShowFPS_Name_PL-PL = Pokaż FPS
+;;User_ShowFPS_Name_DE-DE = FPS anzeigen
+;;User_ShowFPS_DefaultValue = true
+User_OldFpsAverage = false
+;;User_OldFpsAverage_Description = Don't clamp FPS if they are in close range of PFPS value.
+;;User_OldFpsAverage_Description_PL-PL = Nie zaokrąglaj FPS jeśli jest w pobliżu wartości PFPS.
+;;User_OldFpsAverage_Description_DE-DE = Begrenze die FPS nicht, wenn sie sich in einem engen Bereich des PFPS-Wertes befinden.
+;;User_OldFpsAverage_Name = Use old FPS averaging
+;;User_OldFpsAverage_Name_PL-PL = Użyj starego uśredniania FPS
+;;User_OldFpsAverage_Name_DE-DE = Alte FPS-Mittelung verwenden
+;;User_OldFpsAverage_DefaultValue = false
+User_Ordering = LIST{str, {"CPU", "GPU", "RAM", "BRD", "FAN", "FPS"}}
+;;User_Ordering_Description = In which order should data be rendered from left to right.
+;;User_Ordering_Description_PL-PL = W jakiej kolejności powinny się wyświetlać dane od lewej do prawej.
+;;User_Ordering_Description_DE-DE = Die Reihenfolge in der Daten von links nach rechts angezeigt werden sollen.
+;;User_Ordering_Name = Data order
+;;User_Ordering_Name_PL-PL = Kolejność danych
+;;User_Ordering_Name_DE-DE = Datenreihenfolge
+;;User_Ordering_DefaultValue = LIST{str, {"CPU", "GPU", "RAM", "BRD", "FAN", "FPS"}}
+
+CpuTextCat   = IETF{"CPU"}
+GpuTextCat   = IETF{"GPU"}
+RamTextCat   = IETF{"RAM"}
+BoardTextCat = IETF{"BRD"}
+FanTextCat   = IETF{"FAN"}
+FpsTextCat   = IETF{"FPS"}
+NoDataText   = IETF{"n/d"}
+IETF_LOCALE{NoDataText, "PL-PL", "b/d"}
+
+COMMON_MARGIN = 0
+BackgroundColor = COLOR{0x0000}
+HeaderText = false
+FooterText = false
+Movable = true
+UseCustomExitCombo = true
+EnableControls = false
+ClampToLayerBottom = true
+
+; CPU works only if clkrst or pcv was correctly initialized, realCPU_Hz_int is always 0 when hoc:clk or sys:clk is not detected
+EnableCPU = true
+CPUpart1Text: {"[%.0lf%%,%.0lf%%,%.0lf%%,%.0lf%%]", CPU_Core0Load_double, CPU_Core1Load_double, CPU_Core2Load_double, CPU_Core3Load_double}
+CPUpart2Text: {"%hu.%hhu", CPU_Hz_int / 1000000, (CPU_Hz_int / 100000) % 10}
+CPUpart2RealText: {"%hu.%hhu", CPU_RealHz_int / 1000000, (CPU_RealHz_int / 100000) % 10}
+CPUplaceholder = "CPU [100%,100%,100%,100%]@4444.4 "
+; GPU works only if nv + "clkrst or pcv" was correctly initialized, realGPU_Hz_int is always 0 when hoc:clk or sys:clk is not detected
+EnableGPU = true
+GPUpart1Text: {"%hu.%hhu%%", GPU_Load_int / 10, GPU_Load_int % 10}
+GPUpart2Text: {"%hu.%hhu", GPU_Hz_int / 1000000, (GPU_Hz_int / 100000) % 10}
+GPUpart2RealText: {"%hu.%hhu", GPU_RealHz_int / 1000000, (GPU_RealHz_int / 100000) % 10}
+GPUplaceholder = "GPU 100.0%△4444.4 "
+; RAM works only if clkrst or pcv was correctly initialized + sysmodule correctly reports that SVC 0x6F is available
+; loadRAM_All_int, LoadRAM_CPU_int are always 0 when hoc:clk or sys:clk is not detected
+EnableRAM = true
+RAMpart1Text: {"%.1f/%.1fGB", RAM_UsedAllMB_float / 1024, RAM_TotalAllMB_float / 1024}
+RAMpart2Text: {"%hu.%hhu", RAM_Hz_int / 1000000, (RAM_Hz_int / 100000) % 10}
+RAMpart2RealText: {"%hu.%hhu", RAM_RealHz_int / 1000000, (RAM_RealHz_int / 100000) % 10}
+RAMpart1LoadText: {"%hu.%hhu%%", RAM_LoadAll_int / 10, RAM_LoadAll_int % 10}
+RAMloadPlaceholder = "RAM 100.0%△4444.4 "
+RAMspacePlaceholder = "RAM 4.4/44.4GB△4444.4 "
+; Board works only if at least one from i2c, tc, pwm was correctly initialized
+EnableBoard = true
+BoardText: {"%2.1f/%2.1f/%hu.%hhu°C@%+.1fW[%s]", Board_SocTemperatureCelsius_float, Board_PcbTemperatureCelsius_float, Board_SkinTemperatureMiliCelsius_int / 1000, (Board_SkinTemperatureMiliCelsius_int / 100) % 10, Board_PowerConsumption_float, {Board_BatteryTimeEstimateInMinutes_int >= 0 ? {"%d:%02d", Board_BatteryTimeEstimateInMinutes_int / 60, Board_BatteryTimeEstimateInMinutes_int % 60} : "-:--"}}
+Boardplaceholder = "BRD 88.8/88.8/88.8\u00B0C@-15.5W[99:99] "
+FanText: {"%2.1f%%", Board_FanRotationPercentageLevel_float}
+Fanplaceholder = "FAN 100.0% "
+EnableGame = true
+FPStext: {"%2.1f", User_OldFpsAverage ? Game_FpsAvgOld_float : Game_FpsAvg_float}
+FPSplaceholder = "FPS 444.4 "
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Start:
+VAR{Text, ""}
+VAR{DimensionsWholeText, ""}
+VAR{X_OFFSET, 0}
+#if $System_IsDocked
+	VAR{fontsize, User_DockedFontSize}
+#else
+	VAR{fontsize, User_HandheldFontSize}
+#endif
+BOX{0, 0, LayerWidth, fontsize+2, User_BoxColor}
+
+#for $category in $User_Ordering
+	#if $EnableCPU and $User_ShowCPU and $category == "CPU"
+		VAR{DimensionsWholeText, DimensionsWholeText + CPUplaceholder}
+	#endif
+	#if $EnableGPU and $User_ShowGPU and $category == "GPU"
+		VAR{DimensionsWholeText, DimensionsWholeText + GPUplaceholder}
+	#endif
+	#if $EnableRAM and $User_ShowRAM and $category == "RAM"
+		#if $RAM_LoadAll_int and $User_ShowRAMLoad
+			VAR{DimensionsWholeText, DimensionsWholeText + RAMloadPlaceholder}
+		#else
+			VAR{DimensionsWholeText, DimensionsWholeText + RAMspacePlaceholder}
+		#endif
+	#endif
+	#if $EnableBoard and $User_ShowBRD and $category == "BRD"
+		VAR{DimensionsWholeText, DimensionsWholeText + Boardplaceholder}
+		#if $User_ShowFAN
+			VAR{DimensionsWholeText, DimensionsWholeText + Fanplaceholder}
+		#endif
+	#endif
+	#if $EnableGame and $User_ShowFPS and $category == "FPS"
+		#if $Game_IsGameRunning
+			VAR{DimensionsWholeText, DimensionsWholeText + FPSplaceholder}
+		#endif
+	#endif
+	GET_DIMENSIONS{TextSize, fontsize, true, DimensionsWholeText}
+	#if $User_TextPosition == 1
+		VAR{X_OFFSET, (LayerWidth - TextSize.x) / 2}
+	#elif $User_TextPosition == 2
+		VAR{X_OFFSET, LayerWidth - TextSize.x}
+	#endif
+#endfor
+
+#for $category in $User_Ordering
+	#if $EnableCPU and $User_ShowCPU and $category == "CPU"
+		VAR{CPU_DeltaHz_int, CPU_RealHz_int - CPU_Hz_int}
+		VAR{DimensionsText, CPUplaceholder}
+		VAR{Text, CPUpart1Text}
+		VAR{difference, "@"}
+		#if $CPU_DeltaHz_int > 20000000
+			VAR{difference, "△"}
+		#elif $CPU_DeltaHz_int < -50000000
+			VAR{difference, "≠"}
+		#elif $CPU_DeltaHz_int < -20000000
+			VAR{difference, "▽"}
+		#endif
+		VAR{Text, Text + difference}
+		#if $CPU_RealHz_int
+			VAR{Text, Text + CPUpart2RealText}
+		#else
+			VAR{Text, Text + CPUpart2Text}
+		#endif
+		VAR{FrontText, IETF_GET{CpuTextCat} + " "}
+		GET_DIMENSIONS{Dimensions, fontsize, true, FrontText}
+		GET_DIMENSIONS{Dimensions2, fontsize, true, DimensionsText};
+		TEXT{X_OFFSET, fontsize, fontsize, User_CategoryColor, true, FrontText}
+		TEXT{X_OFFSET + Dimensions.x, fontsize, fontsize, User_TextColor, true, Text}
+		VAR{X_OFFSET, X_OFFSET + Dimensions2.x}
+	#endif
+	#if $EnableGPU and $User_ShowGPU and $category == "GPU"
+		VAR{GPU_DeltaHz_int, GPU_RealHz_int - GPU_Hz_int}
+		VAR{DimensionsText, GPUplaceholder}
+		VAR{difference, "@"}
+		#if $GPU_DeltaHz_int > 20000000
+			VAR{difference, "△"}
+		#elif $GPU_DeltaHz_int < -50000000
+			VAR{difference, "≠"}
+		#elif $GPU_DeltaHz_int < -20000000
+			VAR{difference, "▽"}
+		#endif
+		VAR{Text, GPUpart1Text + difference}
+		#if $GPU_RealHz_int
+			VAR{Text, Text + GPUpart2RealText}
+		#else
+			VAR{Text, Text + GPUpart2Text}
+		#endif
+		VAR{FrontText, IETF_GET{GpuTextCat} + " "}
+		GET_DIMENSIONS{Dimensions, fontsize, true, FrontText}
+		GET_DIMENSIONS{Dimensions2, fontsize, true, DimensionsText};
+		TEXT{X_OFFSET, fontsize, fontsize, User_CategoryColor, true, FrontText}
+		TEXT{X_OFFSET + Dimensions.x, fontsize, fontsize, User_TextColor, true, Text}
+		VAR{X_OFFSET, X_OFFSET + Dimensions2.x}
+	#endif
+	#if $EnableRAM and $User_ShowRAM and $category == "RAM"
+		#if $RAM_LoadAll_int and $User_ShowRAMLoad
+			VAR{DimensionsText, RAMloadPlaceholder}
+		#else
+			VAR{DimensionsText, RAMspacePlaceholder}
+		#endif
+		VAR{RAM_DeltaHz_int, RAM_RealHz_int - RAM_Hz_int}
+		VAR{difference, "@"}
+		#if $RAM_DeltaHz_int > 20000000
+			VAR{difference, "△"}
+		#elif $RAM_DeltaHz_int < -50000000
+			VAR{difference, "≠"}
+		#elif $RAM_DeltaHz_int < -20000000
+			VAR{difference, "▽"}
+		#endif
+		#if $RAM_LoadAll_int and $User_ShowRAMLoad
+			VAR{Text, RAMpart1LoadText}
+			VAR{Text, Text + difference}
+			#if $RAM_RealHz_int
+				VAR{Text, Text + RAMpart2RealText}
+			#else
+				VAR{Text, Text + RAMpart2Text}
+			#endif
+		#else
+			VAR{Text, RAMpart1Text}
+			VAR{Text, Text + difference}
+			#if $RAM_RealHz_int
+				VAR{Text, Text + RAMpart2RealText}
+			#else
+				VAR{Text, Text + RAMpart2Text}
+			#endif
+		#endif
+		VAR{FrontText, IETF_GET{RamTextCat} + " "}
+		GET_DIMENSIONS{Dimensions, fontsize, true, FrontText}
+		GET_DIMENSIONS{Dimensions2, fontsize, true, DimensionsText};
+		TEXT{X_OFFSET, fontsize, fontsize, User_CategoryColor, true, FrontText}
+		TEXT{X_OFFSET + Dimensions.x, fontsize, fontsize, User_TextColor, true, Text}
+		VAR{X_OFFSET, X_OFFSET + Dimensions2.x}
+	#endif
+	#if $EnableBoard and $User_ShowBRD and $category == "BRD"
+		VAR{DimensionsText, Boardplaceholder}
+		VAR{FrontText, IETF_GET{BoardTextCat} + " "}
+		GET_DIMENSIONS{Dimensions, fontsize, true, FrontText}
+		GET_DIMENSIONS{Dimensions2, fontsize, true, DimensionsText};
+		TEXT{X_OFFSET, fontsize, fontsize, User_CategoryColor, true, FrontText}
+		TEXT{X_OFFSET + Dimensions.x, fontsize, fontsize, User_TextColor, true, BoardText}
+		VAR{X_OFFSET, X_OFFSET + Dimensions2.x}
+		#if $User_ShowFAN
+			VAR{DimensionsText, Fanplaceholder}
+			VAR{FrontText, IETF_GET{FanTextCat} + " "}
+			GET_DIMENSIONS{Dimensions, fontsize, true, FrontText}
+			GET_DIMENSIONS{Dimensions2, fontsize, true, DimensionsText};
+			TEXT{X_OFFSET, fontsize, fontsize, User_CategoryColor, true, FrontText}
+			TEXT{X_OFFSET + Dimensions.x, fontsize, fontsize, User_TextColor, true, FanText}
+			VAR{X_OFFSET, X_OFFSET + Dimensions2.x}
+		#endif
+	#endif
+	#if $EnableGame and $User_ShowFPS and $category == "FPS"
+		#if $Game_IsGameRunning
+			VAR{DimensionsText, FPSplaceholder}
+			VAR{FrontText, IETF_GET{FpsTextCat} + " "}
+			VAR{FpsAvg, User_OldFpsAverage ? Game_FpsAvgOld_float : Game_FpsAvg_float}
+			#if FpsAvg >= 254 or FpsAvg < 0
+				VAR{Text, IETF_GET{NoDataText}}
+			#else
+				VAR{Text, FPStext}
+			#endif
+			GET_DIMENSIONS{Dimensions, fontsize, true, FrontText}
+			GET_DIMENSIONS{Dimensions2, fontsize, true, DimensionsText};
+			TEXT{X_OFFSET, fontsize, fontsize, User_CategoryColor, true, FrontText}
+			TEXT{X_OFFSET + Dimensions.x, fontsize, fontsize, User_TextColor, true, Text}
+			VAR{X_OFFSET, X_OFFSET + Dimensions2.x}
+		#endif
+	#endif
+#endfor
