@@ -8,5 +8,5 @@ Center/sdroot/*
 Center/tmp/*
 Lockpick_RCM.bin
 Thumbs.db
-Center/*.py
+Center/updater.py
 Center/repo.json
